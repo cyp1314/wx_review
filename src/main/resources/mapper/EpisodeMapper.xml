@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.unicom.com.mapper.EpisodeMapper">
+  <resultMap id="BaseResultMap" type="cn.unicom.com.domain.Episode">
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="title" jdbcType="VARCHAR" property="title" />
+    <result column="num" jdbcType="INTEGER" property="num" />
+    <result column="duration" jdbcType="VARCHAR" property="duration" />
+    <result column="cover_img" jdbcType="VARCHAR" property="coverImg" />
+    <result column="video_id" jdbcType="INTEGER" property="videoId" />
+    <result column="summary" jdbcType="VARCHAR" property="summary" />
+    <result column="create_time" jdbcType="TIMESTAMP" property="createTime" />
+    <result column="chapter_id" jdbcType="INTEGER" property="chapterId" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    id, title, num, duration, cover_img, video_id, summary, create_time, chapter_id
+  </sql>
+
+</mapper>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN" "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <typeAliases>
+        <typeAlias alias="Chapter" type="cn.unicom.com.domain.Chapter" />
+        <typeAlias alias="Comment" type="cn.unicom.com.domain.Comment" />
+        <typeAlias alias="Episode" type="cn.unicom.com.domain.Episode" />
+        <typeAlias alias="User" type="cn.unicom.com.domain.User" />
+        <typeAlias alias="Video" type="cn.unicom.com.domain.Video" />
+    </typeAliases>
+</configuration>
