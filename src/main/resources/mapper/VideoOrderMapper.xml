@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.unicom.com.mapper.VideoOrderMapper">
+  <resultMap id="BaseResultMap" type="cn.unicom.com.domain.VideoOrder">
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="openid" jdbcType="VARCHAR" property="openid" />
+    <result column="out_trade_no" jdbcType="VARCHAR" property="outTradeNo" />
+    <result column="state" jdbcType="INTEGER" property="state" />
+    <result column="create_time" jdbcType="TIMESTAMP" property="createTime" />
+    <result column="notify_time" jdbcType="TIMESTAMP" property="notifyTime" />
+    <result column="total_fee" jdbcType="INTEGER" property="totalFee" />
+    <result column="nickname" jdbcType="VARCHAR" property="nickname" />
+    <result column="head_img" jdbcType="VARCHAR" property="headImg" />
+    <result column="video_id" jdbcType="INTEGER" property="videoId" />
+    <result column="video_title" jdbcType="VARCHAR" property="videoTitle" />
+    <result column="video_img" jdbcType="VARCHAR" property="videoImg" />
+    <result column="user_id" jdbcType="INTEGER" property="userId" />
+    <result column="ip" jdbcType="VARCHAR" property="ip" />
+    <result column="del" jdbcType="INTEGER" property="del" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    id, openid, out_trade_no, state, create_time, notify_time, total_fee, nickname, head_img, 
+    video_id, video_title, video_img, user_id, ip, del
+  </sql>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from video_order
+    where id = #{id,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+    delete from video_order
+    where id = #{id,jdbcType=INTEGER}
+  </delete>
+
+</mapper>

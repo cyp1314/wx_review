@@ -24,4 +24,8 @@
             VALUES
             (#{openid},#{name},#{headImg},#{phone},#{sign},#{sex},#{city},#{createTime})
   </select>
+  <select id="fingById" resultType="user" parameterType="INTEGER">
+     SELECT * from user where id=#{id}
+
+  </select>
 </mapper>

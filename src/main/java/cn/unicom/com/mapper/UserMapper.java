@@ -23,4 +23,13 @@ public interface UserMapper {
      * @create: 2019/2/1 14:40
      */
     void saveUser(User user);
+    /***
+     * @Description: 根据userId 查询该用户
+     * @Param: [userId] 
+     * @return: cn.unicom.com.domain.User 
+     * @author: wangbs
+     * @create: 2019/2/12 14:14
+     */
+    
+    User fingById(Integer id);
 }

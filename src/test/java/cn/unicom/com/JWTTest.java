@@ -51,4 +51,17 @@ public class JWTTest {
 
 
     }
+
+    @Test
+    public void testGeneJwt2(){
+
+        User user = new User();
+        user.setId(999);
+        user.setHeadImg("www.xdclass.net");
+        user.setName("xd");
+
+        String token = JwtUtils.geneJsonWebToken(user,"wbs",1000000L,"1234567hgrfedwasdfgh");
+        System.out.println(token);
+
+    }
 }

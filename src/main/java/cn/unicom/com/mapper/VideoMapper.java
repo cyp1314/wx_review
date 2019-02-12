@@ -20,4 +20,6 @@ public interface VideoMapper {
     int updateByPrimaryKey(Video record);
     //查询所有的video
     List<Video> findVoides();
+    //根据id 查询video
+    Video fingById(Integer id);
 }

@@ -19,4 +19,8 @@
   <select id="findVoides" resultMap="BaseResultMap">
     select id, title, summary, cover_img, view_num, price, create_time, online, point  FROM  video
   </select>
+  <select id="fingById" resultType="video" parameterType="INTEGER">
+    SELECT * from video where id=#{id}
+
+  </select>
 </mapper>

@@ -30,6 +30,6 @@ public class IntercepterConfig implements WebMvcConfigurer {
     @Override
     public void addInterceptors(InterceptorRegistry registry) {
         //可以添加多个
-        registry.addInterceptor(getMyInterceptor()).addPathPatterns("/api/order/**");
+        registry.addInterceptor(getMyInterceptor()).addPathPatterns("/www/api/order/**");
     }
 }
