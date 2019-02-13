@@ -31,6 +31,7 @@ public class WeChatConfig {
     //重定向第三方平台的地址
     @Value("${wxopen.redirect_url}")
     private String openRedirectUrl;
+
      //微信开放平台二维码连接(从微信官方文档拿的第一个连接)
     private final static String OPEN_QRCODE_URL = "https://open.weixin.qq.com/connect/qrconnect?appid=%s&redirect_uri=%s&response_type=code&scope=snsapi_login&state=%s#wechat_redirect";
      // 开放平台获取access_token地址（从微信官方文档拿的第二个连接）
@@ -47,6 +48,49 @@ public class WeChatConfig {
 
     public static String getOpenAccessTokenUrl() {
         return OPEN_ACCESS_TOKEN_URL;
+    }
+
+    // /wx xiadan
+
+    /**
+     * 公众号appid
+     */
+    @Value("${wxpay.appid}")
+    private String appId;
+
+    /**
+     * 公众号秘钥
+     */
+    @Value("${wxpay.appsecret}")
+    private String appsecret;
+
+    /**
+     * 商户号id
+     */
+    @Value("${wxpay.mer_id}")
+    private String mchId;
+
+
+    /**
+     * 支付key
+     */
+    @Value("${wxpay.key}")
+    private String key;
+
+    /**
+     * 微信支付回调url
+     */
+    @Value("${wxpay.callback}")
+    private String payCallbackUrl;
+
+
+    /**
+     * 统一下单url
+     */
+    private static final String UNIFIED_ORDER_URL = "http://api.xdclass.net/pay/unifiedorder";
+
+    public static String getUnifiedOrderUrl() {
+        return UNIFIED_ORDER_URL;
     }
 
 }

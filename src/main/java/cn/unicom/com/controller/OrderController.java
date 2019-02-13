@@ -8,6 +8,7 @@ package cn.unicom.com.controller;/**
 import cn.unicom.com.domain.VideoOrder;
 import cn.unicom.com.dto.VideoOrderDto;
 import cn.unicom.com.service.VideoOrderService;
+import cn.unicom.com.utils.IpUtils;
 import cn.unicom.com.utils.JsonData;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -35,20 +36,20 @@ public class OrderController {
     @ResponseBody
     public JsonData save(@RequestParam(value = "video_id",required = true)int videoId,
                          HttpServletRequest request,
-                         HttpServletResponse response){
-        //String ip = IpUtils.getIpAddr(request);
+                         HttpServletResponse response) throws Exception {
+        String ip = IpUtils.getIpAddr(request);
         //int userId = request.getAttribute("user_id");
         int userId = 1;    //临时写死的配置
-        String ip = "120.25.1.43";
         VideoOrderDto videoOrderDto = new VideoOrderDto();
         videoOrderDto.setUserId(userId);
         videoOrderDto.setVideoId(videoId);
         videoOrderDto.setIp(ip);
-
+        //获取二维码连接
         String codeUrl = videoOrderService.save(videoOrderDto);
         if(codeUrl == null) {
             throw new  NullPointerException();
         }
+        //生成二维码配置
 
 
         return JsonData.buildSuccess("wxsuccess");

@@ -22,8 +22,8 @@
     id, openid, out_trade_no, state, create_time, notify_time, total_fee, nickname, head_img, 
     video_id, video_title, video_img, user_id, ip, del
   </sql>
-  <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
-    select 
+    <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    select
     <include refid="Base_Column_List" />
     from video_order
     where id = #{id,jdbcType=INTEGER}
@@ -32,5 +32,37 @@
     delete from video_order
     where id = #{id,jdbcType=INTEGER}
   </delete>
+  <insert id="insert">
+        INSERT INTO `video_order` (
+        `openid`,
+        `out_trade_no`,
+        `state`,
+        `create_time`,
+        `total_fee`,
+        `nickname`,
+        `head_img`,
+        `video_id`,
+        `video_title`,
+        `video_img`,
+        `user_id`,
+        `ip`,
+        `del`
+      )
+      VALUES
+        (    #{openid},
+             #{outTradeNo},
+             #{state},
+             #{createTime},
+            #{totalFee},
+            #{nickname},
+            #{headImg},
+             #{videoId},
+             #{videoTitle},
+             #{videoImg},
+             #{userId},
+            #{ip},
+            #{del}
+        )
+  </insert>
 
 </mapper>

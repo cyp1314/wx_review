@@ -9,5 +9,5 @@ import cn.unicom.com.dto.VideoOrderDto;
  * @date 2019/2/12
  */
 public interface VideoOrderService {
-    String save(VideoOrderDto videoOrderDto);
+    String save(VideoOrderDto videoOrderDto) throws Exception;
 }
