@@ -7,5 +7,6 @@
         <typeAlias alias="Episode" type="cn.unicom.com.domain.Episode" />
         <typeAlias alias="User" type="cn.unicom.com.domain.User" />
         <typeAlias alias="Video" type="cn.unicom.com.domain.Video" />
+        <typeAlias alias="VideoOrder" type="cn.unicom.com.domain.VideoOrder" />
     </typeAliases>
 </configuration>

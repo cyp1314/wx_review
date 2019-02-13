@@ -8,9 +8,12 @@ package cn.unicom.com.controller;/**
 import cn.unicom.com.config.WeChatConfig;
 import cn.unicom.com.config.jwt.Audience;
 import cn.unicom.com.domain.User;
+import cn.unicom.com.domain.VideoOrder;
 import cn.unicom.com.service.UserService;
+import cn.unicom.com.service.VideoOrderService;
 import cn.unicom.com.utils.JsonData;
 import cn.unicom.com.utils.JwtUtils;
+import cn.unicom.com.utils.WXPayUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -18,10 +21,14 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
+import javax.servlet.ServletInputStream;
+import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import java.io.IOException;
-import java.io.UnsupportedEncodingException;
+import java.io.*;
 import java.net.URLEncoder;
+import java.util.Date;
+import java.util.Map;
+import java.util.SortedMap;
 
 /**
  *@ClassName WechatController
@@ -39,6 +46,8 @@ public class WechatController {
     private WeChatConfig weChatConfig;
     @Autowired
     private UserService userService;
+    @Autowired
+    private VideoOrderService videoOrderService;
     /***
      * @Description: 用户生成用户能扫一扫的微信二维码
      * @Param: [accessPage] 
@@ -83,5 +92,56 @@ public class WechatController {
      }
 
         return null ;
+    }
+    /***
+     * @Description: WX支付回调函数
+     * @Param: [request, response] 
+     * @return: void 
+     * @author: wangbs
+     * @create: 2019/2/13 16:03
+     */
+    
+    @RequestMapping("order/callback2")
+    public void  callback2(HttpServletRequest request, HttpServletResponse response) throws Exception {
+        InputStream inputStream = request.getInputStream();
+        //换成高效流
+        BufferedReader br=new BufferedReader(new InputStreamReader(inputStream,"utf-8"));
+        //读取
+        StringBuffer sb=new StringBuffer();
+        String line="";
+        while(((line=br.readLine()))!=null){
+            sb.append(line);
+        }
+        //关流
+        br.close();
+        inputStream.close();
+        Map<String, String> xmlToMap = WXPayUtil.xmlToMap(sb.toString());
+        //把map 变成sortmap   进行签名验证
+        SortedMap<String, String> sortedMap = WXPayUtil.SortedMap(xmlToMap);
+        System.out.println("--------------------");
+        System.out.println(sortedMap);
+        boolean correctSign = WXPayUtil.isCorrectSign(sortedMap, weChatConfig.getKey());
+        if (correctSign){
+            if("SUCCESS".equals(sortedMap.get("return_code"))){
+                //查询下单号
+                String outTradeNo = sortedMap.get("out_trade_no");
+                VideoOrder videoOrder= videoOrderService.findOrderByOutTradeNo(outTradeNo);
+                //更新订单状态
+                if (videoOrder!=null&&videoOrder.getState()==0){
+                    VideoOrder videoOrder1=new VideoOrder();
+                    videoOrder1.setOpenid(videoOrder.getOpenid());
+                    videoOrder1.setOutTradeNo(videoOrder.getOutTradeNo());
+                    videoOrder1.setState(1);
+                    videoOrder1.setNotifyTime(new Date());
+                    videoOrderService.updateOrderState(videoOrder1);
+                    //通知微信修改成功
+                    response.setContentType("text/xml");
+                    response.getWriter().println("success");
+                    return;
+                }
+            }
+        }
+        response.setContentType("text/xml");
+        response.getWriter().println("fail");
     }
 }

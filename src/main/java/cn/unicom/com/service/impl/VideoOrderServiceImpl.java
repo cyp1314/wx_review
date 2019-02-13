@@ -69,6 +69,31 @@ public class VideoOrderServiceImpl implements VideoOrderService {
 
         return codeUrl;
     }
+    /***
+     * @Description: 根据订单号 查询订单
+     * @Param: [outTradeNo] 
+     * @return: cn.unicom.com.domain.VideoOrder 
+     * @author: wangbs
+     * @create: 2019/2/13 13:54
+     */
+    
+    @Override
+    public VideoOrder findOrderByOutTradeNo(String outTradeNo) {
+        return videoOrderMapper.findOrderByOutTradeNo(outTradeNo);
+    }
+    /***
+     * @Description: 更新订单状态 
+     * @Param: []
+     * @return: void 
+     * @author: wangbs
+     * @create: 2019/2/13 14:02
+     */
+    
+    @Override
+    public void updateOrderState(VideoOrder videoOrder) {
+         videoOrderMapper.updateOrderState(videoOrder);
+        
+    }
 
     private String unifiedOrder(VideoOrder videoOrder) throws Exception {
         //生成签名
@@ -77,7 +102,7 @@ public class VideoOrderServiceImpl implements VideoOrderService {
         params.put("mch_id",weChatConfig.getMchId());
         params.put("nonce_str",CommonUtils.generateUUID());
         params.put("body",videoOrder.getVideoTitle());
-        params.put("out_trade_no",CommonUtils.generateUUID());
+        params.put("out_trade_no",videoOrder.getOutTradeNo());
         params.put("total_fee",videoOrder.getTotalFee().toString());
         params.put("spbill_create_ip",videoOrder.getIp());
         params.put("notify_url",weChatConfig.getPayCallbackUrl());
@@ -85,6 +110,8 @@ public class VideoOrderServiceImpl implements VideoOrderService {
         //获取sign
         String sign = WXPayUtil.createSign(params, weChatConfig.getKey());
         params.put("sign",sign);
+        System.out.println("----------------------------");
+        System.out.println(params);
         //map转xml
         String payXml = WXPayUtil.mapToXml(params);
 

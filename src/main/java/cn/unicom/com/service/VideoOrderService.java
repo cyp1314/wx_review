@@ -1,5 +1,6 @@
 package cn.unicom.com.service;
 
+import cn.unicom.com.domain.VideoOrder;
 import cn.unicom.com.dto.VideoOrderDto;
 
 /**
@@ -10,4 +11,8 @@ import cn.unicom.com.dto.VideoOrderDto;
  */
 public interface VideoOrderService {
     String save(VideoOrderDto videoOrderDto) throws Exception;
+
+    VideoOrder findOrderByOutTradeNo(String outTradeNo);
+
+    void updateOrderState(VideoOrder videoOrder1);
 }

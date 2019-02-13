@@ -17,4 +17,8 @@ public interface VideoOrderMapper {
     int updateByPrimaryKey(VideoOrder record);
     //根据id 查询Video
     Video fingById(Integer id);
+    //根据订单号查询订单
+    VideoOrder findOrderByOutTradeNo(String outTradeNo);
+    //更新订单状态
+    void updateOrderState(VideoOrder videoOrder);
 }

@@ -64,5 +64,15 @@
             #{del}
         )
   </insert>
+    <select id="findOrderByOutTradeNo" resultMap="BaseResultMap"  parameterType="String">
+
+        SELECT * from video_order where out_trade_no=#{outTradeNo} and del=0
+
+    </select>
+    <update id="updateOrderState"  parameterType="VideoOrder">
+
+        UPDATE video_order
+        SET state = #{state}, notify_time=#{notifyTime}, openid=#{openid}  where out_trade_no=#{outTradeNo} and state=0 and del=0
+    </update>
 
 </mapper>

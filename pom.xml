@@ -118,6 +118,14 @@
 			<version>2.8.0</version>
 		</dependency>
 
+		<!-- google二维码生成包 -->
+		<dependency>
+			<groupId>com.google.zxing</groupId>
+			<artifactId>javase</artifactId>
+			<version>3.3.0</version>
+		</dependency>
+
+
 	</dependencies>
 
 	<build>

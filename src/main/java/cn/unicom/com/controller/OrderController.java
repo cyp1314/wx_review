@@ -10,6 +10,13 @@ import cn.unicom.com.dto.VideoOrderDto;
 import cn.unicom.com.service.VideoOrderService;
 import cn.unicom.com.utils.IpUtils;
 import cn.unicom.com.utils.JsonData;
+import cn.unicom.com.utils.QRCodeUtil;
+import com.google.zxing.BarcodeFormat;
+import com.google.zxing.EncodeHintType;
+import com.google.zxing.MultiFormatWriter;
+import com.google.zxing.client.j2se.MatrixToImageWriter;
+import com.google.zxing.common.BitMatrix;
+import com.google.zxing.qrcode.decoder.ErrorCorrectionLevel;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -18,6 +25,9 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import java.io.OutputStream;
+import java.util.HashMap;
+import java.util.Map;
 
 /**
  *@ClassName OrderController
@@ -34,7 +44,7 @@ public class OrderController {
     private VideoOrderService videoOrderService;
     @RequestMapping("save")
     @ResponseBody
-    public JsonData save(@RequestParam(value = "video_id",required = true)int videoId,
+    public void save(@RequestParam(value = "video_id",required = true)int videoId,
                          HttpServletRequest request,
                          HttpServletResponse response) throws Exception {
         String ip = IpUtils.getIpAddr(request);
@@ -50,8 +60,7 @@ public class OrderController {
             throw new  NullPointerException();
         }
         //生成二维码配置
+        QRCodeUtil.encodeQRCode(codeUrl,400,400,"png",response);
 
-
-        return JsonData.buildSuccess("wxsuccess");
     }
 }
