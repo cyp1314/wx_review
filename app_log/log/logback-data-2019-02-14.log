@@ -1,0 +1,13 @@
+2019-02-14 13:18:59.136 logback [http-nio-8080-exec-1] INFO  dataLogger - module=video_order`api=save`user_id=1`video_id=1
+2019-02-14 15:17:25.463 logback [http-nio-8080-exec-1] INFO  dataLogger - module=video_order`api=save`user_id=1`video_id=1
+2019-02-14 15:17:50.220 logback [http-nio-8080-exec-7] INFO  dataLogger - module=video_order`api=save`user_id=1`video_id=1
+2019-02-14 15:24:56.430 logback [http-nio-8080-exec-10] INFO  dataLogger - module=video_order`api=save`user_id=1`video_id=5
+2019-02-14 15:43:16.902 logback [http-nio-8080-exec-2] INFO  dataLogger - module=video_order`api=save`user_id=1`video_id=1
+2019-02-14 16:20:14.524 logback [http-nio-8080-exec-1] INFO  dataLogger - module=video_order`api=save`user_id=3`video_id=1
+2019-02-14 17:26:14.998 logback [http-nio-8080-exec-10] INFO  dataLogger - module=video_order`api=save`user_id=1`video_id=1
+2019-02-14 17:33:03.796 logback [http-nio-8080-exec-7] INFO  dataLogger - module=video_order`api=save`user_id=1`video_id=1
+2019-02-14 17:37:49.315 logback [http-nio-8080-exec-6] INFO  dataLogger - module=video_order`api=save`user_id=3`video_id=1
+2019-02-14 17:40:32.126 logback [http-nio-8080-exec-5] INFO  dataLogger - module=video_order`api=save`user_id=1`video_id=1
+2019-02-14 17:44:16.514 logback [http-nio-8080-exec-4] INFO  dataLogger - module=video_order`api=save`user_id=1`video_id=1
+2019-02-14 17:46:42.040 logback [http-nio-8080-exec-10] INFO  dataLogger - module=video_order`api=save`user_id=1`video_id=1
+2019-02-14 17:53:17.307 logback [http-nio-8080-exec-4] INFO  dataLogger - module=video_order`api=save`user_id=1`video_id=1

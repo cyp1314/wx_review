@@ -1,0 +1,566 @@
+2019-02-14 13:13:04.678 logback [restartedMain] INFO  cn.unicom.com.WxReviewApplication - Starting WxReviewApplication on SHN-WANGBS with PID 2840 (E:\gitprojectidea\wx_review\target\classes started by sh-wangbs in E:\gitprojectidea\wx_review)
+2019-02-14 13:13:04.681 logback [restartedMain] INFO  cn.unicom.com.WxReviewApplication - No active profile set, falling back to default profiles: default
+2019-02-14 13:13:04.766 logback [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-02-14 13:13:04.771 logback [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-02-14 13:13:07.381 logback [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-02-14 13:13:07.392 logback [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-02-14 13:13:07.400 logback [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-02-14 13:13:07.401 logback [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-02-14 13:13:07.406 logback [restartedMain] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\javasoft\jdk1.8.0_171\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\javasoft\jdk1.8.0_171\bin;D:\othersoft\apache-maven-3.5.4\bin;D:\othersoft\git\anzhuang\cmd;C:\Program Files\TortoiseGit\bin;D:\othersoft\gradle-3.1-bin\anzhuang\gradle-3.1\bin;D:\othersoft\SecureCRT\anzhuang2\;C:\Program Files\MySQL\MySQL Server 8.0\bin;.]
+2019-02-14 13:13:07.498 logback [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-02-14 13:13:07.498 logback [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2693 ms
+2019-02-14 13:13:08.029 logback [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-02-14 13:13:08.238 logback [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-02-14 13:13:08.264 logback [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-02-14 13:13:08.287 logback [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-02-14 13:13:08.289 logback [restartedMain] INFO  cn.unicom.com.WxReviewApplication - Started WxReviewApplication in 4.179 seconds (JVM running for 4.898)
+2019-02-14 13:14:00.498 logback [http-nio-8080-exec-1] INFO  o.a.tomcat.util.http.parser.Cookie - A cookie header was received [1539167769] that contained an invalid cookie. That cookie will be ignored.Note: further occurrences of this error will be logged at DEBUG level.
+2019-02-14 13:14:00.504 logback [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-02-14 13:14:00.504 logback [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-02-14 13:14:00.510 logback [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+2019-02-14 13:14:00.580 logback [http-nio-8080-exec-1] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-02-14 13:18:54.639 logback [restartedMain] INFO  cn.unicom.com.WxReviewApplication - Starting WxReviewApplication on SHN-WANGBS with PID 6148 (E:\gitprojectidea\wx_review\target\classes started by sh-wangbs in E:\gitprojectidea\wx_review)
+2019-02-14 13:18:54.642 logback [restartedMain] INFO  cn.unicom.com.WxReviewApplication - No active profile set, falling back to default profiles: default
+2019-02-14 13:18:54.705 logback [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-02-14 13:18:54.705 logback [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-02-14 13:18:56.918 logback [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-02-14 13:18:56.930 logback [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-02-14 13:18:56.938 logback [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-02-14 13:18:56.938 logback [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-02-14 13:18:56.944 logback [restartedMain] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\javasoft\jdk1.8.0_171\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\javasoft\jdk1.8.0_171\bin;D:\othersoft\apache-maven-3.5.4\bin;D:\othersoft\git\anzhuang\cmd;C:\Program Files\TortoiseGit\bin;D:\othersoft\gradle-3.1-bin\anzhuang\gradle-3.1\bin;D:\othersoft\SecureCRT\anzhuang2\;C:\Program Files\MySQL\MySQL Server 8.0\bin;.]
+2019-02-14 13:18:57.046 logback [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-02-14 13:18:57.047 logback [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2342 ms
+2019-02-14 13:18:57.570 logback [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-02-14 13:18:57.773 logback [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-02-14 13:18:57.798 logback [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-02-14 13:18:57.818 logback [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-02-14 13:18:57.821 logback [restartedMain] INFO  cn.unicom.com.WxReviewApplication - Started WxReviewApplication in 3.706 seconds (JVM running for 4.305)
+2019-02-14 13:18:58.177 logback [http-nio-8080-exec-1] INFO  o.a.tomcat.util.http.parser.Cookie - A cookie header was received [1539167769] that contained an invalid cookie. That cookie will be ignored.Note: further occurrences of this error will be logged at DEBUG level.
+2019-02-14 13:18:58.182 logback [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-02-14 13:18:58.182 logback [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-02-14 13:18:58.188 logback [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+2019-02-14 13:18:58.252 logback [http-nio-8080-exec-1] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-02-14 13:18:59.136 logback [http-nio-8080-exec-1] INFO  dataLogger - module=video_order`api=save`user_id=1`video_id=1
+2019-02-14 13:52:50.790 logback [restartedMain] INFO  cn.unicom.com.WxReviewApplication - Starting WxReviewApplication on SHN-WANGBS with PID 11712 (E:\gitprojectidea\wx_review\target\classes started by sh-wangbs in E:\gitprojectidea\wx_review)
+2019-02-14 13:52:50.802 logback [restartedMain] INFO  cn.unicom.com.WxReviewApplication - No active profile set, falling back to default profiles: default
+2019-02-14 13:52:50.867 logback [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-02-14 13:52:50.867 logback [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-02-14 13:52:54.654 logback [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-02-14 13:52:54.671 logback [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-02-14 13:52:54.686 logback [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-02-14 13:52:54.686 logback [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-02-14 13:52:54.694 logback [restartedMain] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\javasoft\jdk1.8.0_171\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\javasoft\jdk1.8.0_171\bin;D:\othersoft\apache-maven-3.5.4\bin;D:\othersoft\git\anzhuang\cmd;C:\Program Files\TortoiseGit\bin;D:\othersoft\gradle-3.1-bin\anzhuang\gradle-3.1\bin;D:\othersoft\SecureCRT\anzhuang2\;C:\Program Files\MySQL\MySQL Server 8.0\bin;.]
+2019-02-14 13:52:54.959 logback [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-02-14 13:52:54.960 logback [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 4092 ms
+2019-02-14 13:52:55.821 logback [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-02-14 13:52:56.146 logback [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-02-14 13:52:56.176 logback [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-02-14 13:52:56.245 logback [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-02-14 13:52:56.251 logback [restartedMain] INFO  cn.unicom.com.WxReviewApplication - Started WxReviewApplication in 6.996 seconds (JVM running for 7.774)
+2019-02-14 13:53:17.169 logback [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-02-14 13:53:17.169 logback [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-02-14 13:53:17.182 logback [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 13 ms
+2019-02-14 13:53:17.470 logback [http-nio-8080-exec-1] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-02-14 13:59:39.639 logback [restartedMain] INFO  cn.unicom.com.WxReviewApplication - Starting WxReviewApplication on SHN-WANGBS with PID 1532 (E:\gitprojectidea\wx_review\target\classes started by sh-wangbs in E:\gitprojectidea\wx_review)
+2019-02-14 13:59:39.662 logback [restartedMain] INFO  cn.unicom.com.WxReviewApplication - No active profile set, falling back to default profiles: default
+2019-02-14 13:59:39.749 logback [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-02-14 13:59:39.750 logback [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-02-14 13:59:43.135 logback [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-02-14 13:59:43.154 logback [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-02-14 13:59:43.186 logback [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-02-14 13:59:43.187 logback [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-02-14 13:59:43.205 logback [restartedMain] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\javasoft\jdk1.8.0_171\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\javasoft\jdk1.8.0_171\bin;D:\othersoft\apache-maven-3.5.4\bin;D:\othersoft\git\anzhuang\cmd;C:\Program Files\TortoiseGit\bin;D:\othersoft\gradle-3.1-bin\anzhuang\gradle-3.1\bin;D:\othersoft\SecureCRT\anzhuang2\;C:\Program Files\MySQL\MySQL Server 8.0\bin;.]
+2019-02-14 13:59:43.336 logback [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-02-14 13:59:43.336 logback [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3586 ms
+2019-02-14 13:59:44.345 logback [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-02-14 13:59:44.613 logback [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-02-14 13:59:44.640 logback [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+2019-02-14 13:59:44.640 logback [restartedMain] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2019-02-14 13:59:44.662 logback [restartedMain] INFO  o.apache.catalina.util.LifecycleBase - The stop() method was called on component [StandardServer[-1]] after stop() had already been called. The second call will be ignored.
+2019-02-14 13:59:44.663 logback [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+2019-02-14 13:59:44.663 logback [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8080"]
+2019-02-14 13:59:44.676 logback [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-02-14 13:59:44.683 logback [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-02-14 14:00:42.524 logback [restartedMain] INFO  cn.unicom.com.WxReviewApplication - Starting WxReviewApplication on SHN-WANGBS with PID 10748 (E:\gitprojectidea\wx_review\target\classes started by sh-wangbs in E:\gitprojectidea\wx_review)
+2019-02-14 14:00:42.527 logback [restartedMain] INFO  cn.unicom.com.WxReviewApplication - No active profile set, falling back to default profiles: default
+2019-02-14 14:00:42.585 logback [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-02-14 14:00:42.585 logback [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-02-14 14:00:44.867 logback [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-02-14 14:00:44.878 logback [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-02-14 14:00:44.885 logback [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-02-14 14:00:44.886 logback [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-02-14 14:00:44.892 logback [restartedMain] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\javasoft\jdk1.8.0_171\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\javasoft\jdk1.8.0_171\bin;D:\othersoft\apache-maven-3.5.4\bin;D:\othersoft\git\anzhuang\cmd;C:\Program Files\TortoiseGit\bin;D:\othersoft\gradle-3.1-bin\anzhuang\gradle-3.1\bin;D:\othersoft\SecureCRT\anzhuang2\;C:\Program Files\MySQL\MySQL Server 8.0\bin;.]
+2019-02-14 14:00:44.974 logback [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-02-14 14:00:44.974 logback [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2389 ms
+2019-02-14 14:00:45.547 logback [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-02-14 14:00:45.759 logback [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-02-14 14:00:45.797 logback [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-02-14 14:00:45.841 logback [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-02-14 14:00:45.843 logback [restartedMain] INFO  cn.unicom.com.WxReviewApplication - Started WxReviewApplication in 3.774 seconds (JVM running for 4.384)
+2019-02-14 14:01:57.395 logback [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-02-14 14:01:57.395 logback [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-02-14 14:01:57.403 logback [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 8 ms
+2019-02-14 14:01:57.597 logback [http-nio-8080-exec-2] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-02-14 14:10:03.343 logback [restartedMain] INFO  cn.unicom.com.WxReviewApplication - Starting WxReviewApplication on SHN-WANGBS with PID 6160 (E:\gitprojectidea\wx_review\target\classes started by sh-wangbs in E:\gitprojectidea\wx_review)
+2019-02-14 14:10:03.343 logback [restartedMain] INFO  cn.unicom.com.WxReviewApplication - No active profile set, falling back to default profiles: default
+2019-02-14 14:10:03.437 logback [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-02-14 14:10:03.437 logback [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-02-14 14:10:06.729 logback [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-02-14 14:10:06.744 logback [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-02-14 14:10:06.775 logback [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-02-14 14:10:06.775 logback [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-02-14 14:10:06.775 logback [restartedMain] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\javasoft\jdk1.8.0_171\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\javasoft\jdk1.8.0_171\bin;D:\othersoft\apache-maven-3.5.4\bin;D:\othersoft\git\anzhuang\cmd;C:\Program Files\TortoiseGit\bin;D:\othersoft\gradle-3.1-bin\anzhuang\gradle-3.1\bin;D:\othersoft\SecureCRT\anzhuang2\;C:\Program Files\MySQL\MySQL Server 8.0\bin;.]
+2019-02-14 14:10:06.916 logback [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-02-14 14:10:06.916 logback [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3479 ms
+2019-02-14 14:10:08.148 logback [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-02-14 14:10:08.398 logback [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-02-14 14:10:08.445 logback [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-02-14 14:10:08.476 logback [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-02-14 14:10:08.476 logback [restartedMain] INFO  cn.unicom.com.WxReviewApplication - Started WxReviewApplication in 7.707 seconds (JVM running for 9.362)
+2019-02-14 14:10:43.566 logback [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-02-14 14:10:43.566 logback [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-02-14 14:10:43.581 logback [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 15 ms
+2019-02-14 14:10:43.838 logback [http-nio-8080-exec-1] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-02-14 14:14:47.864 logback [http-nio-8080-exec-5] INFO  o.a.tomcat.util.http.parser.Cookie - A cookie header was received [1538200999,1539134082,1539160562; head_img=http%3A%2F%2Fthirdwx.qlogo.cn%2Fmmopen%2Fvi_32%2FpxHbtpj05DZqbIkic8TmKAH437LfnnQqaaI4GKNVicsqBGvZ6pmpOChyahRVKiaIweriaj9fooWZnNLjohQ8iavDib1Q%2F132; name=%E9%BB%98%E3%82%8E] that contained an invalid cookie. That cookie will be ignored.Note: further occurrences of this error will be logged at DEBUG level.
+2019-02-14 14:17:18.425 logback [restartedMain] INFO  cn.unicom.com.WxReviewApplication - Starting WxReviewApplication on SHN-WANGBS with PID 6188 (E:\gitprojectidea\wx_review\target\classes started by sh-wangbs in E:\gitprojectidea\wx_review)
+2019-02-14 14:17:18.428 logback [restartedMain] INFO  cn.unicom.com.WxReviewApplication - No active profile set, falling back to default profiles: default
+2019-02-14 14:17:18.483 logback [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-02-14 14:17:18.484 logback [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-02-14 14:17:21.817 logback [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-02-14 14:17:21.829 logback [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-02-14 14:17:21.840 logback [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-02-14 14:17:21.840 logback [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-02-14 14:17:21.846 logback [restartedMain] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\javasoft\jdk1.8.0_171\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\javasoft\jdk1.8.0_171\bin;D:\othersoft\apache-maven-3.5.4\bin;D:\othersoft\git\anzhuang\cmd;C:\Program Files\TortoiseGit\bin;D:\othersoft\gradle-3.1-bin\anzhuang\gradle-3.1\bin;D:\othersoft\SecureCRT\anzhuang2\;C:\Program Files\MySQL\MySQL Server 8.0\bin;.]
+2019-02-14 14:17:21.956 logback [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-02-14 14:17:21.956 logback [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3472 ms
+2019-02-14 14:17:23.125 logback [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-02-14 14:17:23.443 logback [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-02-14 14:17:23.478 logback [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-02-14 14:17:23.512 logback [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-02-14 14:17:23.516 logback [restartedMain] INFO  cn.unicom.com.WxReviewApplication - Started WxReviewApplication in 6.025 seconds (JVM running for 7.099)
+2019-02-14 14:17:35.552 logback [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-02-14 14:17:35.553 logback [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-02-14 14:17:35.561 logback [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 8 ms
+2019-02-14 14:17:35.631 logback [http-nio-8080-exec-2] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-02-14 14:17:41.203 logback [http-nio-8080-exec-6] INFO  o.a.tomcat.util.http.parser.Cookie - A cookie header was received [1538200999,1539134082,1539160562; head_img=http%3A%2F%2Fthirdwx.qlogo.cn%2Fmmopen%2Fvi_32%2FpxHbtpj05DZqbIkic8TmKAH437LfnnQqaaI4GKNVicsqBGvZ6pmpOChyahRVKiaIweriaj9fooWZnNLjohQ8iavDib1Q%2F132; name=%E9%BB%98%E3%82%8E] that contained an invalid cookie. That cookie will be ignored.Note: further occurrences of this error will be logged at DEBUG level.
+2019-02-14 14:50:05.299 logback [restartedMain] INFO  cn.unicom.com.WxReviewApplication - Starting WxReviewApplication on SHN-WANGBS with PID 3352 (E:\gitprojectidea\wx_review\target\classes started by sh-wangbs in E:\gitprojectidea\wx_review)
+2019-02-14 14:50:05.302 logback [restartedMain] INFO  cn.unicom.com.WxReviewApplication - No active profile set, falling back to default profiles: default
+2019-02-14 14:50:05.360 logback [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-02-14 14:50:05.360 logback [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-02-14 14:50:08.349 logback [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-02-14 14:50:08.362 logback [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-02-14 14:50:08.371 logback [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-02-14 14:50:08.371 logback [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-02-14 14:50:08.378 logback [restartedMain] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\javasoft\jdk1.8.0_171\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\javasoft\jdk1.8.0_171\bin;D:\othersoft\apache-maven-3.5.4\bin;D:\othersoft\git\anzhuang\cmd;C:\Program Files\TortoiseGit\bin;D:\othersoft\gradle-3.1-bin\anzhuang\gradle-3.1\bin;D:\othersoft\SecureCRT\anzhuang2\;C:\Program Files\MySQL\MySQL Server 8.0\bin;.]
+2019-02-14 14:50:08.492 logback [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-02-14 14:50:08.493 logback [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3133 ms
+2019-02-14 14:50:09.459 logback [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-02-14 14:50:09.732 logback [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-02-14 14:50:09.760 logback [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-02-14 14:50:09.784 logback [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-02-14 14:50:09.786 logback [restartedMain] INFO  cn.unicom.com.WxReviewApplication - Started WxReviewApplication in 5.077 seconds (JVM running for 5.983)
+2019-02-14 14:50:19.531 logback [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-02-14 14:50:19.531 logback [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-02-14 14:50:19.542 logback [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 11 ms
+2019-02-14 14:50:42.764 logback [http-nio-8080-exec-2] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-02-14 15:04:44.031 logback [http-nio-8080-exec-6] INFO  o.a.tomcat.util.http.parser.Cookie - A cookie header was received [1539167769] that contained an invalid cookie. That cookie will be ignored.Note: further occurrences of this error will be logged at DEBUG level.
+2019-02-14 15:07:54.861 logback [restartedMain] INFO  cn.unicom.com.WxReviewApplication - Starting WxReviewApplication on SHN-WANGBS with PID 8960 (E:\gitprojectidea\wx_review\target\classes started by sh-wangbs in E:\gitprojectidea\wx_review)
+2019-02-14 15:07:54.866 logback [restartedMain] INFO  cn.unicom.com.WxReviewApplication - No active profile set, falling back to default profiles: default
+2019-02-14 15:07:54.929 logback [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-02-14 15:07:54.929 logback [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-02-14 15:07:57.187 logback [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-02-14 15:07:57.212 logback [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-02-14 15:07:57.219 logback [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-02-14 15:07:57.220 logback [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-02-14 15:07:57.225 logback [restartedMain] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\javasoft\jdk1.8.0_171\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\javasoft\jdk1.8.0_171\bin;D:\othersoft\apache-maven-3.5.4\bin;D:\othersoft\git\anzhuang\cmd;C:\Program Files\TortoiseGit\bin;D:\othersoft\gradle-3.1-bin\anzhuang\gradle-3.1\bin;D:\othersoft\SecureCRT\anzhuang2\;C:\Program Files\MySQL\MySQL Server 8.0\bin;.]
+2019-02-14 15:07:57.304 logback [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-02-14 15:07:57.304 logback [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2375 ms
+2019-02-14 15:07:57.899 logback [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-02-14 15:07:58.131 logback [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-02-14 15:07:58.155 logback [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-02-14 15:07:58.175 logback [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-02-14 15:07:58.178 logback [restartedMain] INFO  cn.unicom.com.WxReviewApplication - Started WxReviewApplication in 3.803 seconds (JVM running for 4.403)
+2019-02-14 15:08:06.458 logback [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-02-14 15:08:06.458 logback [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-02-14 15:08:06.464 logback [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+2019-02-14 15:08:06.649 logback [http-nio-8080-exec-1] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-02-14 15:10:39.513 logback [restartedMain] INFO  cn.unicom.com.WxReviewApplication - Starting WxReviewApplication on SHN-WANGBS with PID 7116 (E:\gitprojectidea\wx_review\target\classes started by sh-wangbs in E:\gitprojectidea\wx_review)
+2019-02-14 15:10:39.516 logback [restartedMain] INFO  cn.unicom.com.WxReviewApplication - No active profile set, falling back to default profiles: default
+2019-02-14 15:10:39.586 logback [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-02-14 15:10:39.586 logback [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-02-14 15:10:42.132 logback [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-02-14 15:10:42.143 logback [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-02-14 15:10:42.150 logback [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-02-14 15:10:42.150 logback [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-02-14 15:10:42.155 logback [restartedMain] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\javasoft\jdk1.8.0_171\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\javasoft\jdk1.8.0_171\bin;D:\othersoft\apache-maven-3.5.4\bin;D:\othersoft\git\anzhuang\cmd;C:\Program Files\TortoiseGit\bin;D:\othersoft\gradle-3.1-bin\anzhuang\gradle-3.1\bin;D:\othersoft\SecureCRT\anzhuang2\;C:\Program Files\MySQL\MySQL Server 8.0\bin;.]
+2019-02-14 15:10:42.235 logback [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-02-14 15:10:42.235 logback [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2649 ms
+2019-02-14 15:10:42.781 logback [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-02-14 15:10:43.023 logback [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-02-14 15:10:43.047 logback [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-02-14 15:10:43.069 logback [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-02-14 15:10:43.071 logback [restartedMain] INFO  cn.unicom.com.WxReviewApplication - Started WxReviewApplication in 4.049 seconds (JVM running for 4.629)
+2019-02-14 15:11:08.509 logback [restartedMain] INFO  cn.unicom.com.WxReviewApplication - Starting WxReviewApplication on SHN-WANGBS with PID 6884 (E:\gitprojectidea\wx_review\target\classes started by sh-wangbs in E:\gitprojectidea\wx_review)
+2019-02-14 15:11:08.530 logback [restartedMain] INFO  cn.unicom.com.WxReviewApplication - No active profile set, falling back to default profiles: default
+2019-02-14 15:11:08.582 logback [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-02-14 15:11:08.582 logback [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-02-14 15:11:11.085 logback [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-02-14 15:11:11.100 logback [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-02-14 15:11:11.111 logback [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-02-14 15:11:11.111 logback [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-02-14 15:11:11.117 logback [restartedMain] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\javasoft\jdk1.8.0_171\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\javasoft\jdk1.8.0_171\bin;D:\othersoft\apache-maven-3.5.4\bin;D:\othersoft\git\anzhuang\cmd;C:\Program Files\TortoiseGit\bin;D:\othersoft\gradle-3.1-bin\anzhuang\gradle-3.1\bin;D:\othersoft\SecureCRT\anzhuang2\;C:\Program Files\MySQL\MySQL Server 8.0\bin;.]
+2019-02-14 15:11:11.294 logback [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-02-14 15:11:11.294 logback [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2712 ms
+2019-02-14 15:11:12.042 logback [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-02-14 15:11:12.341 logback [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-02-14 15:11:12.374 logback [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-02-14 15:11:12.399 logback [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-02-14 15:11:12.407 logback [restartedMain] INFO  cn.unicom.com.WxReviewApplication - Started WxReviewApplication in 4.418 seconds (JVM running for 5.034)
+2019-02-14 15:13:47.476 logback [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-02-14 15:13:47.477 logback [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-02-14 15:13:47.486 logback [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 9 ms
+2019-02-14 15:13:47.813 logback [http-nio-8080-exec-2] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-02-14 15:14:25.828 logback [http-nio-8080-exec-4] INFO  o.a.tomcat.util.http.parser.Cookie - A cookie header was received [1539167769] that contained an invalid cookie. That cookie will be ignored.Note: further occurrences of this error will be logged at DEBUG level.
+2019-02-14 15:14:47.952 logback [restartedMain] INFO  cn.unicom.com.WxReviewApplication - Starting WxReviewApplication on SHN-WANGBS with PID 3924 (E:\gitprojectidea\wx_review\target\classes started by sh-wangbs in E:\gitprojectidea\wx_review)
+2019-02-14 15:14:47.956 logback [restartedMain] INFO  cn.unicom.com.WxReviewApplication - No active profile set, falling back to default profiles: default
+2019-02-14 15:14:48.011 logback [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-02-14 15:14:48.011 logback [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-02-14 15:14:50.094 logback [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-02-14 15:14:50.106 logback [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-02-14 15:14:50.115 logback [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-02-14 15:14:50.115 logback [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-02-14 15:14:50.121 logback [restartedMain] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\javasoft\jdk1.8.0_171\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\javasoft\jdk1.8.0_171\bin;D:\othersoft\apache-maven-3.5.4\bin;D:\othersoft\git\anzhuang\cmd;C:\Program Files\TortoiseGit\bin;D:\othersoft\gradle-3.1-bin\anzhuang\gradle-3.1\bin;D:\othersoft\SecureCRT\anzhuang2\;C:\Program Files\MySQL\MySQL Server 8.0\bin;.]
+2019-02-14 15:14:50.230 logback [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-02-14 15:14:50.230 logback [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2219 ms
+2019-02-14 15:14:51.171 logback [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-02-14 15:14:51.469 logback [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-02-14 15:14:51.503 logback [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-02-14 15:14:51.528 logback [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-02-14 15:14:51.531 logback [restartedMain] INFO  cn.unicom.com.WxReviewApplication - Started WxReviewApplication in 4.666 seconds (JVM running for 6.076)
+2019-02-14 15:14:55.353 logback [http-nio-8080-exec-1] INFO  o.a.tomcat.util.http.parser.Cookie - A cookie header was received [1539167769] that contained an invalid cookie. That cookie will be ignored.Note: further occurrences of this error will be logged at DEBUG level.
+2019-02-14 15:14:55.361 logback [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-02-14 15:14:55.361 logback [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-02-14 15:14:55.372 logback [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 11 ms
+2019-02-14 15:17:17.831 logback [restartedMain] INFO  cn.unicom.com.WxReviewApplication - Starting WxReviewApplication on SHN-WANGBS with PID 3448 (E:\gitprojectidea\wx_review\target\classes started by sh-wangbs in E:\gitprojectidea\wx_review)
+2019-02-14 15:17:17.835 logback [restartedMain] INFO  cn.unicom.com.WxReviewApplication - No active profile set, falling back to default profiles: default
+2019-02-14 15:17:17.912 logback [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-02-14 15:17:17.912 logback [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-02-14 15:17:21.175 logback [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-02-14 15:17:21.195 logback [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-02-14 15:17:21.209 logback [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-02-14 15:17:21.209 logback [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-02-14 15:17:21.218 logback [restartedMain] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\javasoft\jdk1.8.0_171\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\javasoft\jdk1.8.0_171\bin;D:\othersoft\apache-maven-3.5.4\bin;D:\othersoft\git\anzhuang\cmd;C:\Program Files\TortoiseGit\bin;D:\othersoft\gradle-3.1-bin\anzhuang\gradle-3.1\bin;D:\othersoft\SecureCRT\anzhuang2\;C:\Program Files\MySQL\MySQL Server 8.0\bin;.]
+2019-02-14 15:17:21.350 logback [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-02-14 15:17:21.350 logback [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3437 ms
+2019-02-14 15:17:22.714 logback [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-02-14 15:17:23.129 logback [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-02-14 15:17:23.178 logback [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-02-14 15:17:23.219 logback [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-02-14 15:17:23.223 logback [restartedMain] INFO  cn.unicom.com.WxReviewApplication - Started WxReviewApplication in 6.056 seconds (JVM running for 6.826)
+2019-02-14 15:17:23.922 logback [http-nio-8080-exec-1] INFO  o.a.tomcat.util.http.parser.Cookie - A cookie header was received [1539167769] that contained an invalid cookie. That cookie will be ignored.Note: further occurrences of this error will be logged at DEBUG level.
+2019-02-14 15:17:23.931 logback [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-02-14 15:17:23.931 logback [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-02-14 15:17:23.942 logback [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 10 ms
+2019-02-14 15:17:24.033 logback [http-nio-8080-exec-1] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-02-14 15:17:25.463 logback [http-nio-8080-exec-1] INFO  dataLogger - module=video_order`api=save`user_id=1`video_id=1
+2019-02-14 15:17:25.513 logback [http-nio-8080-exec-1] INFO  c.u.c.s.impl.VideoOrderServiceImpl - module=video_order`api=save`user_id=1`video_id=1
+2019-02-14 15:17:50.220 logback [http-nio-8080-exec-7] INFO  dataLogger - module=video_order`api=save`user_id=1`video_id=1
+2019-02-14 15:17:50.220 logback [http-nio-8080-exec-7] INFO  c.u.c.s.impl.VideoOrderServiceImpl - module=video_order`api=save`user_id=1`video_id=1
+2019-02-14 15:24:56.430 logback [http-nio-8080-exec-10] INFO  dataLogger - module=video_order`api=save`user_id=1`video_id=5
+2019-02-14 15:24:56.430 logback [http-nio-8080-exec-10] INFO  c.u.c.s.impl.VideoOrderServiceImpl - module=video_order`api=save`user_id=1`video_id=5
+2019-02-14 15:42:44.361 logback [restartedMain] INFO  cn.unicom.com.WxReviewApplication - Starting WxReviewApplication on SHN-WANGBS with PID 8948 (E:\gitprojectidea\wx_review\target\classes started by sh-wangbs in E:\gitprojectidea\wx_review)
+2019-02-14 15:42:44.365 logback [restartedMain] INFO  cn.unicom.com.WxReviewApplication - No active profile set, falling back to default profiles: default
+2019-02-14 15:42:44.448 logback [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-02-14 15:42:44.449 logback [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-02-14 15:42:47.338 logback [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-02-14 15:42:47.354 logback [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-02-14 15:42:47.366 logback [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-02-14 15:42:47.366 logback [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-02-14 15:42:47.374 logback [restartedMain] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\javasoft\jdk1.8.0_171\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\javasoft\jdk1.8.0_171\bin;D:\othersoft\apache-maven-3.5.4\bin;D:\othersoft\git\anzhuang\cmd;C:\Program Files\TortoiseGit\bin;D:\othersoft\gradle-3.1-bin\anzhuang\gradle-3.1\bin;D:\othersoft\SecureCRT\anzhuang2\;C:\Program Files\MySQL\MySQL Server 8.0\bin;.]
+2019-02-14 15:42:47.479 logback [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-02-14 15:42:47.479 logback [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3030 ms
+2019-02-14 15:42:48.295 logback [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-02-14 15:42:48.684 logback [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-02-14 15:42:48.744 logback [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-02-14 15:42:48.777 logback [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-02-14 15:42:48.781 logback [restartedMain] INFO  cn.unicom.com.WxReviewApplication - Started WxReviewApplication in 5.122 seconds (JVM running for 6.173)
+2019-02-14 15:43:00.142 logback [http-nio-8080-exec-5] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-02-14 15:43:00.142 logback [http-nio-8080-exec-5] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-02-14 15:43:00.152 logback [http-nio-8080-exec-5] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 10 ms
+2019-02-14 15:43:00.304 logback [http-nio-8080-exec-5] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-02-14 15:43:16.902 logback [http-nio-8080-exec-2] INFO  dataLogger - module=video_order`api=save`user_id=1`video_id=1
+2019-02-14 15:43:16.903 logback [http-nio-8080-exec-2] INFO  c.u.c.s.impl.VideoOrderServiceImpl - module=video_order`api=save`user_id=1`video_id=1
+2019-02-14 15:52:53.191 logback [restartedMain] INFO  cn.unicom.com.WxReviewApplication - Starting WxReviewApplication on SHN-WANGBS with PID 9260 (E:\gitprojectidea\wx_review\target\classes started by sh-wangbs in E:\gitprojectidea\wx_review)
+2019-02-14 15:52:53.194 logback [restartedMain] INFO  cn.unicom.com.WxReviewApplication - No active profile set, falling back to default profiles: default
+2019-02-14 15:52:53.390 logback [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-02-14 15:52:53.390 logback [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-02-14 15:52:58.946 logback [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-02-14 15:52:58.977 logback [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-02-14 15:52:58.996 logback [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-02-14 15:52:58.996 logback [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-02-14 15:52:59.011 logback [restartedMain] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\javasoft\jdk1.8.0_171\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\javasoft\jdk1.8.0_171\bin;D:\othersoft\apache-maven-3.5.4\bin;D:\othersoft\git\anzhuang\cmd;C:\Program Files\TortoiseGit\bin;D:\othersoft\gradle-3.1-bin\anzhuang\gradle-3.1\bin;D:\othersoft\SecureCRT\anzhuang2\;C:\Program Files\MySQL\MySQL Server 8.0\bin;.]
+2019-02-14 15:52:59.204 logback [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-02-14 15:52:59.204 logback [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 5814 ms
+2019-02-14 15:53:02.105 logback [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-02-14 15:53:02.919 logback [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-02-14 15:53:02.972 logback [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-02-14 15:53:03.009 logback [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-02-14 15:53:03.013 logback [restartedMain] INFO  cn.unicom.com.WxReviewApplication - Started WxReviewApplication in 10.983 seconds (JVM running for 11.956)
+2019-02-14 15:53:51.352 logback [restartedMain] INFO  cn.unicom.com.WxReviewApplication - Starting WxReviewApplication on SHN-WANGBS with PID 7576 (E:\gitprojectidea\wx_review\target\classes started by sh-wangbs in E:\gitprojectidea\wx_review)
+2019-02-14 15:53:51.355 logback [restartedMain] INFO  cn.unicom.com.WxReviewApplication - No active profile set, falling back to default profiles: default
+2019-02-14 15:53:51.430 logback [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-02-14 15:53:51.430 logback [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-02-14 15:53:54.478 logback [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-02-14 15:53:54.497 logback [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-02-14 15:53:54.510 logback [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-02-14 15:53:54.510 logback [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-02-14 15:53:54.520 logback [restartedMain] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\javasoft\jdk1.8.0_171\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\javasoft\jdk1.8.0_171\bin;D:\othersoft\apache-maven-3.5.4\bin;D:\othersoft\git\anzhuang\cmd;C:\Program Files\TortoiseGit\bin;D:\othersoft\gradle-3.1-bin\anzhuang\gradle-3.1\bin;D:\othersoft\SecureCRT\anzhuang2\;C:\Program Files\MySQL\MySQL Server 8.0\bin;.]
+2019-02-14 15:53:54.655 logback [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-02-14 15:53:54.655 logback [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3225 ms
+2019-02-14 15:53:55.884 logback [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-02-14 15:53:56.467 logback [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-02-14 15:53:56.550 logback [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-02-14 15:53:56.629 logback [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-02-14 15:53:56.634 logback [restartedMain] INFO  cn.unicom.com.WxReviewApplication - Started WxReviewApplication in 5.875 seconds (JVM running for 6.86)
+2019-02-14 15:55:41.604 logback [http-nio-8080-exec-3] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-02-14 15:55:41.604 logback [http-nio-8080-exec-3] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-02-14 15:55:41.613 logback [http-nio-8080-exec-3] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 9 ms
+2019-02-14 15:55:41.782 logback [http-nio-8080-exec-1] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-02-14 16:08:52.950 logback [restartedMain] INFO  cn.unicom.com.WxReviewApplication - Starting WxReviewApplication on SHN-WANGBS with PID 7452 (E:\gitprojectidea\wx_review\target\classes started by sh-wangbs in E:\gitprojectidea\wx_review)
+2019-02-14 16:08:52.973 logback [restartedMain] INFO  cn.unicom.com.WxReviewApplication - No active profile set, falling back to default profiles: default
+2019-02-14 16:08:53.091 logback [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-02-14 16:08:53.092 logback [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-02-14 16:08:55.447 logback [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-02-14 16:08:55.460 logback [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-02-14 16:08:55.469 logback [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-02-14 16:08:55.469 logback [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-02-14 16:08:55.475 logback [restartedMain] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\javasoft\jdk1.8.0_171\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\javasoft\jdk1.8.0_171\bin;D:\othersoft\apache-maven-3.5.4\bin;D:\othersoft\git\anzhuang\cmd;C:\Program Files\TortoiseGit\bin;D:\othersoft\gradle-3.1-bin\anzhuang\gradle-3.1\bin;D:\othersoft\SecureCRT\anzhuang2\;C:\Program Files\MySQL\MySQL Server 8.0\bin;.]
+2019-02-14 16:08:55.567 logback [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-02-14 16:08:55.567 logback [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2475 ms
+2019-02-14 16:08:56.208 logback [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-02-14 16:08:56.464 logback [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-02-14 16:08:56.493 logback [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-02-14 16:08:56.517 logback [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-02-14 16:08:56.521 logback [restartedMain] INFO  cn.unicom.com.WxReviewApplication - Started WxReviewApplication in 4.166 seconds (JVM running for 4.867)
+2019-02-14 16:09:13.892 logback [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-02-14 16:09:13.893 logback [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-02-14 16:09:13.901 logback [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 8 ms
+2019-02-14 16:09:14.065 logback [http-nio-8080-exec-1] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-02-14 16:15:18.115 logback [restartedMain] INFO  cn.unicom.com.WxReviewApplication - Starting WxReviewApplication on SHN-WANGBS with PID 11072 (E:\gitprojectidea\wx_review\target\classes started by sh-wangbs in E:\gitprojectidea\wx_review)
+2019-02-14 16:15:18.118 logback [restartedMain] INFO  cn.unicom.com.WxReviewApplication - No active profile set, falling back to default profiles: default
+2019-02-14 16:15:18.186 logback [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-02-14 16:15:18.186 logback [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-02-14 16:15:21.131 logback [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-02-14 16:15:21.146 logback [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-02-14 16:15:21.155 logback [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-02-14 16:15:21.156 logback [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-02-14 16:15:21.163 logback [restartedMain] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\javasoft\jdk1.8.0_171\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\javasoft\jdk1.8.0_171\bin;D:\othersoft\apache-maven-3.5.4\bin;D:\othersoft\git\anzhuang\cmd;C:\Program Files\TortoiseGit\bin;D:\othersoft\gradle-3.1-bin\anzhuang\gradle-3.1\bin;D:\othersoft\SecureCRT\anzhuang2\;C:\Program Files\MySQL\MySQL Server 8.0\bin;.]
+2019-02-14 16:15:21.276 logback [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-02-14 16:15:21.276 logback [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3089 ms
+2019-02-14 16:15:22.479 logback [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-02-14 16:15:22.739 logback [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-02-14 16:15:22.769 logback [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-02-14 16:15:22.795 logback [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-02-14 16:15:22.798 logback [restartedMain] INFO  cn.unicom.com.WxReviewApplication - Started WxReviewApplication in 5.266 seconds (JVM running for 5.891)
+2019-02-14 16:15:35.158 logback [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-02-14 16:15:35.159 logback [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-02-14 16:15:35.169 logback [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 10 ms
+2019-02-14 16:15:35.393 logback [http-nio-8080-exec-1] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-02-14 16:19:59.742 logback [restartedMain] INFO  cn.unicom.com.WxReviewApplication - Starting WxReviewApplication on SHN-WANGBS with PID 8188 (E:\gitprojectidea\wx_review\target\classes started by sh-wangbs in E:\gitprojectidea\wx_review)
+2019-02-14 16:19:59.746 logback [restartedMain] INFO  cn.unicom.com.WxReviewApplication - No active profile set, falling back to default profiles: default
+2019-02-14 16:19:59.813 logback [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-02-14 16:19:59.813 logback [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-02-14 16:20:02.270 logback [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-02-14 16:20:02.284 logback [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-02-14 16:20:02.292 logback [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-02-14 16:20:02.292 logback [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-02-14 16:20:02.299 logback [restartedMain] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\javasoft\jdk1.8.0_171\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\javasoft\jdk1.8.0_171\bin;D:\othersoft\apache-maven-3.5.4\bin;D:\othersoft\git\anzhuang\cmd;C:\Program Files\TortoiseGit\bin;D:\othersoft\gradle-3.1-bin\anzhuang\gradle-3.1\bin;D:\othersoft\SecureCRT\anzhuang2\;C:\Program Files\MySQL\MySQL Server 8.0\bin;.]
+2019-02-14 16:20:02.387 logback [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-02-14 16:20:02.387 logback [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2574 ms
+2019-02-14 16:20:03.024 logback [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-02-14 16:20:03.284 logback [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-02-14 16:20:03.313 logback [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-02-14 16:20:03.338 logback [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-02-14 16:20:03.342 logback [restartedMain] INFO  cn.unicom.com.WxReviewApplication - Started WxReviewApplication in 4.199 seconds (JVM running for 4.98)
+2019-02-14 16:20:04.954 logback [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-02-14 16:20:04.954 logback [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-02-14 16:20:04.964 logback [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 10 ms
+2019-02-14 16:20:13.554 logback [http-nio-8080-exec-1] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-02-14 16:20:14.524 logback [http-nio-8080-exec-1] INFO  dataLogger - module=video_order`api=save`user_id=3`video_id=1
+2019-02-14 16:20:14.574 logback [http-nio-8080-exec-1] INFO  c.u.c.s.impl.VideoOrderServiceImpl - module=video_order`api=save`user_id=3`video_id=1
+2019-02-14 17:13:14.533 logback [restartedMain] INFO  cn.unicom.com.WxReviewApplication - Starting WxReviewApplication on SHN-WANGBS with PID 8280 (E:\gitprojectidea\wx_review\target\classes started by sh-wangbs in E:\gitprojectidea\wx_review)
+2019-02-14 17:13:14.537 logback [restartedMain] INFO  cn.unicom.com.WxReviewApplication - No active profile set, falling back to default profiles: default
+2019-02-14 17:13:14.683 logback [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-02-14 17:13:14.683 logback [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-02-14 17:13:18.055 logback [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-02-14 17:13:18.086 logback [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-02-14 17:13:18.107 logback [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-02-14 17:13:18.107 logback [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-02-14 17:13:18.123 logback [restartedMain] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\javasoft\jdk1.8.0_171\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\javasoft\jdk1.8.0_171\bin;D:\othersoft\apache-maven-3.5.4\bin;D:\othersoft\git\anzhuang\cmd;C:\Program Files\TortoiseGit\bin;D:\othersoft\gradle-3.1-bin\anzhuang\gradle-3.1\bin;D:\othersoft\SecureCRT\anzhuang2\;C:\Program Files\MySQL\MySQL Server 8.0\bin;.]
+2019-02-14 17:13:18.381 logback [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-02-14 17:13:18.381 logback [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3698 ms
+2019-02-14 17:13:19.456 logback [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-02-14 17:13:19.921 logback [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-02-14 17:13:19.984 logback [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-02-14 17:13:20.056 logback [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-02-14 17:13:20.072 logback [restartedMain] INFO  cn.unicom.com.WxReviewApplication - Started WxReviewApplication in 6.261 seconds (JVM running for 7.212)
+2019-02-14 17:13:35.624 logback [http-nio-8080-exec-3] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-02-14 17:13:35.624 logback [http-nio-8080-exec-3] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-02-14 17:13:35.641 logback [http-nio-8080-exec-3] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 17 ms
+2019-02-14 17:13:35.918 logback [http-nio-8080-exec-3] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-02-14 17:26:14.998 logback [http-nio-8080-exec-10] INFO  dataLogger - module=video_order`api=save`user_id=1`video_id=1
+2019-02-14 17:26:15.001 logback [http-nio-8080-exec-10] INFO  c.u.c.s.impl.VideoOrderServiceImpl - module=video_order`api=save`user_id=1`video_id=1
+2019-02-14 17:27:03.337 logback [restartedMain] INFO  cn.unicom.com.WxReviewApplication - Starting WxReviewApplication on SHN-WANGBS with PID 11176 (E:\gitprojectidea\wx_review\target\classes started by sh-wangbs in E:\gitprojectidea\wx_review)
+2019-02-14 17:27:03.343 logback [restartedMain] INFO  cn.unicom.com.WxReviewApplication - No active profile set, falling back to default profiles: default
+2019-02-14 17:27:03.459 logback [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-02-14 17:27:03.459 logback [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-02-14 17:27:06.199 logback [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-02-14 17:27:06.214 logback [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-02-14 17:27:06.226 logback [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-02-14 17:27:06.227 logback [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-02-14 17:27:06.243 logback [restartedMain] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\javasoft\jdk1.8.0_171\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\javasoft\jdk1.8.0_171\bin;D:\othersoft\apache-maven-3.5.4\bin;D:\othersoft\git\anzhuang\cmd;C:\Program Files\TortoiseGit\bin;D:\othersoft\gradle-3.1-bin\anzhuang\gradle-3.1\bin;D:\othersoft\SecureCRT\anzhuang2\;C:\Program Files\MySQL\MySQL Server 8.0\bin;.]
+2019-02-14 17:27:06.379 logback [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-02-14 17:27:06.380 logback [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2921 ms
+2019-02-14 17:27:07.553 logback [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-02-14 17:27:07.994 logback [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-02-14 17:27:08.039 logback [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-02-14 17:27:08.073 logback [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-02-14 17:27:08.078 logback [restartedMain] INFO  cn.unicom.com.WxReviewApplication - Started WxReviewApplication in 5.387 seconds (JVM running for 6.257)
+2019-02-14 17:27:43.213 logback [http-nio-8080-exec-4] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-02-14 17:27:43.213 logback [http-nio-8080-exec-4] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-02-14 17:27:43.225 logback [http-nio-8080-exec-4] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 12 ms
+2019-02-14 17:27:43.613 logback [http-nio-8080-exec-2] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-02-14 17:30:59.172 logback [restartedMain] INFO  cn.unicom.com.WxReviewApplication - Starting WxReviewApplication on SHN-WANGBS with PID 10404 (E:\gitprojectidea\wx_review\target\classes started by sh-wangbs in E:\gitprojectidea\wx_review)
+2019-02-14 17:30:59.177 logback [restartedMain] INFO  cn.unicom.com.WxReviewApplication - No active profile set, falling back to default profiles: default
+2019-02-14 17:30:59.259 logback [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-02-14 17:30:59.260 logback [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-02-14 17:31:02.453 logback [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-02-14 17:31:02.466 logback [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-02-14 17:31:02.476 logback [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-02-14 17:31:02.476 logback [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-02-14 17:31:02.484 logback [restartedMain] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\javasoft\jdk1.8.0_171\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\javasoft\jdk1.8.0_171\bin;D:\othersoft\apache-maven-3.5.4\bin;D:\othersoft\git\anzhuang\cmd;C:\Program Files\TortoiseGit\bin;D:\othersoft\gradle-3.1-bin\anzhuang\gradle-3.1\bin;D:\othersoft\SecureCRT\anzhuang2\;C:\Program Files\MySQL\MySQL Server 8.0\bin;.]
+2019-02-14 17:31:02.593 logback [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-02-14 17:31:02.593 logback [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3333 ms
+2019-02-14 17:31:03.726 logback [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-02-14 17:31:04.193 logback [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-02-14 17:31:04.249 logback [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-02-14 17:31:04.302 logback [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-02-14 17:31:04.315 logback [restartedMain] INFO  cn.unicom.com.WxReviewApplication - Started WxReviewApplication in 5.776 seconds (JVM running for 6.639)
+2019-02-14 17:31:10.042 logback [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-02-14 17:31:10.042 logback [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-02-14 17:31:10.053 logback [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 11 ms
+2019-02-14 17:31:10.246 logback [http-nio-8080-exec-2] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-02-14 17:32:30.073 logback [restartedMain] INFO  cn.unicom.com.WxReviewApplication - Starting WxReviewApplication on SHN-WANGBS with PID 7892 (E:\gitprojectidea\wx_review\target\classes started by sh-wangbs in E:\gitprojectidea\wx_review)
+2019-02-14 17:32:30.079 logback [restartedMain] INFO  cn.unicom.com.WxReviewApplication - No active profile set, falling back to default profiles: default
+2019-02-14 17:32:30.216 logback [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-02-14 17:32:30.217 logback [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-02-14 17:32:33.222 logback [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-02-14 17:32:33.239 logback [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-02-14 17:32:33.251 logback [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-02-14 17:32:33.251 logback [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-02-14 17:32:33.259 logback [restartedMain] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\javasoft\jdk1.8.0_171\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\javasoft\jdk1.8.0_171\bin;D:\othersoft\apache-maven-3.5.4\bin;D:\othersoft\git\anzhuang\cmd;C:\Program Files\TortoiseGit\bin;D:\othersoft\gradle-3.1-bin\anzhuang\gradle-3.1\bin;D:\othersoft\SecureCRT\anzhuang2\;C:\Program Files\MySQL\MySQL Server 8.0\bin;.]
+2019-02-14 17:32:33.403 logback [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-02-14 17:32:33.404 logback [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3187 ms
+2019-02-14 17:32:34.472 logback [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-02-14 17:32:34.870 logback [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-02-14 17:32:34.920 logback [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-02-14 17:32:34.958 logback [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-02-14 17:32:34.974 logback [restartedMain] INFO  cn.unicom.com.WxReviewApplication - Started WxReviewApplication in 5.51 seconds (JVM running for 6.193)
+2019-02-14 17:32:42.628 logback [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-02-14 17:32:42.628 logback [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-02-14 17:32:42.643 logback [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 15 ms
+2019-02-14 17:32:42.864 logback [http-nio-8080-exec-1] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-02-14 17:33:03.796 logback [http-nio-8080-exec-7] INFO  dataLogger - module=video_order`api=save`user_id=1`video_id=1
+2019-02-14 17:33:03.800 logback [http-nio-8080-exec-7] INFO  c.u.c.s.impl.VideoOrderServiceImpl - module=video_order`api=save`user_id=1`video_id=1
+2019-02-14 17:35:45.371 logback [restartedMain] INFO  cn.unicom.com.WxReviewApplication - Starting WxReviewApplication on SHN-WANGBS with PID 3348 (E:\gitprojectidea\wx_review\target\classes started by sh-wangbs in E:\gitprojectidea\wx_review)
+2019-02-14 17:35:45.377 logback [restartedMain] INFO  cn.unicom.com.WxReviewApplication - No active profile set, falling back to default profiles: default
+2019-02-14 17:35:45.496 logback [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-02-14 17:35:45.496 logback [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-02-14 17:35:48.384 logback [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-02-14 17:35:48.402 logback [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-02-14 17:35:48.413 logback [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-02-14 17:35:48.413 logback [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-02-14 17:35:48.420 logback [restartedMain] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\javasoft\jdk1.8.0_171\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\javasoft\jdk1.8.0_171\bin;D:\othersoft\apache-maven-3.5.4\bin;D:\othersoft\git\anzhuang\cmd;C:\Program Files\TortoiseGit\bin;D:\othersoft\gradle-3.1-bin\anzhuang\gradle-3.1\bin;D:\othersoft\SecureCRT\anzhuang2\;C:\Program Files\MySQL\MySQL Server 8.0\bin;.]
+2019-02-14 17:35:48.556 logback [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-02-14 17:35:48.556 logback [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3060 ms
+2019-02-14 17:35:49.759 logback [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-02-14 17:35:50.079 logback [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-02-14 17:35:50.112 logback [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-02-14 17:35:50.139 logback [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-02-14 17:35:50.142 logback [restartedMain] INFO  cn.unicom.com.WxReviewApplication - Started WxReviewApplication in 5.463 seconds (JVM running for 6.093)
+2019-02-14 17:35:52.935 logback [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-02-14 17:35:52.935 logback [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-02-14 17:35:52.969 logback [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 34 ms
+2019-02-14 17:35:53.312 logback [http-nio-8080-exec-1] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-02-14 17:36:51.440 logback [restartedMain] INFO  cn.unicom.com.WxReviewApplication - Starting WxReviewApplication on SHN-WANGBS with PID 2124 (E:\gitprojectidea\wx_review\target\classes started by sh-wangbs in E:\gitprojectidea\wx_review)
+2019-02-14 17:36:51.445 logback [restartedMain] INFO  cn.unicom.com.WxReviewApplication - No active profile set, falling back to default profiles: default
+2019-02-14 17:36:51.521 logback [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-02-14 17:36:51.521 logback [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-02-14 17:36:54.317 logback [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-02-14 17:36:54.334 logback [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-02-14 17:36:54.344 logback [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-02-14 17:36:54.344 logback [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-02-14 17:36:54.351 logback [restartedMain] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\javasoft\jdk1.8.0_171\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\javasoft\jdk1.8.0_171\bin;D:\othersoft\apache-maven-3.5.4\bin;D:\othersoft\git\anzhuang\cmd;C:\Program Files\TortoiseGit\bin;D:\othersoft\gradle-3.1-bin\anzhuang\gradle-3.1\bin;D:\othersoft\SecureCRT\anzhuang2\;C:\Program Files\MySQL\MySQL Server 8.0\bin;.]
+2019-02-14 17:36:54.465 logback [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-02-14 17:36:54.465 logback [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2944 ms
+2019-02-14 17:36:55.649 logback [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-02-14 17:36:55.969 logback [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-02-14 17:36:56.014 logback [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-02-14 17:36:56.044 logback [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-02-14 17:36:56.048 logback [restartedMain] INFO  cn.unicom.com.WxReviewApplication - Started WxReviewApplication in 5.222 seconds (JVM running for 5.862)
+2019-02-14 17:37:15.531 logback [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-02-14 17:37:15.531 logback [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-02-14 17:37:15.547 logback [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 16 ms
+2019-02-14 17:37:15.866 logback [http-nio-8080-exec-2] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-02-14 17:37:49.315 logback [http-nio-8080-exec-6] INFO  dataLogger - module=video_order`api=save`user_id=3`video_id=1
+2019-02-14 17:37:49.317 logback [http-nio-8080-exec-6] INFO  c.u.c.s.impl.VideoOrderServiceImpl - module=video_order`api=save`user_id=3`video_id=1
+2019-02-14 17:40:32.126 logback [http-nio-8080-exec-5] INFO  dataLogger - module=video_order`api=save`user_id=1`video_id=1
+2019-02-14 17:40:32.126 logback [http-nio-8080-exec-5] INFO  c.u.c.s.impl.VideoOrderServiceImpl - module=video_order`api=save`user_id=1`video_id=1
+2019-02-14 17:43:09.509 logback [restartedMain] INFO  cn.unicom.com.WxReviewApplication - Starting WxReviewApplication on SHN-WANGBS with PID 10436 (E:\gitprojectidea\wx_review\target\classes started by sh-wangbs in E:\gitprojectidea\wx_review)
+2019-02-14 17:43:09.512 logback [restartedMain] INFO  cn.unicom.com.WxReviewApplication - No active profile set, falling back to default profiles: default
+2019-02-14 17:43:09.607 logback [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-02-14 17:43:09.607 logback [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-02-14 17:43:11.976 logback [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-02-14 17:43:11.990 logback [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-02-14 17:43:11.998 logback [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-02-14 17:43:11.999 logback [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-02-14 17:43:12.006 logback [restartedMain] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\javasoft\jdk1.8.0_171\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\javasoft\jdk1.8.0_171\bin;D:\othersoft\apache-maven-3.5.4\bin;D:\othersoft\git\anzhuang\cmd;C:\Program Files\TortoiseGit\bin;D:\othersoft\gradle-3.1-bin\anzhuang\gradle-3.1\bin;D:\othersoft\SecureCRT\anzhuang2\;C:\Program Files\MySQL\MySQL Server 8.0\bin;.]
+2019-02-14 17:43:12.096 logback [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-02-14 17:43:12.097 logback [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2490 ms
+2019-02-14 17:43:12.811 logback [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-02-14 17:43:13.086 logback [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-02-14 17:43:13.115 logback [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-02-14 17:43:13.140 logback [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-02-14 17:43:13.143 logback [restartedMain] INFO  cn.unicom.com.WxReviewApplication - Started WxReviewApplication in 4.226 seconds (JVM running for 4.876)
+2019-02-14 17:43:33.284 logback [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-02-14 17:43:33.284 logback [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-02-14 17:43:33.293 logback [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 9 ms
+2019-02-14 17:43:33.378 logback [http-nio-8080-exec-1] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-02-14 17:44:16.514 logback [http-nio-8080-exec-4] INFO  dataLogger - module=video_order`api=save`user_id=1`video_id=1
+2019-02-14 17:44:16.517 logback [http-nio-8080-exec-4] INFO  c.u.c.s.impl.VideoOrderServiceImpl - module=video_order`api=save`user_id=1`video_id=1
+2019-02-14 17:46:42.040 logback [http-nio-8080-exec-10] INFO  dataLogger - module=video_order`api=save`user_id=1`video_id=1
+2019-02-14 17:46:42.044 logback [http-nio-8080-exec-10] INFO  c.u.c.s.impl.VideoOrderServiceImpl - module=video_order`api=save`user_id=1`video_id=1
+2019-02-14 17:52:53.647 logback [restartedMain] INFO  cn.unicom.com.WxReviewApplication - Starting WxReviewApplication on SHN-WANGBS with PID 9664 (E:\gitprojectidea\wx_review\target\classes started by sh-wangbs in E:\gitprojectidea\wx_review)
+2019-02-14 17:52:53.663 logback [restartedMain] INFO  cn.unicom.com.WxReviewApplication - No active profile set, falling back to default profiles: default
+2019-02-14 17:52:53.768 logback [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-02-14 17:52:53.768 logback [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-02-14 17:52:56.343 logback [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-02-14 17:52:56.359 logback [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-02-14 17:52:56.371 logback [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-02-14 17:52:56.371 logback [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-02-14 17:52:56.379 logback [restartedMain] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\javasoft\jdk1.8.0_171\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\javasoft\jdk1.8.0_171\bin;D:\othersoft\apache-maven-3.5.4\bin;D:\othersoft\git\anzhuang\cmd;C:\Program Files\TortoiseGit\bin;D:\othersoft\gradle-3.1-bin\anzhuang\gradle-3.1\bin;D:\othersoft\SecureCRT\anzhuang2\;C:\Program Files\MySQL\MySQL Server 8.0\bin;.]
+2019-02-14 17:52:56.489 logback [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-02-14 17:52:56.489 logback [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2721 ms
+2019-02-14 17:52:57.730 logback [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-02-14 17:52:58.022 logback [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-02-14 17:52:58.057 logback [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-02-14 17:52:58.083 logback [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-02-14 17:52:58.086 logback [restartedMain] INFO  cn.unicom.com.WxReviewApplication - Started WxReviewApplication in 5.12 seconds (JVM running for 5.795)
+2019-02-14 17:53:12.473 logback [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-02-14 17:53:12.473 logback [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-02-14 17:53:12.482 logback [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 9 ms
+2019-02-14 17:53:12.581 logback [http-nio-8080-exec-1] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-02-14 17:53:17.307 logback [http-nio-8080-exec-4] INFO  dataLogger - module=video_order`api=save`user_id=1`video_id=1
+2019-02-14 17:53:17.308 logback [http-nio-8080-exec-4] INFO  c.u.c.s.impl.VideoOrderServiceImpl - module=video_order`api=save`user_id=1`video_id=1

@@ -1,0 +1,1124 @@
+2019-02-14 13:14:01.450 logback [http-nio-8080-exec-1] DEBUG c.u.com.mapper.VideoMapper.fingById - ==>  Preparing: SELECT * from video where id=? 
+2019-02-14 13:14:01.471 logback [http-nio-8080-exec-1] DEBUG c.u.com.mapper.VideoMapper.fingById - ==> Parameters: 1(Integer)
+2019-02-14 13:14:01.497 logback [http-nio-8080-exec-1] DEBUG c.u.com.mapper.VideoMapper.fingById - <==      Total: 1
+2019-02-14 13:14:01.498 logback [http-nio-8080-exec-1] DEBUG c.u.com.mapper.UserMapper.fingById - ==>  Preparing: SELECT * from user where id=? 
+2019-02-14 13:14:01.498 logback [http-nio-8080-exec-1] DEBUG c.u.com.mapper.UserMapper.fingById - ==> Parameters: 1(Integer)
+2019-02-14 13:14:01.507 logback [http-nio-8080-exec-1] DEBUG c.u.com.mapper.UserMapper.fingById - <==      Total: 1
+2019-02-14 13:14:01.509 logback [http-nio-8080-exec-1] DEBUG c.u.c.mapper.VideoOrderMapper.insert - ==>  Preparing: INSERT INTO `video_order` ( `openid`, `out_trade_no`, `state`, `create_time`, `total_fee`, `nickname`, `head_img`, `video_id`, `video_title`, `video_img`, `user_id`, `ip`, `del` ) VALUES ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? ) 
+2019-02-14 13:14:01.510 logback [http-nio-8080-exec-1] DEBUG c.u.c.mapper.VideoOrderMapper.insert - ==> Parameters: oYW4K0zZ8u9ehQ4KUIAuKeekLb5g(String), 81768e32c1314c82984d3e040f6a24ed(String), 0(Integer), 2019-02-14 13:14:01.508(Timestamp), 10(Integer), 默ゎ(String), http://thirdwx.qlogo.cn/mmopen/vi_32/pxHbtpj05DZqbIkic8TmKAH437LfnnQqaaI4GKNVicsqBGvZ6pmpOChyahRVKiaIweriaj9fooWZnNLjohQ8iavDib1Q/132(String), 1(Integer), SpringBoot+Maven整合Websocket课程(String), https://xd-video-pc-img.oss-cn-beijing.aliyuncs.com/upload/video/video_cover.png(String), 1(Integer), 0:0:0:0:0:0:0:1(String), 0(Integer)
+2019-02-14 13:14:01.526 logback [http-nio-8080-exec-1] DEBUG c.u.c.mapper.VideoOrderMapper.insert - <==    Updates: 1
+2019-02-14 13:18:59.234 logback [http-nio-8080-exec-1] DEBUG c.u.com.mapper.VideoMapper.fingById - ==>  Preparing: SELECT * from video where id=? 
+2019-02-14 13:18:59.257 logback [http-nio-8080-exec-1] DEBUG c.u.com.mapper.VideoMapper.fingById - ==> Parameters: 1(Integer)
+2019-02-14 13:18:59.282 logback [http-nio-8080-exec-1] DEBUG c.u.com.mapper.VideoMapper.fingById - <==      Total: 1
+2019-02-14 13:18:59.284 logback [http-nio-8080-exec-1] DEBUG c.u.com.mapper.UserMapper.fingById - ==>  Preparing: SELECT * from user where id=? 
+2019-02-14 13:18:59.284 logback [http-nio-8080-exec-1] DEBUG c.u.com.mapper.UserMapper.fingById - ==> Parameters: 1(Integer)
+2019-02-14 13:18:59.293 logback [http-nio-8080-exec-1] DEBUG c.u.com.mapper.UserMapper.fingById - <==      Total: 1
+2019-02-14 13:18:59.294 logback [http-nio-8080-exec-1] DEBUG c.u.c.mapper.VideoOrderMapper.insert - ==>  Preparing: INSERT INTO `video_order` ( `openid`, `out_trade_no`, `state`, `create_time`, `total_fee`, `nickname`, `head_img`, `video_id`, `video_title`, `video_img`, `user_id`, `ip`, `del` ) VALUES ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? ) 
+2019-02-14 13:18:59.295 logback [http-nio-8080-exec-1] DEBUG c.u.c.mapper.VideoOrderMapper.insert - ==> Parameters: oYW4K0zZ8u9ehQ4KUIAuKeekLb5g(String), 2517af8fe101479faa49cac2da3e2d09(String), 0(Integer), 2019-02-14 13:18:59.294(Timestamp), 10(Integer), 默ゎ(String), http://thirdwx.qlogo.cn/mmopen/vi_32/pxHbtpj05DZqbIkic8TmKAH437LfnnQqaaI4GKNVicsqBGvZ6pmpOChyahRVKiaIweriaj9fooWZnNLjohQ8iavDib1Q/132(String), 1(Integer), SpringBoot+Maven整合Websocket课程(String), https://xd-video-pc-img.oss-cn-beijing.aliyuncs.com/upload/video/video_cover.png(String), 1(Integer), 0:0:0:0:0:0:0:1(String), 0(Integer)
+2019-02-14 13:18:59.310 logback [http-nio-8080-exec-1] DEBUG c.u.c.mapper.VideoOrderMapper.insert - <==    Updates: 1
+2019-02-14 13:53:18.488 logback [http-nio-8080-exec-1] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==>  Preparing: SELECT count(0) FROM video 
+2019-02-14 13:53:18.539 logback [http-nio-8080-exec-1] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==> Parameters: 
+2019-02-14 13:53:18.566 logback [http-nio-8080-exec-1] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - <==      Total: 1
+2019-02-14 13:53:18.568 logback [http-nio-8080-exec-1] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==>  Preparing: select id, title, summary, cover_img, view_num, price, create_time, online, point FROM video LIMIT ? 
+2019-02-14 13:53:18.568 logback [http-nio-8080-exec-1] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==> Parameters: 30(Integer)
+2019-02-14 13:53:18.581 logback [http-nio-8080-exec-1] DEBUG c.u.c.mapper.VideoMapper.findVoides - <==      Total: 9
+2019-02-14 14:01:59.327 logback [http-nio-8080-exec-2] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==>  Preparing: SELECT count(0) FROM video 
+2019-02-14 14:01:59.359 logback [http-nio-8080-exec-2] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==> Parameters: 
+2019-02-14 14:01:59.418 logback [http-nio-8080-exec-2] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - <==      Total: 1
+2019-02-14 14:01:59.420 logback [http-nio-8080-exec-2] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==>  Preparing: select id, title, summary, cover_img, view_num, price, create_time, online, point FROM video LIMIT ? 
+2019-02-14 14:01:59.421 logback [http-nio-8080-exec-2] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==> Parameters: 30(Integer)
+2019-02-14 14:01:59.488 logback [http-nio-8080-exec-2] DEBUG c.u.c.mapper.VideoMapper.findVoides - <==      Total: 9
+2019-02-14 14:02:05.759 logback [http-nio-8080-exec-4] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==>  Preparing: SELECT count(0) FROM video 
+2019-02-14 14:02:05.761 logback [http-nio-8080-exec-4] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==> Parameters: 
+2019-02-14 14:02:05.809 logback [http-nio-8080-exec-4] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - <==      Total: 1
+2019-02-14 14:02:05.810 logback [http-nio-8080-exec-4] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==>  Preparing: select id, title, summary, cover_img, view_num, price, create_time, online, point FROM video LIMIT ? 
+2019-02-14 14:02:05.810 logback [http-nio-8080-exec-4] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==> Parameters: 30(Integer)
+2019-02-14 14:02:05.845 logback [http-nio-8080-exec-4] DEBUG c.u.c.mapper.VideoMapper.findVoides - <==      Total: 9
+2019-02-14 14:02:07.034 logback [http-nio-8080-exec-7] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==>  Preparing: SELECT count(0) FROM video 
+2019-02-14 14:02:07.034 logback [http-nio-8080-exec-7] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==> Parameters: 
+2019-02-14 14:02:07.072 logback [http-nio-8080-exec-7] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - <==      Total: 1
+2019-02-14 14:02:07.072 logback [http-nio-8080-exec-7] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==>  Preparing: select id, title, summary, cover_img, view_num, price, create_time, online, point FROM video LIMIT ? 
+2019-02-14 14:02:07.073 logback [http-nio-8080-exec-7] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==> Parameters: 30(Integer)
+2019-02-14 14:02:07.138 logback [http-nio-8080-exec-7] DEBUG c.u.c.mapper.VideoMapper.findVoides - <==      Total: 9
+2019-02-14 14:10:45.329 logback [http-nio-8080-exec-1] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==>  Preparing: SELECT count(0) FROM video 
+2019-02-14 14:10:45.345 logback [http-nio-8080-exec-1] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==> Parameters: 
+2019-02-14 14:10:45.438 logback [http-nio-8080-exec-1] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - <==      Total: 1
+2019-02-14 14:10:45.438 logback [http-nio-8080-exec-1] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==>  Preparing: select id, title, summary, cover_img, view_num, price, create_time, online, point FROM video LIMIT ? 
+2019-02-14 14:10:45.438 logback [http-nio-8080-exec-1] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==> Parameters: 30(Integer)
+2019-02-14 14:10:45.508 logback [http-nio-8080-exec-1] DEBUG c.u.c.mapper.VideoMapper.findVoides - <==      Total: 9
+2019-02-14 14:10:54.365 logback [http-nio-8080-exec-5] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==>  Preparing: SELECT count(0) FROM video 
+2019-02-14 14:10:54.366 logback [http-nio-8080-exec-5] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==> Parameters: 
+2019-02-14 14:10:54.412 logback [http-nio-8080-exec-5] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - <==      Total: 1
+2019-02-14 14:10:54.413 logback [http-nio-8080-exec-5] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==>  Preparing: select id, title, summary, cover_img, view_num, price, create_time, online, point FROM video LIMIT ? 
+2019-02-14 14:10:54.414 logback [http-nio-8080-exec-5] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==> Parameters: 30(Integer)
+2019-02-14 14:10:54.466 logback [http-nio-8080-exec-5] DEBUG c.u.c.mapper.VideoMapper.findVoides - <==      Total: 9
+2019-02-14 14:12:44.118 logback [http-nio-8080-exec-9] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==>  Preparing: SELECT count(0) FROM video 
+2019-02-14 14:12:44.119 logback [http-nio-8080-exec-9] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==> Parameters: 
+2019-02-14 14:12:44.182 logback [http-nio-8080-exec-9] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - <==      Total: 1
+2019-02-14 14:12:44.182 logback [http-nio-8080-exec-9] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==>  Preparing: select id, title, summary, cover_img, view_num, price, create_time, online, point FROM video LIMIT ? 
+2019-02-14 14:12:44.182 logback [http-nio-8080-exec-9] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==> Parameters: 30(Integer)
+2019-02-14 14:12:44.276 logback [http-nio-8080-exec-9] DEBUG c.u.c.mapper.VideoMapper.findVoides - <==      Total: 9
+2019-02-14 14:14:40.683 logback [http-nio-8080-exec-3] DEBUG c.u.c.m.U.findUserByOptionId - ==>  Preparing: SELECT * from user where openid=? 
+2019-02-14 14:14:40.684 logback [http-nio-8080-exec-3] DEBUG c.u.c.m.U.findUserByOptionId - ==> Parameters: oYW4K0zZ8u9ehQ4KUIAuKeekLb5g(String)
+2019-02-14 14:14:40.745 logback [http-nio-8080-exec-3] DEBUG c.u.c.m.U.findUserByOptionId - <==      Total: 1
+2019-02-14 14:14:41.347 logback [http-nio-8080-exec-4] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==>  Preparing: SELECT count(0) FROM video 
+2019-02-14 14:14:41.347 logback [http-nio-8080-exec-4] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==> Parameters: 
+2019-02-14 14:14:41.384 logback [http-nio-8080-exec-4] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - <==      Total: 1
+2019-02-14 14:14:41.385 logback [http-nio-8080-exec-4] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==>  Preparing: select id, title, summary, cover_img, view_num, price, create_time, online, point FROM video LIMIT ? 
+2019-02-14 14:14:41.386 logback [http-nio-8080-exec-4] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==> Parameters: 30(Integer)
+2019-02-14 14:14:41.420 logback [http-nio-8080-exec-4] DEBUG c.u.c.mapper.VideoMapper.findVoides - <==      Total: 9
+2019-02-14 14:17:37.575 logback [http-nio-8080-exec-2] DEBUG c.u.c.m.U.findUserByOptionId - ==>  Preparing: SELECT * from user where openid=? 
+2019-02-14 14:17:37.594 logback [http-nio-8080-exec-2] DEBUG c.u.c.m.U.findUserByOptionId - ==> Parameters: oYW4K0zZ8u9ehQ4KUIAuKeekLb5g(String)
+2019-02-14 14:17:37.700 logback [http-nio-8080-exec-2] DEBUG c.u.c.m.U.findUserByOptionId - <==      Total: 1
+2019-02-14 14:17:38.806 logback [http-nio-8080-exec-3] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==>  Preparing: SELECT count(0) FROM video 
+2019-02-14 14:17:38.806 logback [http-nio-8080-exec-3] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==> Parameters: 
+2019-02-14 14:17:38.851 logback [http-nio-8080-exec-3] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - <==      Total: 1
+2019-02-14 14:17:38.852 logback [http-nio-8080-exec-3] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==>  Preparing: select id, title, summary, cover_img, view_num, price, create_time, online, point FROM video LIMIT ? 
+2019-02-14 14:17:38.853 logback [http-nio-8080-exec-3] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==> Parameters: 30(Integer)
+2019-02-14 14:17:38.893 logback [http-nio-8080-exec-3] DEBUG c.u.c.mapper.VideoMapper.findVoides - <==      Total: 9
+2019-02-14 14:18:25.366 logback [http-nio-8080-exec-8] DEBUG c.u.c.m.U.findUserByOptionId - ==>  Preparing: SELECT * from user where openid=? 
+2019-02-14 14:18:25.366 logback [http-nio-8080-exec-8] DEBUG c.u.c.m.U.findUserByOptionId - ==> Parameters: oYW4K0zZ8u9ehQ4KUIAuKeekLb5g(String)
+2019-02-14 14:18:25.417 logback [http-nio-8080-exec-8] DEBUG c.u.c.m.U.findUserByOptionId - <==      Total: 1
+2019-02-14 14:18:26.113 logback [http-nio-8080-exec-10] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==>  Preparing: SELECT count(0) FROM video 
+2019-02-14 14:18:26.114 logback [http-nio-8080-exec-10] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==> Parameters: 
+2019-02-14 14:18:26.145 logback [http-nio-8080-exec-10] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - <==      Total: 1
+2019-02-14 14:18:26.146 logback [http-nio-8080-exec-10] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==>  Preparing: select id, title, summary, cover_img, view_num, price, create_time, online, point FROM video LIMIT ? 
+2019-02-14 14:18:26.146 logback [http-nio-8080-exec-10] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==> Parameters: 30(Integer)
+2019-02-14 14:18:26.220 logback [http-nio-8080-exec-10] DEBUG c.u.c.mapper.VideoMapper.findVoides - <==      Total: 9
+2019-02-14 14:18:54.088 logback [http-nio-8080-exec-7] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==>  Preparing: SELECT count(0) FROM video 
+2019-02-14 14:18:54.088 logback [http-nio-8080-exec-7] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==> Parameters: 
+2019-02-14 14:18:54.137 logback [http-nio-8080-exec-7] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - <==      Total: 1
+2019-02-14 14:18:54.138 logback [http-nio-8080-exec-7] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==>  Preparing: select id, title, summary, cover_img, view_num, price, create_time, online, point FROM video LIMIT ? 
+2019-02-14 14:18:54.138 logback [http-nio-8080-exec-7] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==> Parameters: 30(Integer)
+2019-02-14 14:18:54.183 logback [http-nio-8080-exec-7] DEBUG c.u.c.mapper.VideoMapper.findVoides - <==      Total: 9
+2019-02-14 14:19:03.076 logback [http-nio-8080-exec-1] DEBUG c.u.c.m.U.findUserByOptionId - ==>  Preparing: SELECT * from user where openid=? 
+2019-02-14 14:19:03.077 logback [http-nio-8080-exec-1] DEBUG c.u.c.m.U.findUserByOptionId - ==> Parameters: oYW4K0zZ8u9ehQ4KUIAuKeekLb5g(String)
+2019-02-14 14:19:03.144 logback [http-nio-8080-exec-1] DEBUG c.u.c.m.U.findUserByOptionId - <==      Total: 1
+2019-02-14 14:19:03.574 logback [http-nio-8080-exec-10] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==>  Preparing: SELECT count(0) FROM video 
+2019-02-14 14:19:03.576 logback [http-nio-8080-exec-10] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==> Parameters: 
+2019-02-14 14:19:03.609 logback [http-nio-8080-exec-10] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - <==      Total: 1
+2019-02-14 14:19:03.609 logback [http-nio-8080-exec-10] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==>  Preparing: select id, title, summary, cover_img, view_num, price, create_time, online, point FROM video LIMIT ? 
+2019-02-14 14:19:03.610 logback [http-nio-8080-exec-10] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==> Parameters: 30(Integer)
+2019-02-14 14:19:03.659 logback [http-nio-8080-exec-10] DEBUG c.u.c.mapper.VideoMapper.findVoides - <==      Total: 9
+2019-02-14 14:41:21.273 logback [http-nio-8080-exec-8] DEBUG c.u.c.m.U.findUserByOptionId - ==>  Preparing: SELECT * from user where openid=? 
+2019-02-14 14:41:21.275 logback [http-nio-8080-exec-8] DEBUG c.u.c.m.U.findUserByOptionId - ==> Parameters: oYW4K0zZ8u9ehQ4KUIAuKeekLb5g(String)
+2019-02-14 14:41:21.325 logback [http-nio-8080-exec-8] DEBUG c.u.c.m.U.findUserByOptionId - <==      Total: 1
+2019-02-14 14:41:22.379 logback [http-nio-8080-exec-7] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==>  Preparing: SELECT count(0) FROM video 
+2019-02-14 14:41:22.379 logback [http-nio-8080-exec-7] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==> Parameters: 
+2019-02-14 14:41:22.406 logback [http-nio-8080-exec-7] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - <==      Total: 1
+2019-02-14 14:41:22.407 logback [http-nio-8080-exec-7] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==>  Preparing: select id, title, summary, cover_img, view_num, price, create_time, online, point FROM video LIMIT ? 
+2019-02-14 14:41:22.407 logback [http-nio-8080-exec-7] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==> Parameters: 30(Integer)
+2019-02-14 14:41:22.446 logback [http-nio-8080-exec-7] DEBUG c.u.c.mapper.VideoMapper.findVoides - <==      Total: 9
+2019-02-14 14:46:07.044 logback [http-nio-8080-exec-4] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==>  Preparing: SELECT count(0) FROM video 
+2019-02-14 14:46:07.045 logback [http-nio-8080-exec-4] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==> Parameters: 
+2019-02-14 14:46:07.085 logback [http-nio-8080-exec-4] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - <==      Total: 1
+2019-02-14 14:46:07.086 logback [http-nio-8080-exec-4] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==>  Preparing: select id, title, summary, cover_img, view_num, price, create_time, online, point FROM video LIMIT ? 
+2019-02-14 14:46:07.087 logback [http-nio-8080-exec-4] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==> Parameters: 30(Integer)
+2019-02-14 14:46:07.157 logback [http-nio-8080-exec-4] DEBUG c.u.c.mapper.VideoMapper.findVoides - <==      Total: 9
+2019-02-14 14:47:52.874 logback [http-nio-8080-exec-8] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==>  Preparing: SELECT count(0) FROM video 
+2019-02-14 14:47:52.874 logback [http-nio-8080-exec-8] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==> Parameters: 
+2019-02-14 14:47:53.052 logback [http-nio-8080-exec-8] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - <==      Total: 1
+2019-02-14 14:47:53.056 logback [http-nio-8080-exec-8] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==>  Preparing: select id, title, summary, cover_img, view_num, price, create_time, online, point FROM video LIMIT ? 
+2019-02-14 14:47:53.056 logback [http-nio-8080-exec-8] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==> Parameters: 30(Integer)
+2019-02-14 14:47:53.203 logback [http-nio-8080-exec-8] DEBUG c.u.c.mapper.VideoMapper.findVoides - <==      Total: 9
+2019-02-14 14:48:12.850 logback [http-nio-8080-exec-7] DEBUG c.u.c.m.U.findUserByOptionId - ==>  Preparing: SELECT * from user where openid=? 
+2019-02-14 14:48:12.850 logback [http-nio-8080-exec-7] DEBUG c.u.c.m.U.findUserByOptionId - ==> Parameters: oYW4K0zZ8u9ehQ4KUIAuKeekLb5g(String)
+2019-02-14 14:48:12.921 logback [http-nio-8080-exec-7] DEBUG c.u.c.m.U.findUserByOptionId - <==      Total: 1
+2019-02-14 14:48:13.524 logback [http-nio-8080-exec-5] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==>  Preparing: SELECT count(0) FROM video 
+2019-02-14 14:48:13.524 logback [http-nio-8080-exec-5] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==> Parameters: 
+2019-02-14 14:48:13.571 logback [http-nio-8080-exec-5] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - <==      Total: 1
+2019-02-14 14:48:13.573 logback [http-nio-8080-exec-5] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==>  Preparing: select id, title, summary, cover_img, view_num, price, create_time, online, point FROM video LIMIT ? 
+2019-02-14 14:48:13.573 logback [http-nio-8080-exec-5] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==> Parameters: 30(Integer)
+2019-02-14 14:48:13.604 logback [http-nio-8080-exec-5] DEBUG c.u.c.mapper.VideoMapper.findVoides - <==      Total: 9
+2019-02-14 14:50:44.162 logback [http-nio-8080-exec-2] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==>  Preparing: SELECT count(0) FROM video 
+2019-02-14 14:50:44.189 logback [http-nio-8080-exec-2] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==> Parameters: 
+2019-02-14 14:50:44.249 logback [http-nio-8080-exec-2] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - <==      Total: 1
+2019-02-14 14:50:44.250 logback [http-nio-8080-exec-2] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==>  Preparing: select id, title, summary, cover_img, view_num, price, create_time, online, point FROM video LIMIT ? 
+2019-02-14 14:50:44.251 logback [http-nio-8080-exec-2] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==> Parameters: 30(Integer)
+2019-02-14 14:50:44.287 logback [http-nio-8080-exec-2] DEBUG c.u.c.mapper.VideoMapper.findVoides - <==      Total: 9
+2019-02-14 14:51:08.592 logback [http-nio-8080-exec-6] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==>  Preparing: SELECT count(0) FROM video 
+2019-02-14 14:51:08.595 logback [http-nio-8080-exec-6] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==> Parameters: 
+2019-02-14 14:51:08.634 logback [http-nio-8080-exec-6] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - <==      Total: 1
+2019-02-14 14:51:08.636 logback [http-nio-8080-exec-6] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==>  Preparing: select id, title, summary, cover_img, view_num, price, create_time, online, point FROM video LIMIT ? 
+2019-02-14 14:51:08.636 logback [http-nio-8080-exec-6] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==> Parameters: 30(Integer)
+2019-02-14 14:51:08.698 logback [http-nio-8080-exec-6] DEBUG c.u.c.mapper.VideoMapper.findVoides - <==      Total: 9
+2019-02-14 14:52:15.722 logback [http-nio-8080-exec-3] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==>  Preparing: SELECT count(0) FROM video 
+2019-02-14 14:52:15.723 logback [http-nio-8080-exec-3] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==> Parameters: 
+2019-02-14 14:52:15.753 logback [http-nio-8080-exec-3] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - <==      Total: 1
+2019-02-14 14:52:15.756 logback [http-nio-8080-exec-3] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==>  Preparing: select id, title, summary, cover_img, view_num, price, create_time, online, point FROM video LIMIT ? 
+2019-02-14 14:52:15.757 logback [http-nio-8080-exec-3] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==> Parameters: 30(Integer)
+2019-02-14 14:52:15.809 logback [http-nio-8080-exec-3] DEBUG c.u.c.mapper.VideoMapper.findVoides - <==      Total: 9
+2019-02-14 14:52:30.475 logback [http-nio-8080-exec-4] DEBUG c.u.c.m.U.findUserByOptionId - ==>  Preparing: SELECT * from user where openid=? 
+2019-02-14 14:52:30.475 logback [http-nio-8080-exec-4] DEBUG c.u.c.m.U.findUserByOptionId - ==> Parameters: oYW4K0zZ8u9ehQ4KUIAuKeekLb5g(String)
+2019-02-14 14:52:30.518 logback [http-nio-8080-exec-4] DEBUG c.u.c.m.U.findUserByOptionId - <==      Total: 1
+2019-02-14 14:52:31.176 logback [http-nio-8080-exec-5] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==>  Preparing: SELECT count(0) FROM video 
+2019-02-14 14:52:31.177 logback [http-nio-8080-exec-5] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==> Parameters: 
+2019-02-14 14:52:31.247 logback [http-nio-8080-exec-5] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - <==      Total: 1
+2019-02-14 14:52:31.247 logback [http-nio-8080-exec-5] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==>  Preparing: select id, title, summary, cover_img, view_num, price, create_time, online, point FROM video LIMIT ? 
+2019-02-14 14:52:31.248 logback [http-nio-8080-exec-5] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==> Parameters: 30(Integer)
+2019-02-14 14:52:31.325 logback [http-nio-8080-exec-5] DEBUG c.u.c.mapper.VideoMapper.findVoides - <==      Total: 9
+2019-02-14 14:54:43.913 logback [http-nio-8080-exec-2] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==>  Preparing: SELECT count(0) FROM video 
+2019-02-14 14:54:43.914 logback [http-nio-8080-exec-2] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==> Parameters: 
+2019-02-14 14:54:43.953 logback [http-nio-8080-exec-2] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - <==      Total: 1
+2019-02-14 14:54:43.957 logback [http-nio-8080-exec-2] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==>  Preparing: select id, title, summary, cover_img, view_num, price, create_time, online, point FROM video LIMIT ? 
+2019-02-14 14:54:43.957 logback [http-nio-8080-exec-2] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==> Parameters: 30(Integer)
+2019-02-14 14:54:44.006 logback [http-nio-8080-exec-2] DEBUG c.u.c.mapper.VideoMapper.findVoides - <==      Total: 9
+2019-02-14 14:57:52.754 logback [http-nio-8080-exec-2] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==>  Preparing: SELECT count(0) FROM video 
+2019-02-14 14:57:52.754 logback [http-nio-8080-exec-2] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==> Parameters: 
+2019-02-14 14:57:52.794 logback [http-nio-8080-exec-2] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - <==      Total: 1
+2019-02-14 14:57:52.796 logback [http-nio-8080-exec-2] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==>  Preparing: select id, title, summary, cover_img, view_num, price, create_time, online, point FROM video LIMIT ? 
+2019-02-14 14:57:52.797 logback [http-nio-8080-exec-2] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==> Parameters: 30(Integer)
+2019-02-14 14:57:52.842 logback [http-nio-8080-exec-2] DEBUG c.u.c.mapper.VideoMapper.findVoides - <==      Total: 9
+2019-02-14 14:58:04.240 logback [http-nio-8080-exec-7] DEBUG c.u.c.m.U.findUserByOptionId - ==>  Preparing: SELECT * from user where openid=? 
+2019-02-14 14:58:04.241 logback [http-nio-8080-exec-7] DEBUG c.u.c.m.U.findUserByOptionId - ==> Parameters: oYW4K0zZ8u9ehQ4KUIAuKeekLb5g(String)
+2019-02-14 14:58:04.285 logback [http-nio-8080-exec-7] DEBUG c.u.c.m.U.findUserByOptionId - <==      Total: 1
+2019-02-14 14:58:05.081 logback [http-nio-8080-exec-5] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==>  Preparing: SELECT count(0) FROM video 
+2019-02-14 14:58:05.082 logback [http-nio-8080-exec-5] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==> Parameters: 
+2019-02-14 14:58:05.114 logback [http-nio-8080-exec-5] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - <==      Total: 1
+2019-02-14 14:58:05.115 logback [http-nio-8080-exec-5] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==>  Preparing: select id, title, summary, cover_img, view_num, price, create_time, online, point FROM video LIMIT ? 
+2019-02-14 14:58:05.116 logback [http-nio-8080-exec-5] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==> Parameters: 30(Integer)
+2019-02-14 14:58:05.174 logback [http-nio-8080-exec-5] DEBUG c.u.c.mapper.VideoMapper.findVoides - <==      Total: 9
+2019-02-14 15:04:40.628 logback [http-nio-8080-exec-4] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==>  Preparing: SELECT count(0) FROM video 
+2019-02-14 15:04:40.628 logback [http-nio-8080-exec-4] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==> Parameters: 
+2019-02-14 15:04:40.689 logback [http-nio-8080-exec-4] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - <==      Total: 1
+2019-02-14 15:04:40.690 logback [http-nio-8080-exec-4] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==>  Preparing: select id, title, summary, cover_img, view_num, price, create_time, online, point FROM video LIMIT ? 
+2019-02-14 15:04:40.691 logback [http-nio-8080-exec-4] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==> Parameters: 30(Integer)
+2019-02-14 15:04:40.758 logback [http-nio-8080-exec-4] DEBUG c.u.c.mapper.VideoMapper.findVoides - <==      Total: 9
+2019-02-14 15:07:22.027 logback [http-nio-8080-exec-10] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==>  Preparing: SELECT count(0) FROM video 
+2019-02-14 15:07:22.027 logback [http-nio-8080-exec-10] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==> Parameters: 
+2019-02-14 15:07:22.072 logback [http-nio-8080-exec-10] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - <==      Total: 1
+2019-02-14 15:07:22.073 logback [http-nio-8080-exec-10] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==>  Preparing: select id, title, summary, cover_img, view_num, price, create_time, online, point FROM video LIMIT ? 
+2019-02-14 15:07:22.073 logback [http-nio-8080-exec-10] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==> Parameters: 30(Integer)
+2019-02-14 15:07:22.115 logback [http-nio-8080-exec-10] DEBUG c.u.c.mapper.VideoMapper.findVoides - <==      Total: 9
+2019-02-14 15:08:07.995 logback [http-nio-8080-exec-1] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==>  Preparing: SELECT count(0) FROM video 
+2019-02-14 15:08:08.077 logback [http-nio-8080-exec-1] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==> Parameters: 
+2019-02-14 15:08:08.137 logback [http-nio-8080-exec-1] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - <==      Total: 1
+2019-02-14 15:08:08.139 logback [http-nio-8080-exec-1] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==>  Preparing: select id, title, summary, cover_img, view_num, price, create_time, online, point FROM video LIMIT ? 
+2019-02-14 15:08:08.140 logback [http-nio-8080-exec-1] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==> Parameters: 30(Integer)
+2019-02-14 15:08:08.189 logback [http-nio-8080-exec-1] DEBUG c.u.c.mapper.VideoMapper.findVoides - <==      Total: 9
+2019-02-14 15:13:49.354 logback [http-nio-8080-exec-2] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==>  Preparing: SELECT count(0) FROM video 
+2019-02-14 15:13:49.408 logback [http-nio-8080-exec-2] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==> Parameters: 
+2019-02-14 15:13:49.509 logback [http-nio-8080-exec-2] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - <==      Total: 1
+2019-02-14 15:13:49.514 logback [http-nio-8080-exec-2] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==>  Preparing: select id, title, summary, cover_img, view_num, price, create_time, online, point FROM video LIMIT ? 
+2019-02-14 15:13:49.515 logback [http-nio-8080-exec-2] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==> Parameters: 30(Integer)
+2019-02-14 15:13:49.559 logback [http-nio-8080-exec-2] DEBUG c.u.c.mapper.VideoMapper.findVoides - <==      Total: 9
+2019-02-14 15:17:25.551 logback [http-nio-8080-exec-1] DEBUG c.u.com.mapper.VideoMapper.fingById - ==>  Preparing: SELECT * from video where id=? 
+2019-02-14 15:17:25.572 logback [http-nio-8080-exec-1] DEBUG c.u.com.mapper.VideoMapper.fingById - ==> Parameters: 1(Integer)
+2019-02-14 15:17:25.663 logback [http-nio-8080-exec-1] DEBUG c.u.com.mapper.VideoMapper.fingById - <==      Total: 1
+2019-02-14 15:17:25.665 logback [http-nio-8080-exec-1] DEBUG c.u.com.mapper.UserMapper.fingById - ==>  Preparing: SELECT * from user where id=? 
+2019-02-14 15:17:25.665 logback [http-nio-8080-exec-1] DEBUG c.u.com.mapper.UserMapper.fingById - ==> Parameters: 1(Integer)
+2019-02-14 15:17:25.702 logback [http-nio-8080-exec-1] DEBUG c.u.com.mapper.UserMapper.fingById - <==      Total: 1
+2019-02-14 15:17:25.704 logback [http-nio-8080-exec-1] DEBUG c.u.c.mapper.VideoOrderMapper.insert - ==>  Preparing: INSERT INTO `video_order` ( `openid`, `out_trade_no`, `state`, `create_time`, `total_fee`, `nickname`, `head_img`, `video_id`, `video_title`, `video_img`, `user_id`, `ip`, `del` ) VALUES ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? ) 
+2019-02-14 15:17:25.705 logback [http-nio-8080-exec-1] DEBUG c.u.c.mapper.VideoOrderMapper.insert - ==> Parameters: oYW4K0zZ8u9ehQ4KUIAuKeekLb5g(String), a0245c76e4384d08b2ff0e5e8b1a2a1d(String), 0(Integer), 2019-02-14 15:17:25.704(Timestamp), 10(Integer), 默ゎ(String), http://thirdwx.qlogo.cn/mmopen/vi_32/pxHbtpj05DZqbIkic8TmKAH437LfnnQqaaI4GKNVicsqBGvZ6pmpOChyahRVKiaIweriaj9fooWZnNLjohQ8iavDib1Q/132(String), 1(Integer), SpringBoot+Maven整合Websocket课程(String), https://xd-video-pc-img.oss-cn-beijing.aliyuncs.com/upload/video/video_cover.png(String), 1(Integer), 0:0:0:0:0:0:0:1(String), 0(Integer)
+2019-02-14 15:17:25.790 logback [http-nio-8080-exec-1] DEBUG c.u.c.mapper.VideoOrderMapper.insert - <==    Updates: 1
+2019-02-14 15:17:47.872 logback [http-nio-8080-exec-4] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==>  Preparing: SELECT count(0) FROM video 
+2019-02-14 15:17:47.872 logback [http-nio-8080-exec-4] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==> Parameters: 
+2019-02-14 15:17:47.905 logback [http-nio-8080-exec-4] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - <==      Total: 1
+2019-02-14 15:17:47.906 logback [http-nio-8080-exec-4] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==>  Preparing: select id, title, summary, cover_img, view_num, price, create_time, online, point FROM video LIMIT ? 
+2019-02-14 15:17:47.907 logback [http-nio-8080-exec-4] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==> Parameters: 30(Integer)
+2019-02-14 15:17:47.953 logback [http-nio-8080-exec-4] DEBUG c.u.c.mapper.VideoMapper.findVoides - <==      Total: 9
+2019-02-14 15:17:50.220 logback [http-nio-8080-exec-7] DEBUG c.u.com.mapper.VideoMapper.fingById - ==>  Preparing: SELECT * from video where id=? 
+2019-02-14 15:17:50.221 logback [http-nio-8080-exec-7] DEBUG c.u.com.mapper.VideoMapper.fingById - ==> Parameters: 1(Integer)
+2019-02-14 15:17:50.262 logback [http-nio-8080-exec-7] DEBUG c.u.com.mapper.VideoMapper.fingById - <==      Total: 1
+2019-02-14 15:17:50.262 logback [http-nio-8080-exec-7] DEBUG c.u.com.mapper.UserMapper.fingById - ==>  Preparing: SELECT * from user where id=? 
+2019-02-14 15:17:50.263 logback [http-nio-8080-exec-7] DEBUG c.u.com.mapper.UserMapper.fingById - ==> Parameters: 1(Integer)
+2019-02-14 15:17:50.309 logback [http-nio-8080-exec-7] DEBUG c.u.com.mapper.UserMapper.fingById - <==      Total: 1
+2019-02-14 15:17:50.310 logback [http-nio-8080-exec-7] DEBUG c.u.c.mapper.VideoOrderMapper.insert - ==>  Preparing: INSERT INTO `video_order` ( `openid`, `out_trade_no`, `state`, `create_time`, `total_fee`, `nickname`, `head_img`, `video_id`, `video_title`, `video_img`, `user_id`, `ip`, `del` ) VALUES ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? ) 
+2019-02-14 15:17:50.311 logback [http-nio-8080-exec-7] DEBUG c.u.c.mapper.VideoOrderMapper.insert - ==> Parameters: oYW4K0zZ8u9ehQ4KUIAuKeekLb5g(String), d1f9726aa8a64d218bfe3192616289e8(String), 0(Integer), 2019-02-14 15:17:50.309(Timestamp), 10(Integer), 默ゎ(String), http://thirdwx.qlogo.cn/mmopen/vi_32/pxHbtpj05DZqbIkic8TmKAH437LfnnQqaaI4GKNVicsqBGvZ6pmpOChyahRVKiaIweriaj9fooWZnNLjohQ8iavDib1Q/132(String), 1(Integer), SpringBoot+Maven整合Websocket课程(String), https://xd-video-pc-img.oss-cn-beijing.aliyuncs.com/upload/video/video_cover.png(String), 1(Integer), 192.168.43.45(String), 0(Integer)
+2019-02-14 15:17:50.397 logback [http-nio-8080-exec-7] DEBUG c.u.c.mapper.VideoOrderMapper.insert - <==    Updates: 1
+2019-02-14 15:24:56.431 logback [http-nio-8080-exec-10] DEBUG c.u.com.mapper.VideoMapper.fingById - ==>  Preparing: SELECT * from video where id=? 
+2019-02-14 15:24:56.432 logback [http-nio-8080-exec-10] DEBUG c.u.com.mapper.VideoMapper.fingById - ==> Parameters: 5(Integer)
+2019-02-14 15:24:56.472 logback [http-nio-8080-exec-10] DEBUG c.u.com.mapper.VideoMapper.fingById - <==      Total: 1
+2019-02-14 15:24:56.473 logback [http-nio-8080-exec-10] DEBUG c.u.com.mapper.UserMapper.fingById - ==>  Preparing: SELECT * from user where id=? 
+2019-02-14 15:24:56.473 logback [http-nio-8080-exec-10] DEBUG c.u.com.mapper.UserMapper.fingById - ==> Parameters: 1(Integer)
+2019-02-14 15:24:56.526 logback [http-nio-8080-exec-10] DEBUG c.u.com.mapper.UserMapper.fingById - <==      Total: 1
+2019-02-14 15:24:56.527 logback [http-nio-8080-exec-10] DEBUG c.u.c.mapper.VideoOrderMapper.insert - ==>  Preparing: INSERT INTO `video_order` ( `openid`, `out_trade_no`, `state`, `create_time`, `total_fee`, `nickname`, `head_img`, `video_id`, `video_title`, `video_img`, `user_id`, `ip`, `del` ) VALUES ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? ) 
+2019-02-14 15:24:56.532 logback [http-nio-8080-exec-10] DEBUG c.u.c.mapper.VideoOrderMapper.insert - ==> Parameters: oYW4K0zZ8u9ehQ4KUIAuKeekLb5g(String), a4a8ca004f644899b457d715c120ee68(String), 0(Integer), 2019-02-14 15:24:56.527(Timestamp), 10(Integer), 默ゎ(String), http://thirdwx.qlogo.cn/mmopen/vi_32/pxHbtpj05DZqbIkic8TmKAH437LfnnQqaaI4GKNVicsqBGvZ6pmpOChyahRVKiaIweriaj9fooWZnNLjohQ8iavDib1Q/132(String), 5(Integer), 亿级流量处理搜索(String), https://xd-video-pc-img.oss-cn-beijing.aliyuncs.com/upload/video/video_cover.png(String), 1(Integer), 192.168.43.45(String), 0(Integer)
+2019-02-14 15:24:56.644 logback [http-nio-8080-exec-10] DEBUG c.u.c.mapper.VideoOrderMapper.insert - <==    Updates: 1
+2019-02-14 15:43:01.766 logback [http-nio-8080-exec-5] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==>  Preparing: SELECT count(0) FROM video 
+2019-02-14 15:43:01.795 logback [http-nio-8080-exec-5] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==> Parameters: 
+2019-02-14 15:43:01.852 logback [http-nio-8080-exec-5] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - <==      Total: 1
+2019-02-14 15:43:01.854 logback [http-nio-8080-exec-5] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==>  Preparing: select id, title, summary, cover_img, view_num, price, create_time, online, point FROM video LIMIT ? 
+2019-02-14 15:43:01.855 logback [http-nio-8080-exec-5] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==> Parameters: 30(Integer)
+2019-02-14 15:43:01.925 logback [http-nio-8080-exec-5] DEBUG c.u.c.mapper.VideoMapper.findVoides - <==      Total: 9
+2019-02-14 15:43:14.302 logback [http-nio-8080-exec-9] DEBUG c.u.c.m.U.findUserByOptionId - ==>  Preparing: SELECT * from user where openid=? 
+2019-02-14 15:43:14.302 logback [http-nio-8080-exec-9] DEBUG c.u.c.m.U.findUserByOptionId - ==> Parameters: oYW4K0zZ8u9ehQ4KUIAuKeekLb5g(String)
+2019-02-14 15:43:14.353 logback [http-nio-8080-exec-9] DEBUG c.u.c.m.U.findUserByOptionId - <==      Total: 1
+2019-02-14 15:43:14.932 logback [http-nio-8080-exec-4] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==>  Preparing: SELECT count(0) FROM video 
+2019-02-14 15:43:14.933 logback [http-nio-8080-exec-4] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==> Parameters: 
+2019-02-14 15:43:14.983 logback [http-nio-8080-exec-4] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - <==      Total: 1
+2019-02-14 15:43:14.983 logback [http-nio-8080-exec-4] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==>  Preparing: select id, title, summary, cover_img, view_num, price, create_time, online, point FROM video LIMIT ? 
+2019-02-14 15:43:14.984 logback [http-nio-8080-exec-4] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==> Parameters: 30(Integer)
+2019-02-14 15:43:15.035 logback [http-nio-8080-exec-4] DEBUG c.u.c.mapper.VideoMapper.findVoides - <==      Total: 9
+2019-02-14 15:43:16.904 logback [http-nio-8080-exec-2] DEBUG c.u.com.mapper.VideoMapper.fingById - ==>  Preparing: SELECT * from video where id=? 
+2019-02-14 15:43:16.904 logback [http-nio-8080-exec-2] DEBUG c.u.com.mapper.VideoMapper.fingById - ==> Parameters: 1(Integer)
+2019-02-14 15:43:16.943 logback [http-nio-8080-exec-2] DEBUG c.u.com.mapper.VideoMapper.fingById - <==      Total: 1
+2019-02-14 15:43:16.947 logback [http-nio-8080-exec-2] DEBUG c.u.com.mapper.UserMapper.fingById - ==>  Preparing: SELECT * from user where id=? 
+2019-02-14 15:43:16.947 logback [http-nio-8080-exec-2] DEBUG c.u.com.mapper.UserMapper.fingById - ==> Parameters: 1(Integer)
+2019-02-14 15:43:16.984 logback [http-nio-8080-exec-2] DEBUG c.u.com.mapper.UserMapper.fingById - <==      Total: 1
+2019-02-14 15:43:16.985 logback [http-nio-8080-exec-2] DEBUG c.u.c.mapper.VideoOrderMapper.insert - ==>  Preparing: INSERT INTO `video_order` ( `openid`, `out_trade_no`, `state`, `create_time`, `total_fee`, `nickname`, `head_img`, `video_id`, `video_title`, `video_img`, `user_id`, `ip`, `del` ) VALUES ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? ) 
+2019-02-14 15:43:16.987 logback [http-nio-8080-exec-2] DEBUG c.u.c.mapper.VideoOrderMapper.insert - ==> Parameters: oYW4K0zZ8u9ehQ4KUIAuKeekLb5g(String), 75f11c7f38f54362ba688a136f04f4d0(String), 0(Integer), 2019-02-14 15:43:16.985(Timestamp), 10(Integer), 默ゎ(String), http://thirdwx.qlogo.cn/mmopen/vi_32/pxHbtpj05DZqbIkic8TmKAH437LfnnQqaaI4GKNVicsqBGvZ6pmpOChyahRVKiaIweriaj9fooWZnNLjohQ8iavDib1Q/132(String), 1(Integer), SpringBoot+Maven整合Websocket课程(String), https://xd-video-pc-img.oss-cn-beijing.aliyuncs.com/upload/video/video_cover.png(String), 1(Integer), 192.168.43.45(String), 0(Integer)
+2019-02-14 15:43:17.070 logback [http-nio-8080-exec-2] DEBUG c.u.c.mapper.VideoOrderMapper.insert - <==    Updates: 1
+2019-02-14 15:55:43.225 logback [http-nio-8080-exec-1] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==>  Preparing: SELECT count(0) FROM video 
+2019-02-14 15:55:43.257 logback [http-nio-8080-exec-1] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==> Parameters: 
+2019-02-14 15:55:43.311 logback [http-nio-8080-exec-1] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - <==      Total: 1
+2019-02-14 15:55:43.315 logback [http-nio-8080-exec-1] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==>  Preparing: select id, title, summary, cover_img, view_num, price, create_time, online, point FROM video LIMIT ? 
+2019-02-14 15:55:43.315 logback [http-nio-8080-exec-1] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==> Parameters: 30(Integer)
+2019-02-14 15:55:43.397 logback [http-nio-8080-exec-1] DEBUG c.u.c.mapper.VideoMapper.findVoides - <==      Total: 9
+2019-02-14 15:56:27.733 logback [http-nio-8080-exec-7] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==>  Preparing: SELECT count(0) FROM video 
+2019-02-14 15:56:27.734 logback [http-nio-8080-exec-7] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==> Parameters: 
+2019-02-14 15:56:27.774 logback [http-nio-8080-exec-7] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - <==      Total: 1
+2019-02-14 15:56:27.775 logback [http-nio-8080-exec-7] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==>  Preparing: select id, title, summary, cover_img, view_num, price, create_time, online, point FROM video LIMIT ? 
+2019-02-14 15:56:27.776 logback [http-nio-8080-exec-7] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==> Parameters: 30(Integer)
+2019-02-14 15:56:27.825 logback [http-nio-8080-exec-7] DEBUG c.u.c.mapper.VideoMapper.findVoides - <==      Total: 9
+2019-02-14 15:56:43.475 logback [http-nio-8080-exec-9] DEBUG c.u.c.m.U.findUserByOptionId - ==>  Preparing: SELECT * from user where openid=? 
+2019-02-14 15:56:43.476 logback [http-nio-8080-exec-9] DEBUG c.u.c.m.U.findUserByOptionId - ==> Parameters: oYW4K0xwr36_wYmgSgrfP1fQI6_4(String)
+2019-02-14 15:56:43.545 logback [http-nio-8080-exec-9] DEBUG c.u.c.m.U.findUserByOptionId - <==      Total: 0
+2019-02-14 15:56:43.798 logback [http-nio-8080-exec-9] DEBUG c.u.com.mapper.UserMapper.saveUser - ==>  Preparing: INSERT INTO user ( openid, name, head_img, phone, sign, sex, city, create_time) VALUES (?,?,?,?,?,?,?,?) 
+2019-02-14 15:56:43.803 logback [http-nio-8080-exec-9] DEBUG c.u.com.mapper.UserMapper.saveUser - ==> Parameters: oYW4K0xwr36_wYmgSgrfP1fQI6_4(String), 叫叔叔(String), http://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKerOHGs8VAMTErznrIezIWHvk9Zibs2EyPicRYtMmfBmyFI2u5nujKAIPwC8CJ4okPiaGPPx2qbvI3A/132(String), null, null, 1(Integer), 巴西||圣保罗||(String), 2019-02-14 15:56:43.797(Timestamp)
+2019-02-14 15:56:44.483 logback [http-nio-8080-exec-2] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==>  Preparing: SELECT count(0) FROM video 
+2019-02-14 15:56:44.484 logback [http-nio-8080-exec-2] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==> Parameters: 
+2019-02-14 15:56:44.539 logback [http-nio-8080-exec-2] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - <==      Total: 1
+2019-02-14 15:56:44.540 logback [http-nio-8080-exec-2] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==>  Preparing: select id, title, summary, cover_img, view_num, price, create_time, online, point FROM video LIMIT ? 
+2019-02-14 15:56:44.540 logback [http-nio-8080-exec-2] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==> Parameters: 30(Integer)
+2019-02-14 15:56:44.616 logback [http-nio-8080-exec-2] DEBUG c.u.c.mapper.VideoMapper.findVoides - <==      Total: 9
+2019-02-14 15:57:07.672 logback [http-nio-8080-exec-1] DEBUG c.u.c.m.U.findUserByOptionId - ==>  Preparing: SELECT * from user where openid=? 
+2019-02-14 15:57:07.672 logback [http-nio-8080-exec-1] DEBUG c.u.c.m.U.findUserByOptionId - ==> Parameters: oYW4K0xwr36_wYmgSgrfP1fQI6_4(String)
+2019-02-14 15:57:07.695 logback [http-nio-8080-exec-1] DEBUG c.u.c.m.U.findUserByOptionId - <==      Total: 1
+2019-02-14 15:57:08.265 logback [http-nio-8080-exec-4] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==>  Preparing: SELECT count(0) FROM video 
+2019-02-14 15:57:08.265 logback [http-nio-8080-exec-4] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==> Parameters: 
+2019-02-14 15:57:08.295 logback [http-nio-8080-exec-4] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - <==      Total: 1
+2019-02-14 15:57:08.296 logback [http-nio-8080-exec-4] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==>  Preparing: select id, title, summary, cover_img, view_num, price, create_time, online, point FROM video LIMIT ? 
+2019-02-14 15:57:08.296 logback [http-nio-8080-exec-4] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==> Parameters: 30(Integer)
+2019-02-14 15:57:08.339 logback [http-nio-8080-exec-4] DEBUG c.u.c.mapper.VideoMapper.findVoides - <==      Total: 9
+2019-02-14 15:58:30.333 logback [http-nio-8080-exec-2] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==>  Preparing: SELECT count(0) FROM video 
+2019-02-14 15:58:30.334 logback [http-nio-8080-exec-2] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==> Parameters: 
+2019-02-14 15:58:30.375 logback [http-nio-8080-exec-2] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - <==      Total: 1
+2019-02-14 15:58:30.376 logback [http-nio-8080-exec-2] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==>  Preparing: select id, title, summary, cover_img, view_num, price, create_time, online, point FROM video LIMIT ? 
+2019-02-14 15:58:30.377 logback [http-nio-8080-exec-2] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==> Parameters: 30(Integer)
+2019-02-14 15:58:30.429 logback [http-nio-8080-exec-2] DEBUG c.u.c.mapper.VideoMapper.findVoides - <==      Total: 9
+2019-02-14 15:58:44.262 logback [http-nio-8080-exec-1] DEBUG c.u.c.m.U.findUserByOptionId - ==>  Preparing: SELECT * from user where openid=? 
+2019-02-14 15:58:44.263 logback [http-nio-8080-exec-1] DEBUG c.u.c.m.U.findUserByOptionId - ==> Parameters: oYW4K0zZ8u9ehQ4KUIAuKeekLb5g(String)
+2019-02-14 15:58:44.306 logback [http-nio-8080-exec-1] DEBUG c.u.c.m.U.findUserByOptionId - <==      Total: 1
+2019-02-14 15:58:44.825 logback [http-nio-8080-exec-5] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==>  Preparing: SELECT count(0) FROM video 
+2019-02-14 15:58:44.825 logback [http-nio-8080-exec-5] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==> Parameters: 
+2019-02-14 15:58:44.855 logback [http-nio-8080-exec-5] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - <==      Total: 1
+2019-02-14 15:58:44.858 logback [http-nio-8080-exec-5] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==>  Preparing: select id, title, summary, cover_img, view_num, price, create_time, online, point FROM video LIMIT ? 
+2019-02-14 15:58:44.858 logback [http-nio-8080-exec-5] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==> Parameters: 30(Integer)
+2019-02-14 15:58:44.896 logback [http-nio-8080-exec-5] DEBUG c.u.c.mapper.VideoMapper.findVoides - <==      Total: 9
+2019-02-14 15:59:39.734 logback [http-nio-8080-exec-2] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==>  Preparing: SELECT count(0) FROM video 
+2019-02-14 15:59:39.734 logback [http-nio-8080-exec-2] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==> Parameters: 
+2019-02-14 15:59:39.774 logback [http-nio-8080-exec-2] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - <==      Total: 1
+2019-02-14 15:59:39.776 logback [http-nio-8080-exec-2] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==>  Preparing: select id, title, summary, cover_img, view_num, price, create_time, online, point FROM video LIMIT ? 
+2019-02-14 15:59:39.776 logback [http-nio-8080-exec-2] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==> Parameters: 30(Integer)
+2019-02-14 15:59:39.826 logback [http-nio-8080-exec-2] DEBUG c.u.c.mapper.VideoMapper.findVoides - <==      Total: 9
+2019-02-14 15:59:48.521 logback [http-nio-8080-exec-1] DEBUG c.u.c.m.U.findUserByOptionId - ==>  Preparing: SELECT * from user where openid=? 
+2019-02-14 15:59:48.522 logback [http-nio-8080-exec-1] DEBUG c.u.c.m.U.findUserByOptionId - ==> Parameters: oYW4K0zZ8u9ehQ4KUIAuKeekLb5g(String)
+2019-02-14 15:59:48.578 logback [http-nio-8080-exec-1] DEBUG c.u.c.m.U.findUserByOptionId - <==      Total: 1
+2019-02-14 15:59:49.053 logback [http-nio-8080-exec-4] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==>  Preparing: SELECT count(0) FROM video 
+2019-02-14 15:59:49.053 logback [http-nio-8080-exec-4] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==> Parameters: 
+2019-02-14 15:59:49.093 logback [http-nio-8080-exec-4] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - <==      Total: 1
+2019-02-14 15:59:49.099 logback [http-nio-8080-exec-4] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==>  Preparing: select id, title, summary, cover_img, view_num, price, create_time, online, point FROM video LIMIT ? 
+2019-02-14 15:59:49.100 logback [http-nio-8080-exec-4] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==> Parameters: 30(Integer)
+2019-02-14 15:59:49.140 logback [http-nio-8080-exec-4] DEBUG c.u.c.mapper.VideoMapper.findVoides - <==      Total: 9
+2019-02-14 15:59:57.502 logback [http-nio-8080-exec-8] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==>  Preparing: SELECT count(0) FROM video 
+2019-02-14 15:59:57.503 logback [http-nio-8080-exec-8] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==> Parameters: 
+2019-02-14 15:59:57.534 logback [http-nio-8080-exec-8] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - <==      Total: 1
+2019-02-14 15:59:57.534 logback [http-nio-8080-exec-8] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==>  Preparing: select id, title, summary, cover_img, view_num, price, create_time, online, point FROM video LIMIT ? 
+2019-02-14 15:59:57.535 logback [http-nio-8080-exec-8] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==> Parameters: 30(Integer)
+2019-02-14 15:59:57.575 logback [http-nio-8080-exec-8] DEBUG c.u.c.mapper.VideoMapper.findVoides - <==      Total: 9
+2019-02-14 16:00:36.172 logback [http-nio-8080-exec-3] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==>  Preparing: SELECT count(0) FROM video 
+2019-02-14 16:00:36.173 logback [http-nio-8080-exec-3] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==> Parameters: 
+2019-02-14 16:00:36.212 logback [http-nio-8080-exec-3] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - <==      Total: 1
+2019-02-14 16:00:36.213 logback [http-nio-8080-exec-3] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==>  Preparing: select id, title, summary, cover_img, view_num, price, create_time, online, point FROM video LIMIT ? 
+2019-02-14 16:00:36.213 logback [http-nio-8080-exec-3] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==> Parameters: 30(Integer)
+2019-02-14 16:00:36.262 logback [http-nio-8080-exec-3] DEBUG c.u.c.mapper.VideoMapper.findVoides - <==      Total: 9
+2019-02-14 16:00:43.875 logback [http-nio-8080-exec-5] DEBUG c.u.c.m.U.findUserByOptionId - ==>  Preparing: SELECT * from user where openid=? 
+2019-02-14 16:00:43.876 logback [http-nio-8080-exec-5] DEBUG c.u.c.m.U.findUserByOptionId - ==> Parameters: oYW4K0zZ8u9ehQ4KUIAuKeekLb5g(String)
+2019-02-14 16:00:43.950 logback [http-nio-8080-exec-5] DEBUG c.u.c.m.U.findUserByOptionId - <==      Total: 1
+2019-02-14 16:00:44.459 logback [http-nio-8080-exec-4] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==>  Preparing: SELECT count(0) FROM video 
+2019-02-14 16:00:44.460 logback [http-nio-8080-exec-4] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==> Parameters: 
+2019-02-14 16:00:44.498 logback [http-nio-8080-exec-4] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - <==      Total: 1
+2019-02-14 16:00:44.500 logback [http-nio-8080-exec-4] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==>  Preparing: select id, title, summary, cover_img, view_num, price, create_time, online, point FROM video LIMIT ? 
+2019-02-14 16:00:44.501 logback [http-nio-8080-exec-4] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==> Parameters: 30(Integer)
+2019-02-14 16:00:44.548 logback [http-nio-8080-exec-4] DEBUG c.u.c.mapper.VideoMapper.findVoides - <==      Total: 9
+2019-02-14 16:01:13.487 logback [http-nio-8080-exec-10] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==>  Preparing: SELECT count(0) FROM video 
+2019-02-14 16:01:13.487 logback [http-nio-8080-exec-10] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==> Parameters: 
+2019-02-14 16:01:13.544 logback [http-nio-8080-exec-10] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - <==      Total: 1
+2019-02-14 16:01:13.545 logback [http-nio-8080-exec-10] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==>  Preparing: select id, title, summary, cover_img, view_num, price, create_time, online, point FROM video LIMIT ? 
+2019-02-14 16:01:13.545 logback [http-nio-8080-exec-10] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==> Parameters: 30(Integer)
+2019-02-14 16:01:13.573 logback [http-nio-8080-exec-10] DEBUG c.u.c.mapper.VideoMapper.findVoides - <==      Total: 9
+2019-02-14 16:01:21.974 logback [http-nio-8080-exec-3] DEBUG c.u.c.m.U.findUserByOptionId - ==>  Preparing: SELECT * from user where openid=? 
+2019-02-14 16:01:21.975 logback [http-nio-8080-exec-3] DEBUG c.u.c.m.U.findUserByOptionId - ==> Parameters: oYW4K0zZ8u9ehQ4KUIAuKeekLb5g(String)
+2019-02-14 16:01:22.018 logback [http-nio-8080-exec-3] DEBUG c.u.c.m.U.findUserByOptionId - <==      Total: 1
+2019-02-14 16:01:22.563 logback [http-nio-8080-exec-1] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==>  Preparing: SELECT count(0) FROM video 
+2019-02-14 16:01:22.563 logback [http-nio-8080-exec-1] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==> Parameters: 
+2019-02-14 16:01:22.628 logback [http-nio-8080-exec-1] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - <==      Total: 1
+2019-02-14 16:01:22.630 logback [http-nio-8080-exec-1] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==>  Preparing: select id, title, summary, cover_img, view_num, price, create_time, online, point FROM video LIMIT ? 
+2019-02-14 16:01:22.630 logback [http-nio-8080-exec-1] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==> Parameters: 30(Integer)
+2019-02-14 16:01:22.704 logback [http-nio-8080-exec-1] DEBUG c.u.c.mapper.VideoMapper.findVoides - <==      Total: 9
+2019-02-14 16:01:45.539 logback [http-nio-8080-exec-7] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==>  Preparing: SELECT count(0) FROM video 
+2019-02-14 16:01:45.539 logback [http-nio-8080-exec-7] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==> Parameters: 
+2019-02-14 16:01:45.586 logback [http-nio-8080-exec-7] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - <==      Total: 1
+2019-02-14 16:01:45.587 logback [http-nio-8080-exec-7] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==>  Preparing: select id, title, summary, cover_img, view_num, price, create_time, online, point FROM video LIMIT ? 
+2019-02-14 16:01:45.587 logback [http-nio-8080-exec-7] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==> Parameters: 30(Integer)
+2019-02-14 16:01:45.622 logback [http-nio-8080-exec-7] DEBUG c.u.c.mapper.VideoMapper.findVoides - <==      Total: 9
+2019-02-14 16:01:53.289 logback [http-nio-8080-exec-8] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==>  Preparing: SELECT count(0) FROM video 
+2019-02-14 16:01:53.289 logback [http-nio-8080-exec-8] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==> Parameters: 
+2019-02-14 16:01:53.339 logback [http-nio-8080-exec-8] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - <==      Total: 1
+2019-02-14 16:01:53.340 logback [http-nio-8080-exec-8] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==>  Preparing: select id, title, summary, cover_img, view_num, price, create_time, online, point FROM video LIMIT ? 
+2019-02-14 16:01:53.341 logback [http-nio-8080-exec-8] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==> Parameters: 30(Integer)
+2019-02-14 16:01:53.384 logback [http-nio-8080-exec-8] DEBUG c.u.c.mapper.VideoMapper.findVoides - <==      Total: 9
+2019-02-14 16:02:00.395 logback [http-nio-8080-exec-3] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==>  Preparing: SELECT count(0) FROM video 
+2019-02-14 16:02:00.395 logback [http-nio-8080-exec-3] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==> Parameters: 
+2019-02-14 16:02:00.452 logback [http-nio-8080-exec-3] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - <==      Total: 1
+2019-02-14 16:02:00.452 logback [http-nio-8080-exec-3] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==>  Preparing: select id, title, summary, cover_img, view_num, price, create_time, online, point FROM video LIMIT ? 
+2019-02-14 16:02:00.453 logback [http-nio-8080-exec-3] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==> Parameters: 30(Integer)
+2019-02-14 16:02:00.514 logback [http-nio-8080-exec-3] DEBUG c.u.c.mapper.VideoMapper.findVoides - <==      Total: 9
+2019-02-14 16:02:11.965 logback [http-nio-8080-exec-1] DEBUG c.u.c.m.U.findUserByOptionId - ==>  Preparing: SELECT * from user where openid=? 
+2019-02-14 16:02:11.966 logback [http-nio-8080-exec-1] DEBUG c.u.c.m.U.findUserByOptionId - ==> Parameters: oYW4K0zZ8u9ehQ4KUIAuKeekLb5g(String)
+2019-02-14 16:02:12.024 logback [http-nio-8080-exec-1] DEBUG c.u.c.m.U.findUserByOptionId - <==      Total: 1
+2019-02-14 16:02:12.547 logback [http-nio-8080-exec-4] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==>  Preparing: SELECT count(0) FROM video 
+2019-02-14 16:02:12.548 logback [http-nio-8080-exec-4] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==> Parameters: 
+2019-02-14 16:02:12.580 logback [http-nio-8080-exec-4] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - <==      Total: 1
+2019-02-14 16:02:12.580 logback [http-nio-8080-exec-4] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==>  Preparing: select id, title, summary, cover_img, view_num, price, create_time, online, point FROM video LIMIT ? 
+2019-02-14 16:02:12.581 logback [http-nio-8080-exec-4] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==> Parameters: 30(Integer)
+2019-02-14 16:02:12.633 logback [http-nio-8080-exec-4] DEBUG c.u.c.mapper.VideoMapper.findVoides - <==      Total: 9
+2019-02-14 16:02:28.830 logback [http-nio-8080-exec-2] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==>  Preparing: SELECT count(0) FROM video 
+2019-02-14 16:02:28.832 logback [http-nio-8080-exec-2] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==> Parameters: 
+2019-02-14 16:02:28.899 logback [http-nio-8080-exec-2] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - <==      Total: 1
+2019-02-14 16:02:28.900 logback [http-nio-8080-exec-2] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==>  Preparing: select id, title, summary, cover_img, view_num, price, create_time, online, point FROM video LIMIT ? 
+2019-02-14 16:02:28.900 logback [http-nio-8080-exec-2] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==> Parameters: 30(Integer)
+2019-02-14 16:02:28.941 logback [http-nio-8080-exec-2] DEBUG c.u.c.mapper.VideoMapper.findVoides - <==      Total: 9
+2019-02-14 16:02:36.677 logback [http-nio-8080-exec-5] DEBUG c.u.c.m.U.findUserByOptionId - ==>  Preparing: SELECT * from user where openid=? 
+2019-02-14 16:02:36.677 logback [http-nio-8080-exec-5] DEBUG c.u.c.m.U.findUserByOptionId - ==> Parameters: oYW4K0xwr36_wYmgSgrfP1fQI6_4(String)
+2019-02-14 16:02:36.738 logback [http-nio-8080-exec-5] DEBUG c.u.c.m.U.findUserByOptionId - <==      Total: 1
+2019-02-14 16:02:37.319 logback [http-nio-8080-exec-3] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==>  Preparing: SELECT count(0) FROM video 
+2019-02-14 16:02:37.321 logback [http-nio-8080-exec-3] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==> Parameters: 
+2019-02-14 16:02:37.384 logback [http-nio-8080-exec-3] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - <==      Total: 1
+2019-02-14 16:02:37.385 logback [http-nio-8080-exec-3] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==>  Preparing: select id, title, summary, cover_img, view_num, price, create_time, online, point FROM video LIMIT ? 
+2019-02-14 16:02:37.385 logback [http-nio-8080-exec-3] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==> Parameters: 30(Integer)
+2019-02-14 16:02:37.421 logback [http-nio-8080-exec-3] DEBUG c.u.c.mapper.VideoMapper.findVoides - <==      Total: 9
+2019-02-14 16:03:05.263 logback [http-nio-8080-exec-8] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==>  Preparing: SELECT count(0) FROM video 
+2019-02-14 16:03:05.263 logback [http-nio-8080-exec-8] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==> Parameters: 
+2019-02-14 16:03:05.297 logback [http-nio-8080-exec-8] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - <==      Total: 1
+2019-02-14 16:03:05.297 logback [http-nio-8080-exec-8] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==>  Preparing: select id, title, summary, cover_img, view_num, price, create_time, online, point FROM video LIMIT ? 
+2019-02-14 16:03:05.298 logback [http-nio-8080-exec-8] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==> Parameters: 30(Integer)
+2019-02-14 16:03:05.346 logback [http-nio-8080-exec-8] DEBUG c.u.c.mapper.VideoMapper.findVoides - <==      Total: 9
+2019-02-14 16:03:14.521 logback [http-nio-8080-exec-10] DEBUG c.u.c.m.U.findUserByOptionId - ==>  Preparing: SELECT * from user where openid=? 
+2019-02-14 16:03:14.522 logback [http-nio-8080-exec-10] DEBUG c.u.c.m.U.findUserByOptionId - ==> Parameters: oYW4K0xwr36_wYmgSgrfP1fQI6_4(String)
+2019-02-14 16:03:14.578 logback [http-nio-8080-exec-10] DEBUG c.u.c.m.U.findUserByOptionId - <==      Total: 1
+2019-02-14 16:03:15.066 logback [http-nio-8080-exec-2] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==>  Preparing: SELECT count(0) FROM video 
+2019-02-14 16:03:15.066 logback [http-nio-8080-exec-2] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==> Parameters: 
+2019-02-14 16:03:15.102 logback [http-nio-8080-exec-2] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - <==      Total: 1
+2019-02-14 16:03:15.105 logback [http-nio-8080-exec-2] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==>  Preparing: select id, title, summary, cover_img, view_num, price, create_time, online, point FROM video LIMIT ? 
+2019-02-14 16:03:15.105 logback [http-nio-8080-exec-2] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==> Parameters: 30(Integer)
+2019-02-14 16:03:15.148 logback [http-nio-8080-exec-2] DEBUG c.u.c.mapper.VideoMapper.findVoides - <==      Total: 9
+2019-02-14 16:03:55.863 logback [http-nio-8080-exec-1] DEBUG c.u.c.m.U.findUserByOptionId - ==>  Preparing: SELECT * from user where openid=? 
+2019-02-14 16:03:55.863 logback [http-nio-8080-exec-1] DEBUG c.u.c.m.U.findUserByOptionId - ==> Parameters: oYW4K0zZ8u9ehQ4KUIAuKeekLb5g(String)
+2019-02-14 16:03:55.896 logback [http-nio-8080-exec-1] DEBUG c.u.c.m.U.findUserByOptionId - <==      Total: 1
+2019-02-14 16:03:56.936 logback [http-nio-8080-exec-3] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==>  Preparing: SELECT count(0) FROM video 
+2019-02-14 16:03:56.936 logback [http-nio-8080-exec-3] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==> Parameters: 
+2019-02-14 16:03:57.005 logback [http-nio-8080-exec-3] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - <==      Total: 1
+2019-02-14 16:03:57.006 logback [http-nio-8080-exec-3] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==>  Preparing: select id, title, summary, cover_img, view_num, price, create_time, online, point FROM video LIMIT ? 
+2019-02-14 16:03:57.006 logback [http-nio-8080-exec-3] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==> Parameters: 30(Integer)
+2019-02-14 16:03:57.053 logback [http-nio-8080-exec-3] DEBUG c.u.c.mapper.VideoMapper.findVoides - <==      Total: 9
+2019-02-14 16:04:19.955 logback [http-nio-8080-exec-6] DEBUG c.u.c.m.U.findUserByOptionId - ==>  Preparing: SELECT * from user where openid=? 
+2019-02-14 16:04:19.955 logback [http-nio-8080-exec-6] DEBUG c.u.c.m.U.findUserByOptionId - ==> Parameters: oYW4K0zZ8u9ehQ4KUIAuKeekLb5g(String)
+2019-02-14 16:04:20.017 logback [http-nio-8080-exec-6] DEBUG c.u.c.m.U.findUserByOptionId - <==      Total: 1
+2019-02-14 16:04:20.565 logback [http-nio-8080-exec-9] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==>  Preparing: SELECT count(0) FROM video 
+2019-02-14 16:04:20.565 logback [http-nio-8080-exec-9] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==> Parameters: 
+2019-02-14 16:04:20.615 logback [http-nio-8080-exec-9] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - <==      Total: 1
+2019-02-14 16:04:20.616 logback [http-nio-8080-exec-9] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==>  Preparing: select id, title, summary, cover_img, view_num, price, create_time, online, point FROM video LIMIT ? 
+2019-02-14 16:04:20.616 logback [http-nio-8080-exec-9] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==> Parameters: 30(Integer)
+2019-02-14 16:04:20.671 logback [http-nio-8080-exec-9] DEBUG c.u.c.mapper.VideoMapper.findVoides - <==      Total: 9
+2019-02-14 16:04:41.699 logback [http-nio-8080-exec-5] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==>  Preparing: SELECT count(0) FROM video 
+2019-02-14 16:04:41.700 logback [http-nio-8080-exec-5] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==> Parameters: 
+2019-02-14 16:04:41.730 logback [http-nio-8080-exec-5] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - <==      Total: 1
+2019-02-14 16:04:41.731 logback [http-nio-8080-exec-5] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==>  Preparing: select id, title, summary, cover_img, view_num, price, create_time, online, point FROM video LIMIT ? 
+2019-02-14 16:04:41.731 logback [http-nio-8080-exec-5] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==> Parameters: 30(Integer)
+2019-02-14 16:04:41.780 logback [http-nio-8080-exec-5] DEBUG c.u.c.mapper.VideoMapper.findVoides - <==      Total: 9
+2019-02-14 16:05:33.556 logback [http-nio-8080-exec-3] DEBUG c.u.c.m.U.findUserByOptionId - ==>  Preparing: SELECT * from user where openid=? 
+2019-02-14 16:05:33.557 logback [http-nio-8080-exec-3] DEBUG c.u.c.m.U.findUserByOptionId - ==> Parameters: oYW4K0zZ8u9ehQ4KUIAuKeekLb5g(String)
+2019-02-14 16:05:33.619 logback [http-nio-8080-exec-3] DEBUG c.u.c.m.U.findUserByOptionId - <==      Total: 1
+2019-02-14 16:05:34.060 logback [http-nio-8080-exec-4] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==>  Preparing: SELECT count(0) FROM video 
+2019-02-14 16:05:34.062 logback [http-nio-8080-exec-4] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==> Parameters: 
+2019-02-14 16:05:34.091 logback [http-nio-8080-exec-4] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - <==      Total: 1
+2019-02-14 16:05:34.092 logback [http-nio-8080-exec-4] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==>  Preparing: select id, title, summary, cover_img, view_num, price, create_time, online, point FROM video LIMIT ? 
+2019-02-14 16:05:34.092 logback [http-nio-8080-exec-4] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==> Parameters: 30(Integer)
+2019-02-14 16:05:34.142 logback [http-nio-8080-exec-4] DEBUG c.u.c.mapper.VideoMapper.findVoides - <==      Total: 9
+2019-02-14 16:09:15.586 logback [http-nio-8080-exec-1] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==>  Preparing: SELECT count(0) FROM video 
+2019-02-14 16:09:15.621 logback [http-nio-8080-exec-1] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==> Parameters: 
+2019-02-14 16:09:15.735 logback [http-nio-8080-exec-1] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - <==      Total: 1
+2019-02-14 16:09:15.739 logback [http-nio-8080-exec-1] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==>  Preparing: select id, title, summary, cover_img, view_num, price, create_time, online, point FROM video LIMIT ? 
+2019-02-14 16:09:15.740 logback [http-nio-8080-exec-1] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==> Parameters: 30(Integer)
+2019-02-14 16:09:15.815 logback [http-nio-8080-exec-1] DEBUG c.u.c.mapper.VideoMapper.findVoides - <==      Total: 9
+2019-02-14 16:09:28.196 logback [http-nio-8080-exec-3] DEBUG c.u.c.m.U.findUserByOptionId - ==>  Preparing: SELECT * from user where openid=? 
+2019-02-14 16:09:28.196 logback [http-nio-8080-exec-3] DEBUG c.u.c.m.U.findUserByOptionId - ==> Parameters: oYW4K0zZ8u9ehQ4KUIAuKeekLb5g(String)
+2019-02-14 16:09:28.255 logback [http-nio-8080-exec-3] DEBUG c.u.c.m.U.findUserByOptionId - <==      Total: 1
+2019-02-14 16:12:16.939 logback [http-nio-8080-exec-6] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==>  Preparing: SELECT count(0) FROM video 
+2019-02-14 16:12:16.939 logback [http-nio-8080-exec-6] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==> Parameters: 
+2019-02-14 16:12:16.971 logback [http-nio-8080-exec-6] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - <==      Total: 1
+2019-02-14 16:12:16.972 logback [http-nio-8080-exec-6] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==>  Preparing: select id, title, summary, cover_img, view_num, price, create_time, online, point FROM video LIMIT ? 
+2019-02-14 16:12:16.972 logback [http-nio-8080-exec-6] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==> Parameters: 30(Integer)
+2019-02-14 16:12:17.023 logback [http-nio-8080-exec-6] DEBUG c.u.c.mapper.VideoMapper.findVoides - <==      Total: 9
+2019-02-14 16:12:34.113 logback [http-nio-8080-exec-2] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==>  Preparing: SELECT count(0) FROM video 
+2019-02-14 16:12:34.114 logback [http-nio-8080-exec-2] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==> Parameters: 
+2019-02-14 16:12:34.168 logback [http-nio-8080-exec-2] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - <==      Total: 1
+2019-02-14 16:12:34.169 logback [http-nio-8080-exec-2] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==>  Preparing: select id, title, summary, cover_img, view_num, price, create_time, online, point FROM video LIMIT ? 
+2019-02-14 16:12:34.170 logback [http-nio-8080-exec-2] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==> Parameters: 30(Integer)
+2019-02-14 16:12:34.211 logback [http-nio-8080-exec-2] DEBUG c.u.c.mapper.VideoMapper.findVoides - <==      Total: 9
+2019-02-14 16:12:50.507 logback [http-nio-8080-exec-3] DEBUG c.u.c.m.U.findUserByOptionId - ==>  Preparing: SELECT * from user where openid=? 
+2019-02-14 16:12:50.508 logback [http-nio-8080-exec-3] DEBUG c.u.c.m.U.findUserByOptionId - ==> Parameters: oYW4K0zZ8u9ehQ4KUIAuKeekLb5g(String)
+2019-02-14 16:12:50.578 logback [http-nio-8080-exec-3] DEBUG c.u.c.m.U.findUserByOptionId - <==      Total: 1
+2019-02-14 16:12:55.343 logback [http-nio-8080-exec-5] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==>  Preparing: SELECT count(0) FROM video 
+2019-02-14 16:12:55.344 logback [http-nio-8080-exec-5] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==> Parameters: 
+2019-02-14 16:12:55.418 logback [http-nio-8080-exec-5] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - <==      Total: 1
+2019-02-14 16:12:55.419 logback [http-nio-8080-exec-5] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==>  Preparing: select id, title, summary, cover_img, view_num, price, create_time, online, point FROM video LIMIT ? 
+2019-02-14 16:12:55.419 logback [http-nio-8080-exec-5] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==> Parameters: 30(Integer)
+2019-02-14 16:12:55.455 logback [http-nio-8080-exec-5] DEBUG c.u.c.mapper.VideoMapper.findVoides - <==      Total: 9
+2019-02-14 16:14:13.815 logback [http-nio-8080-exec-10] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==>  Preparing: SELECT count(0) FROM video 
+2019-02-14 16:14:13.815 logback [http-nio-8080-exec-10] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==> Parameters: 
+2019-02-14 16:14:13.846 logback [http-nio-8080-exec-10] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - <==      Total: 1
+2019-02-14 16:14:13.847 logback [http-nio-8080-exec-10] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==>  Preparing: select id, title, summary, cover_img, view_num, price, create_time, online, point FROM video LIMIT ? 
+2019-02-14 16:14:13.847 logback [http-nio-8080-exec-10] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==> Parameters: 30(Integer)
+2019-02-14 16:14:13.897 logback [http-nio-8080-exec-10] DEBUG c.u.c.mapper.VideoMapper.findVoides - <==      Total: 9
+2019-02-14 16:14:21.703 logback [http-nio-8080-exec-2] DEBUG c.u.c.m.U.findUserByOptionId - ==>  Preparing: SELECT * from user where openid=? 
+2019-02-14 16:14:21.703 logback [http-nio-8080-exec-2] DEBUG c.u.c.m.U.findUserByOptionId - ==> Parameters: oYW4K0zZ8u9ehQ4KUIAuKeekLb5g(String)
+2019-02-14 16:14:21.737 logback [http-nio-8080-exec-2] DEBUG c.u.c.m.U.findUserByOptionId - <==      Total: 1
+2019-02-14 16:14:25.557 logback [http-nio-8080-exec-3] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==>  Preparing: SELECT count(0) FROM video 
+2019-02-14 16:14:25.558 logback [http-nio-8080-exec-3] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==> Parameters: 
+2019-02-14 16:14:25.606 logback [http-nio-8080-exec-3] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - <==      Total: 1
+2019-02-14 16:14:25.607 logback [http-nio-8080-exec-3] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==>  Preparing: select id, title, summary, cover_img, view_num, price, create_time, online, point FROM video LIMIT ? 
+2019-02-14 16:14:25.608 logback [http-nio-8080-exec-3] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==> Parameters: 30(Integer)
+2019-02-14 16:14:25.659 logback [http-nio-8080-exec-3] DEBUG c.u.c.mapper.VideoMapper.findVoides - <==      Total: 9
+2019-02-14 16:15:36.850 logback [http-nio-8080-exec-1] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==>  Preparing: SELECT count(0) FROM video 
+2019-02-14 16:15:36.870 logback [http-nio-8080-exec-1] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==> Parameters: 
+2019-02-14 16:15:36.943 logback [http-nio-8080-exec-1] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - <==      Total: 1
+2019-02-14 16:15:36.945 logback [http-nio-8080-exec-1] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==>  Preparing: select id, title, summary, cover_img, view_num, price, create_time, online, point FROM video LIMIT ? 
+2019-02-14 16:15:36.946 logback [http-nio-8080-exec-1] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==> Parameters: 30(Integer)
+2019-02-14 16:15:36.987 logback [http-nio-8080-exec-1] DEBUG c.u.c.mapper.VideoMapper.findVoides - <==      Total: 9
+2019-02-14 16:15:45.081 logback [http-nio-8080-exec-3] DEBUG c.u.c.m.U.findUserByOptionId - ==>  Preparing: SELECT * from user where openid=? 
+2019-02-14 16:15:45.082 logback [http-nio-8080-exec-3] DEBUG c.u.c.m.U.findUserByOptionId - ==> Parameters: oYW4K0zZ8u9ehQ4KUIAuKeekLb5g(String)
+2019-02-14 16:15:45.131 logback [http-nio-8080-exec-3] DEBUG c.u.c.m.U.findUserByOptionId - <==      Total: 1
+2019-02-14 16:15:49.122 logback [http-nio-8080-exec-5] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==>  Preparing: SELECT count(0) FROM video 
+2019-02-14 16:15:49.122 logback [http-nio-8080-exec-5] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==> Parameters: 
+2019-02-14 16:15:49.175 logback [http-nio-8080-exec-5] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - <==      Total: 1
+2019-02-14 16:15:49.176 logback [http-nio-8080-exec-5] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==>  Preparing: select id, title, summary, cover_img, view_num, price, create_time, online, point FROM video LIMIT ? 
+2019-02-14 16:15:49.177 logback [http-nio-8080-exec-5] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==> Parameters: 30(Integer)
+2019-02-14 16:15:49.210 logback [http-nio-8080-exec-5] DEBUG c.u.c.mapper.VideoMapper.findVoides - <==      Total: 9
+2019-02-14 16:16:58.445 logback [http-nio-8080-exec-10] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==>  Preparing: SELECT count(0) FROM video 
+2019-02-14 16:16:58.445 logback [http-nio-8080-exec-10] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==> Parameters: 
+2019-02-14 16:16:58.493 logback [http-nio-8080-exec-10] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - <==      Total: 1
+2019-02-14 16:16:58.494 logback [http-nio-8080-exec-10] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==>  Preparing: select id, title, summary, cover_img, view_num, price, create_time, online, point FROM video LIMIT ? 
+2019-02-14 16:16:58.494 logback [http-nio-8080-exec-10] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==> Parameters: 30(Integer)
+2019-02-14 16:16:58.534 logback [http-nio-8080-exec-10] DEBUG c.u.c.mapper.VideoMapper.findVoides - <==      Total: 9
+2019-02-14 16:17:07.552 logback [http-nio-8080-exec-4] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==>  Preparing: SELECT count(0) FROM video 
+2019-02-14 16:17:07.553 logback [http-nio-8080-exec-4] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==> Parameters: 
+2019-02-14 16:17:07.607 logback [http-nio-8080-exec-4] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - <==      Total: 1
+2019-02-14 16:17:07.609 logback [http-nio-8080-exec-4] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==>  Preparing: select id, title, summary, cover_img, view_num, price, create_time, online, point FROM video LIMIT ? 
+2019-02-14 16:17:07.609 logback [http-nio-8080-exec-4] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==> Parameters: 30(Integer)
+2019-02-14 16:17:07.657 logback [http-nio-8080-exec-4] DEBUG c.u.c.mapper.VideoMapper.findVoides - <==      Total: 9
+2019-02-14 16:17:15.846 logback [http-nio-8080-exec-5] DEBUG c.u.c.m.U.findUserByOptionId - ==>  Preparing: SELECT * from user where openid=? 
+2019-02-14 16:17:15.850 logback [http-nio-8080-exec-5] DEBUG c.u.c.m.U.findUserByOptionId - ==> Parameters: oYW4K0zZ8u9ehQ4KUIAuKeekLb5g(String)
+2019-02-14 16:17:15.896 logback [http-nio-8080-exec-5] DEBUG c.u.c.m.U.findUserByOptionId - <==      Total: 1
+2019-02-14 16:17:16.316 logback [http-nio-8080-exec-7] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==>  Preparing: SELECT count(0) FROM video 
+2019-02-14 16:17:16.317 logback [http-nio-8080-exec-7] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==> Parameters: 
+2019-02-14 16:17:16.366 logback [http-nio-8080-exec-7] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - <==      Total: 1
+2019-02-14 16:17:16.367 logback [http-nio-8080-exec-7] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==>  Preparing: select id, title, summary, cover_img, view_num, price, create_time, online, point FROM video LIMIT ? 
+2019-02-14 16:17:16.367 logback [http-nio-8080-exec-7] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==> Parameters: 30(Integer)
+2019-02-14 16:17:16.415 logback [http-nio-8080-exec-7] DEBUG c.u.c.mapper.VideoMapper.findVoides - <==      Total: 9
+2019-02-14 16:17:44.700 logback [http-nio-8080-exec-3] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==>  Preparing: SELECT count(0) FROM video 
+2019-02-14 16:17:44.700 logback [http-nio-8080-exec-3] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==> Parameters: 
+2019-02-14 16:17:44.733 logback [http-nio-8080-exec-3] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - <==      Total: 1
+2019-02-14 16:17:44.734 logback [http-nio-8080-exec-3] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==>  Preparing: select id, title, summary, cover_img, view_num, price, create_time, online, point FROM video LIMIT ? 
+2019-02-14 16:17:44.735 logback [http-nio-8080-exec-3] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==> Parameters: 30(Integer)
+2019-02-14 16:17:44.814 logback [http-nio-8080-exec-3] DEBUG c.u.c.mapper.VideoMapper.findVoides - <==      Total: 9
+2019-02-14 16:17:52.240 logback [http-nio-8080-exec-8] DEBUG c.u.c.m.U.findUserByOptionId - ==>  Preparing: SELECT * from user where openid=? 
+2019-02-14 16:17:52.241 logback [http-nio-8080-exec-8] DEBUG c.u.c.m.U.findUserByOptionId - ==> Parameters: oYW4K0zZ8u9ehQ4KUIAuKeekLb5g(String)
+2019-02-14 16:17:52.296 logback [http-nio-8080-exec-8] DEBUG c.u.c.m.U.findUserByOptionId - <==      Total: 1
+2019-02-14 16:17:53.137 logback [http-nio-8080-exec-7] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==>  Preparing: SELECT count(0) FROM video 
+2019-02-14 16:17:53.138 logback [http-nio-8080-exec-7] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==> Parameters: 
+2019-02-14 16:17:53.212 logback [http-nio-8080-exec-7] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - <==      Total: 1
+2019-02-14 16:17:53.215 logback [http-nio-8080-exec-7] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==>  Preparing: select id, title, summary, cover_img, view_num, price, create_time, online, point FROM video LIMIT ? 
+2019-02-14 16:17:53.215 logback [http-nio-8080-exec-7] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==> Parameters: 30(Integer)
+2019-02-14 16:17:53.249 logback [http-nio-8080-exec-7] DEBUG c.u.c.mapper.VideoMapper.findVoides - <==      Total: 9
+2019-02-14 16:18:24.807 logback [http-nio-8080-exec-6] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==>  Preparing: SELECT count(0) FROM video 
+2019-02-14 16:18:24.808 logback [http-nio-8080-exec-6] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==> Parameters: 
+2019-02-14 16:18:24.845 logback [http-nio-8080-exec-6] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - <==      Total: 1
+2019-02-14 16:18:24.846 logback [http-nio-8080-exec-6] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==>  Preparing: select id, title, summary, cover_img, view_num, price, create_time, online, point FROM video LIMIT ? 
+2019-02-14 16:18:24.847 logback [http-nio-8080-exec-6] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==> Parameters: 30(Integer)
+2019-02-14 16:18:24.886 logback [http-nio-8080-exec-6] DEBUG c.u.c.mapper.VideoMapper.findVoides - <==      Total: 9
+2019-02-14 16:18:34.512 logback [http-nio-8080-exec-8] DEBUG c.u.c.m.U.findUserByOptionId - ==>  Preparing: SELECT * from user where openid=? 
+2019-02-14 16:18:34.512 logback [http-nio-8080-exec-8] DEBUG c.u.c.m.U.findUserByOptionId - ==> Parameters: oYW4K0zZ8u9ehQ4KUIAuKeekLb5g(String)
+2019-02-14 16:18:34.585 logback [http-nio-8080-exec-8] DEBUG c.u.c.m.U.findUserByOptionId - <==      Total: 1
+2019-02-14 16:18:35.419 logback [http-nio-8080-exec-2] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==>  Preparing: SELECT count(0) FROM video 
+2019-02-14 16:18:35.420 logback [http-nio-8080-exec-2] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==> Parameters: 
+2019-02-14 16:18:35.476 logback [http-nio-8080-exec-2] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - <==      Total: 1
+2019-02-14 16:18:35.477 logback [http-nio-8080-exec-2] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==>  Preparing: select id, title, summary, cover_img, view_num, price, create_time, online, point FROM video LIMIT ? 
+2019-02-14 16:18:35.479 logback [http-nio-8080-exec-2] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==> Parameters: 30(Integer)
+2019-02-14 16:18:35.534 logback [http-nio-8080-exec-2] DEBUG c.u.c.mapper.VideoMapper.findVoides - <==      Total: 9
+2019-02-14 16:18:56.591 logback [http-nio-8080-exec-3] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==>  Preparing: SELECT count(0) FROM video 
+2019-02-14 16:18:56.592 logback [http-nio-8080-exec-3] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==> Parameters: 
+2019-02-14 16:18:56.647 logback [http-nio-8080-exec-3] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - <==      Total: 1
+2019-02-14 16:18:56.650 logback [http-nio-8080-exec-3] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==>  Preparing: select id, title, summary, cover_img, view_num, price, create_time, online, point FROM video LIMIT ? 
+2019-02-14 16:18:56.651 logback [http-nio-8080-exec-3] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==> Parameters: 30(Integer)
+2019-02-14 16:18:56.686 logback [http-nio-8080-exec-3] DEBUG c.u.c.mapper.VideoMapper.findVoides - <==      Total: 9
+2019-02-14 16:19:03.860 logback [http-nio-8080-exec-4] DEBUG c.u.c.m.U.findUserByOptionId - ==>  Preparing: SELECT * from user where openid=? 
+2019-02-14 16:19:03.860 logback [http-nio-8080-exec-4] DEBUG c.u.c.m.U.findUserByOptionId - ==> Parameters: oYW4K0xwr36_wYmgSgrfP1fQI6_4(String)
+2019-02-14 16:19:03.892 logback [http-nio-8080-exec-4] DEBUG c.u.c.m.U.findUserByOptionId - <==      Total: 1
+2019-02-14 16:19:04.793 logback [http-nio-8080-exec-7] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==>  Preparing: SELECT count(0) FROM video 
+2019-02-14 16:19:04.794 logback [http-nio-8080-exec-7] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==> Parameters: 
+2019-02-14 16:19:04.892 logback [http-nio-8080-exec-7] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - <==      Total: 1
+2019-02-14 16:19:04.893 logback [http-nio-8080-exec-7] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==>  Preparing: select id, title, summary, cover_img, view_num, price, create_time, online, point FROM video LIMIT ? 
+2019-02-14 16:19:04.894 logback [http-nio-8080-exec-7] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==> Parameters: 30(Integer)
+2019-02-14 16:19:04.954 logback [http-nio-8080-exec-7] DEBUG c.u.c.mapper.VideoMapper.findVoides - <==      Total: 9
+2019-02-14 16:20:14.603 logback [http-nio-8080-exec-1] DEBUG c.u.com.mapper.VideoMapper.fingById - ==>  Preparing: SELECT * from video where id=? 
+2019-02-14 16:20:14.626 logback [http-nio-8080-exec-1] DEBUG c.u.com.mapper.VideoMapper.fingById - ==> Parameters: 1(Integer)
+2019-02-14 16:20:14.717 logback [http-nio-8080-exec-1] DEBUG c.u.com.mapper.VideoMapper.fingById - <==      Total: 1
+2019-02-14 16:20:14.718 logback [http-nio-8080-exec-1] DEBUG c.u.com.mapper.UserMapper.fingById - ==>  Preparing: SELECT * from user where id=? 
+2019-02-14 16:20:14.719 logback [http-nio-8080-exec-1] DEBUG c.u.com.mapper.UserMapper.fingById - ==> Parameters: 3(Integer)
+2019-02-14 16:20:14.806 logback [http-nio-8080-exec-1] DEBUG c.u.com.mapper.UserMapper.fingById - <==      Total: 1
+2019-02-14 16:20:14.809 logback [http-nio-8080-exec-1] DEBUG c.u.c.mapper.VideoOrderMapper.insert - ==>  Preparing: INSERT INTO `video_order` ( `openid`, `out_trade_no`, `state`, `create_time`, `total_fee`, `nickname`, `head_img`, `video_id`, `video_title`, `video_img`, `user_id`, `ip`, `del` ) VALUES ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? ) 
+2019-02-14 16:20:14.811 logback [http-nio-8080-exec-1] DEBUG c.u.c.mapper.VideoOrderMapper.insert - ==> Parameters: oYW4K0xwr36_wYmgSgrfP1fQI6_4(String), 578921333d80447d965a6929e976e5bc(String), 0(Integer), 2019-02-14 16:20:14.808(Timestamp), 10(Integer), 叫叔叔(String), http://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKerOHGs8VAMTErznrIezIWHvk9Zibs2EyPicRYtMmfBmyFI2u5nujKAIPwC8CJ4okPiaGPPx2qbvI3A/132(String), 1(Integer), SpringBoot+Maven整合Websocket课程(String), https://xd-video-pc-img.oss-cn-beijing.aliyuncs.com/upload/video/video_cover.png(String), 3(Integer), 192.168.43.45(String), 0(Integer)
+2019-02-14 16:20:14.892 logback [http-nio-8080-exec-1] DEBUG c.u.c.mapper.VideoOrderMapper.insert - <==    Updates: 1
+2019-02-14 16:20:34.724 logback [http-nio-8080-exec-3] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==>  Preparing: SELECT count(0) FROM video 
+2019-02-14 16:20:34.725 logback [http-nio-8080-exec-3] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==> Parameters: 
+2019-02-14 16:20:34.771 logback [http-nio-8080-exec-3] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - <==      Total: 1
+2019-02-14 16:20:34.773 logback [http-nio-8080-exec-3] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==>  Preparing: select id, title, summary, cover_img, view_num, price, create_time, online, point FROM video LIMIT ? 
+2019-02-14 16:20:34.774 logback [http-nio-8080-exec-3] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==> Parameters: 30(Integer)
+2019-02-14 16:20:34.816 logback [http-nio-8080-exec-3] DEBUG c.u.c.mapper.VideoMapper.findVoides - <==      Total: 9
+2019-02-14 16:22:40.819 logback [http-nio-8080-exec-7] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==>  Preparing: SELECT count(0) FROM video 
+2019-02-14 16:22:40.821 logback [http-nio-8080-exec-7] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==> Parameters: 
+2019-02-14 16:22:40.847 logback [http-nio-8080-exec-7] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - <==      Total: 1
+2019-02-14 16:22:40.849 logback [http-nio-8080-exec-7] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==>  Preparing: select id, title, summary, cover_img, view_num, price, create_time, online, point FROM video LIMIT ? 
+2019-02-14 16:22:40.850 logback [http-nio-8080-exec-7] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==> Parameters: 30(Integer)
+2019-02-14 16:22:40.902 logback [http-nio-8080-exec-7] DEBUG c.u.c.mapper.VideoMapper.findVoides - <==      Total: 9
+2019-02-14 16:22:48.795 logback [http-nio-8080-exec-9] DEBUG c.u.c.m.U.findUserByOptionId - ==>  Preparing: SELECT * from user where openid=? 
+2019-02-14 16:22:48.796 logback [http-nio-8080-exec-9] DEBUG c.u.c.m.U.findUserByOptionId - ==> Parameters: oYW4K0xwr36_wYmgSgrfP1fQI6_4(String)
+2019-02-14 16:22:48.846 logback [http-nio-8080-exec-9] DEBUG c.u.c.m.U.findUserByOptionId - <==      Total: 1
+2019-02-14 16:22:49.440 logback [http-nio-8080-exec-1] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==>  Preparing: SELECT count(0) FROM video 
+2019-02-14 16:22:49.441 logback [http-nio-8080-exec-1] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==> Parameters: 
+2019-02-14 16:22:49.486 logback [http-nio-8080-exec-1] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - <==      Total: 1
+2019-02-14 16:22:49.487 logback [http-nio-8080-exec-1] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==>  Preparing: select id, title, summary, cover_img, view_num, price, create_time, online, point FROM video LIMIT ? 
+2019-02-14 16:22:49.487 logback [http-nio-8080-exec-1] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==> Parameters: 30(Integer)
+2019-02-14 16:22:49.531 logback [http-nio-8080-exec-1] DEBUG c.u.c.mapper.VideoMapper.findVoides - <==      Total: 9
+2019-02-14 16:23:18.765 logback [http-nio-8080-exec-7] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==>  Preparing: SELECT count(0) FROM video 
+2019-02-14 16:23:18.765 logback [http-nio-8080-exec-7] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==> Parameters: 
+2019-02-14 16:23:18.801 logback [http-nio-8080-exec-7] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - <==      Total: 1
+2019-02-14 16:23:18.802 logback [http-nio-8080-exec-7] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==>  Preparing: select id, title, summary, cover_img, view_num, price, create_time, online, point FROM video LIMIT ? 
+2019-02-14 16:23:18.802 logback [http-nio-8080-exec-7] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==> Parameters: 30(Integer)
+2019-02-14 16:23:18.857 logback [http-nio-8080-exec-7] DEBUG c.u.c.mapper.VideoMapper.findVoides - <==      Total: 9
+2019-02-14 16:23:30.024 logback [http-nio-8080-exec-9] DEBUG c.u.c.m.U.findUserByOptionId - ==>  Preparing: SELECT * from user where openid=? 
+2019-02-14 16:23:30.024 logback [http-nio-8080-exec-9] DEBUG c.u.c.m.U.findUserByOptionId - ==> Parameters: oYW4K0zZ8u9ehQ4KUIAuKeekLb5g(String)
+2019-02-14 16:23:30.172 logback [http-nio-8080-exec-9] DEBUG c.u.c.m.U.findUserByOptionId - <==      Total: 1
+2019-02-14 16:23:30.823 logback [http-nio-8080-exec-10] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==>  Preparing: SELECT count(0) FROM video 
+2019-02-14 16:23:30.824 logback [http-nio-8080-exec-10] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==> Parameters: 
+2019-02-14 16:23:30.892 logback [http-nio-8080-exec-10] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - <==      Total: 1
+2019-02-14 16:23:30.893 logback [http-nio-8080-exec-10] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==>  Preparing: select id, title, summary, cover_img, view_num, price, create_time, online, point FROM video LIMIT ? 
+2019-02-14 16:23:30.893 logback [http-nio-8080-exec-10] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==> Parameters: 30(Integer)
+2019-02-14 16:23:30.922 logback [http-nio-8080-exec-10] DEBUG c.u.c.mapper.VideoMapper.findVoides - <==      Total: 9
+2019-02-14 16:24:07.183 logback [http-nio-8080-exec-5] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==>  Preparing: SELECT count(0) FROM video 
+2019-02-14 16:24:07.184 logback [http-nio-8080-exec-5] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==> Parameters: 
+2019-02-14 16:24:07.250 logback [http-nio-8080-exec-5] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - <==      Total: 1
+2019-02-14 16:24:07.255 logback [http-nio-8080-exec-5] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==>  Preparing: select id, title, summary, cover_img, view_num, price, create_time, online, point FROM video LIMIT ? 
+2019-02-14 16:24:07.256 logback [http-nio-8080-exec-5] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==> Parameters: 30(Integer)
+2019-02-14 16:24:07.300 logback [http-nio-8080-exec-5] DEBUG c.u.c.mapper.VideoMapper.findVoides - <==      Total: 9
+2019-02-14 16:24:23.393 logback [http-nio-8080-exec-8] DEBUG c.u.c.m.U.findUserByOptionId - ==>  Preparing: SELECT * from user where openid=? 
+2019-02-14 16:24:23.393 logback [http-nio-8080-exec-8] DEBUG c.u.c.m.U.findUserByOptionId - ==> Parameters: oYW4K0zZ8u9ehQ4KUIAuKeekLb5g(String)
+2019-02-14 16:24:23.445 logback [http-nio-8080-exec-8] DEBUG c.u.c.m.U.findUserByOptionId - <==      Total: 1
+2019-02-14 16:24:24.242 logback [http-nio-8080-exec-7] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==>  Preparing: SELECT count(0) FROM video 
+2019-02-14 16:24:24.242 logback [http-nio-8080-exec-7] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==> Parameters: 
+2019-02-14 16:24:24.281 logback [http-nio-8080-exec-7] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - <==      Total: 1
+2019-02-14 16:24:24.281 logback [http-nio-8080-exec-7] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==>  Preparing: select id, title, summary, cover_img, view_num, price, create_time, online, point FROM video LIMIT ? 
+2019-02-14 16:24:24.282 logback [http-nio-8080-exec-7] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==> Parameters: 30(Integer)
+2019-02-14 16:24:24.322 logback [http-nio-8080-exec-7] DEBUG c.u.c.mapper.VideoMapper.findVoides - <==      Total: 9
+2019-02-14 16:24:59.937 logback [http-nio-8080-exec-4] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==>  Preparing: SELECT count(0) FROM video 
+2019-02-14 16:24:59.938 logback [http-nio-8080-exec-4] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==> Parameters: 
+2019-02-14 16:25:00.007 logback [http-nio-8080-exec-4] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - <==      Total: 1
+2019-02-14 16:25:00.009 logback [http-nio-8080-exec-4] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==>  Preparing: select id, title, summary, cover_img, view_num, price, create_time, online, point FROM video LIMIT ? 
+2019-02-14 16:25:00.009 logback [http-nio-8080-exec-4] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==> Parameters: 30(Integer)
+2019-02-14 16:25:00.047 logback [http-nio-8080-exec-4] DEBUG c.u.c.mapper.VideoMapper.findVoides - <==      Total: 9
+2019-02-14 16:25:07.777 logback [http-nio-8080-exec-6] DEBUG c.u.c.m.U.findUserByOptionId - ==>  Preparing: SELECT * from user where openid=? 
+2019-02-14 16:25:07.778 logback [http-nio-8080-exec-6] DEBUG c.u.c.m.U.findUserByOptionId - ==> Parameters: oYW4K0zZ8u9ehQ4KUIAuKeekLb5g(String)
+2019-02-14 16:25:07.802 logback [http-nio-8080-exec-6] DEBUG c.u.c.m.U.findUserByOptionId - <==      Total: 1
+2019-02-14 16:25:08.239 logback [http-nio-8080-exec-5] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==>  Preparing: SELECT count(0) FROM video 
+2019-02-14 16:25:08.239 logback [http-nio-8080-exec-5] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==> Parameters: 
+2019-02-14 16:25:08.290 logback [http-nio-8080-exec-5] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - <==      Total: 1
+2019-02-14 16:25:08.291 logback [http-nio-8080-exec-5] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==>  Preparing: select id, title, summary, cover_img, view_num, price, create_time, online, point FROM video LIMIT ? 
+2019-02-14 16:25:08.292 logback [http-nio-8080-exec-5] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==> Parameters: 30(Integer)
+2019-02-14 16:25:08.336 logback [http-nio-8080-exec-5] DEBUG c.u.c.mapper.VideoMapper.findVoides - <==      Total: 9
+2019-02-14 16:26:17.281 logback [http-nio-8080-exec-10] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==>  Preparing: SELECT count(0) FROM video 
+2019-02-14 16:26:17.281 logback [http-nio-8080-exec-10] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==> Parameters: 
+2019-02-14 16:26:17.334 logback [http-nio-8080-exec-10] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - <==      Total: 1
+2019-02-14 16:26:17.335 logback [http-nio-8080-exec-10] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==>  Preparing: select id, title, summary, cover_img, view_num, price, create_time, online, point FROM video LIMIT ? 
+2019-02-14 16:26:17.335 logback [http-nio-8080-exec-10] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==> Parameters: 30(Integer)
+2019-02-14 16:26:17.364 logback [http-nio-8080-exec-10] DEBUG c.u.c.mapper.VideoMapper.findVoides - <==      Total: 9
+2019-02-14 16:26:26.980 logback [http-nio-8080-exec-3] DEBUG c.u.c.m.U.findUserByOptionId - ==>  Preparing: SELECT * from user where openid=? 
+2019-02-14 16:26:26.980 logback [http-nio-8080-exec-3] DEBUG c.u.c.m.U.findUserByOptionId - ==> Parameters: oYW4K0zZ8u9ehQ4KUIAuKeekLb5g(String)
+2019-02-14 16:26:27.010 logback [http-nio-8080-exec-3] DEBUG c.u.c.m.U.findUserByOptionId - <==      Total: 1
+2019-02-14 16:26:27.554 logback [http-nio-8080-exec-4] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==>  Preparing: SELECT count(0) FROM video 
+2019-02-14 16:26:27.555 logback [http-nio-8080-exec-4] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==> Parameters: 
+2019-02-14 16:26:27.608 logback [http-nio-8080-exec-4] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - <==      Total: 1
+2019-02-14 16:26:27.609 logback [http-nio-8080-exec-4] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==>  Preparing: select id, title, summary, cover_img, view_num, price, create_time, online, point FROM video LIMIT ? 
+2019-02-14 16:26:27.609 logback [http-nio-8080-exec-4] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==> Parameters: 30(Integer)
+2019-02-14 16:26:27.645 logback [http-nio-8080-exec-4] DEBUG c.u.c.mapper.VideoMapper.findVoides - <==      Total: 9
+2019-02-14 16:27:30.879 logback [http-nio-8080-exec-7] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==>  Preparing: SELECT count(0) FROM video 
+2019-02-14 16:27:30.879 logback [http-nio-8080-exec-7] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==> Parameters: 
+2019-02-14 16:27:30.928 logback [http-nio-8080-exec-7] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - <==      Total: 1
+2019-02-14 16:27:30.930 logback [http-nio-8080-exec-7] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==>  Preparing: select id, title, summary, cover_img, view_num, price, create_time, online, point FROM video LIMIT ? 
+2019-02-14 16:27:30.930 logback [http-nio-8080-exec-7] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==> Parameters: 30(Integer)
+2019-02-14 16:27:30.969 logback [http-nio-8080-exec-7] DEBUG c.u.c.mapper.VideoMapper.findVoides - <==      Total: 9
+2019-02-14 16:27:43.939 logback [http-nio-8080-exec-2] DEBUG c.u.c.m.U.findUserByOptionId - ==>  Preparing: SELECT * from user where openid=? 
+2019-02-14 16:27:43.940 logback [http-nio-8080-exec-2] DEBUG c.u.c.m.U.findUserByOptionId - ==> Parameters: oYW4K0zZ8u9ehQ4KUIAuKeekLb5g(String)
+2019-02-14 16:27:43.985 logback [http-nio-8080-exec-2] DEBUG c.u.c.m.U.findUserByOptionId - <==      Total: 1
+2019-02-14 16:27:44.655 logback [http-nio-8080-exec-10] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==>  Preparing: SELECT count(0) FROM video 
+2019-02-14 16:27:44.655 logback [http-nio-8080-exec-10] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==> Parameters: 
+2019-02-14 16:27:44.721 logback [http-nio-8080-exec-10] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - <==      Total: 1
+2019-02-14 16:27:44.722 logback [http-nio-8080-exec-10] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==>  Preparing: select id, title, summary, cover_img, view_num, price, create_time, online, point FROM video LIMIT ? 
+2019-02-14 16:27:44.722 logback [http-nio-8080-exec-10] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==> Parameters: 30(Integer)
+2019-02-14 16:27:44.772 logback [http-nio-8080-exec-10] DEBUG c.u.c.mapper.VideoMapper.findVoides - <==      Total: 9
+2019-02-14 16:28:48.678 logback [http-nio-8080-exec-5] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==>  Preparing: SELECT count(0) FROM video 
+2019-02-14 16:28:48.678 logback [http-nio-8080-exec-5] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==> Parameters: 
+2019-02-14 16:28:48.726 logback [http-nio-8080-exec-5] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - <==      Total: 1
+2019-02-14 16:28:48.727 logback [http-nio-8080-exec-5] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==>  Preparing: select id, title, summary, cover_img, view_num, price, create_time, online, point FROM video LIMIT ? 
+2019-02-14 16:28:48.727 logback [http-nio-8080-exec-5] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==> Parameters: 30(Integer)
+2019-02-14 16:28:48.768 logback [http-nio-8080-exec-5] DEBUG c.u.c.mapper.VideoMapper.findVoides - <==      Total: 9
+2019-02-14 16:29:13.690 logback [http-nio-8080-exec-1] DEBUG c.u.c.m.U.findUserByOptionId - ==>  Preparing: SELECT * from user where openid=? 
+2019-02-14 16:29:13.690 logback [http-nio-8080-exec-1] DEBUG c.u.c.m.U.findUserByOptionId - ==> Parameters: oYW4K0zZ8u9ehQ4KUIAuKeekLb5g(String)
+2019-02-14 16:29:13.729 logback [http-nio-8080-exec-1] DEBUG c.u.c.m.U.findUserByOptionId - <==      Total: 1
+2019-02-14 16:29:14.277 logback [http-nio-8080-exec-7] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==>  Preparing: SELECT count(0) FROM video 
+2019-02-14 16:29:14.278 logback [http-nio-8080-exec-7] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==> Parameters: 
+2019-02-14 16:29:14.337 logback [http-nio-8080-exec-7] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - <==      Total: 1
+2019-02-14 16:29:14.338 logback [http-nio-8080-exec-7] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==>  Preparing: select id, title, summary, cover_img, view_num, price, create_time, online, point FROM video LIMIT ? 
+2019-02-14 16:29:14.338 logback [http-nio-8080-exec-7] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==> Parameters: 30(Integer)
+2019-02-14 16:29:14.418 logback [http-nio-8080-exec-7] DEBUG c.u.c.mapper.VideoMapper.findVoides - <==      Total: 9
+2019-02-14 16:30:18.610 logback [http-nio-8080-exec-4] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==>  Preparing: SELECT count(0) FROM video 
+2019-02-14 16:30:18.610 logback [http-nio-8080-exec-4] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==> Parameters: 
+2019-02-14 16:30:18.656 logback [http-nio-8080-exec-4] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - <==      Total: 1
+2019-02-14 16:30:18.658 logback [http-nio-8080-exec-4] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==>  Preparing: select id, title, summary, cover_img, view_num, price, create_time, online, point FROM video LIMIT ? 
+2019-02-14 16:30:18.659 logback [http-nio-8080-exec-4] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==> Parameters: 30(Integer)
+2019-02-14 16:30:18.727 logback [http-nio-8080-exec-4] DEBUG c.u.c.mapper.VideoMapper.findVoides - <==      Total: 9
+2019-02-14 16:30:34.263 logback [http-nio-8080-exec-8] DEBUG c.u.c.m.U.findUserByOptionId - ==>  Preparing: SELECT * from user where openid=? 
+2019-02-14 16:30:34.264 logback [http-nio-8080-exec-8] DEBUG c.u.c.m.U.findUserByOptionId - ==> Parameters: oYW4K0zZ8u9ehQ4KUIAuKeekLb5g(String)
+2019-02-14 16:30:34.324 logback [http-nio-8080-exec-8] DEBUG c.u.c.m.U.findUserByOptionId - <==      Total: 1
+2019-02-14 16:30:35.002 logback [http-nio-8080-exec-9] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==>  Preparing: SELECT count(0) FROM video 
+2019-02-14 16:30:35.003 logback [http-nio-8080-exec-9] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==> Parameters: 
+2019-02-14 16:30:35.064 logback [http-nio-8080-exec-9] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - <==      Total: 1
+2019-02-14 16:30:35.065 logback [http-nio-8080-exec-9] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==>  Preparing: select id, title, summary, cover_img, view_num, price, create_time, online, point FROM video LIMIT ? 
+2019-02-14 16:30:35.065 logback [http-nio-8080-exec-9] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==> Parameters: 30(Integer)
+2019-02-14 16:30:35.118 logback [http-nio-8080-exec-9] DEBUG c.u.c.mapper.VideoMapper.findVoides - <==      Total: 9
+2019-02-14 16:36:48.195 logback [http-nio-8080-exec-2] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==>  Preparing: SELECT count(0) FROM video 
+2019-02-14 16:36:48.195 logback [http-nio-8080-exec-2] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==> Parameters: 
+2019-02-14 16:36:48.243 logback [http-nio-8080-exec-2] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - <==      Total: 1
+2019-02-14 16:36:48.244 logback [http-nio-8080-exec-2] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==>  Preparing: select id, title, summary, cover_img, view_num, price, create_time, online, point FROM video LIMIT ? 
+2019-02-14 16:36:48.244 logback [http-nio-8080-exec-2] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==> Parameters: 30(Integer)
+2019-02-14 16:36:48.275 logback [http-nio-8080-exec-2] DEBUG c.u.c.mapper.VideoMapper.findVoides - <==      Total: 9
+2019-02-14 16:37:03.284 logback [http-nio-8080-exec-10] DEBUG c.u.c.m.U.findUserByOptionId - ==>  Preparing: SELECT * from user where openid=? 
+2019-02-14 16:37:03.284 logback [http-nio-8080-exec-10] DEBUG c.u.c.m.U.findUserByOptionId - ==> Parameters: oYW4K0zZ8u9ehQ4KUIAuKeekLb5g(String)
+2019-02-14 16:37:03.315 logback [http-nio-8080-exec-10] DEBUG c.u.c.m.U.findUserByOptionId - <==      Total: 1
+2019-02-14 16:37:03.949 logback [http-nio-8080-exec-4] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==>  Preparing: SELECT count(0) FROM video 
+2019-02-14 16:37:03.949 logback [http-nio-8080-exec-4] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==> Parameters: 
+2019-02-14 16:37:03.994 logback [http-nio-8080-exec-4] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - <==      Total: 1
+2019-02-14 16:37:03.995 logback [http-nio-8080-exec-4] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==>  Preparing: select id, title, summary, cover_img, view_num, price, create_time, online, point FROM video LIMIT ? 
+2019-02-14 16:37:03.995 logback [http-nio-8080-exec-4] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==> Parameters: 30(Integer)
+2019-02-14 16:37:04.061 logback [http-nio-8080-exec-4] DEBUG c.u.c.mapper.VideoMapper.findVoides - <==      Total: 9
+2019-02-14 16:37:36.012 logback [http-nio-8080-exec-1] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==>  Preparing: SELECT count(0) FROM video 
+2019-02-14 16:37:36.012 logback [http-nio-8080-exec-1] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==> Parameters: 
+2019-02-14 16:37:36.042 logback [http-nio-8080-exec-1] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - <==      Total: 1
+2019-02-14 16:37:36.042 logback [http-nio-8080-exec-1] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==>  Preparing: select id, title, summary, cover_img, view_num, price, create_time, online, point FROM video LIMIT ? 
+2019-02-14 16:37:36.043 logback [http-nio-8080-exec-1] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==> Parameters: 30(Integer)
+2019-02-14 16:37:36.075 logback [http-nio-8080-exec-1] DEBUG c.u.c.mapper.VideoMapper.findVoides - <==      Total: 9
+2019-02-14 16:37:51.642 logback [http-nio-8080-exec-10] DEBUG c.u.c.m.U.findUserByOptionId - ==>  Preparing: SELECT * from user where openid=? 
+2019-02-14 16:37:51.643 logback [http-nio-8080-exec-10] DEBUG c.u.c.m.U.findUserByOptionId - ==> Parameters: oYW4K0zZ8u9ehQ4KUIAuKeekLb5g(String)
+2019-02-14 16:37:51.679 logback [http-nio-8080-exec-10] DEBUG c.u.c.m.U.findUserByOptionId - <==      Total: 1
+2019-02-14 16:37:52.696 logback [http-nio-8080-exec-6] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==>  Preparing: SELECT count(0) FROM video 
+2019-02-14 16:37:52.696 logback [http-nio-8080-exec-6] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==> Parameters: 
+2019-02-14 16:37:52.751 logback [http-nio-8080-exec-6] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - <==      Total: 1
+2019-02-14 16:37:52.752 logback [http-nio-8080-exec-6] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==>  Preparing: select id, title, summary, cover_img, view_num, price, create_time, online, point FROM video LIMIT ? 
+2019-02-14 16:37:52.753 logback [http-nio-8080-exec-6] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==> Parameters: 30(Integer)
+2019-02-14 16:37:52.803 logback [http-nio-8080-exec-6] DEBUG c.u.c.mapper.VideoMapper.findVoides - <==      Total: 9
+2019-02-14 16:42:00.305 logback [http-nio-8080-exec-7] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==>  Preparing: SELECT count(0) FROM video 
+2019-02-14 16:42:00.306 logback [http-nio-8080-exec-7] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==> Parameters: 
+2019-02-14 16:42:00.360 logback [http-nio-8080-exec-7] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - <==      Total: 1
+2019-02-14 16:42:00.361 logback [http-nio-8080-exec-7] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==>  Preparing: select id, title, summary, cover_img, view_num, price, create_time, online, point FROM video LIMIT ? 
+2019-02-14 16:42:00.362 logback [http-nio-8080-exec-7] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==> Parameters: 30(Integer)
+2019-02-14 16:42:00.398 logback [http-nio-8080-exec-7] DEBUG c.u.c.mapper.VideoMapper.findVoides - <==      Total: 9
+2019-02-14 16:42:16.076 logback [http-nio-8080-exec-3] DEBUG c.u.c.m.U.findUserByOptionId - ==>  Preparing: SELECT * from user where openid=? 
+2019-02-14 16:42:16.077 logback [http-nio-8080-exec-3] DEBUG c.u.c.m.U.findUserByOptionId - ==> Parameters: oYW4K0zZ8u9ehQ4KUIAuKeekLb5g(String)
+2019-02-14 16:42:16.117 logback [http-nio-8080-exec-3] DEBUG c.u.c.m.U.findUserByOptionId - <==      Total: 1
+2019-02-14 16:42:16.898 logback [http-nio-8080-exec-2] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==>  Preparing: SELECT count(0) FROM video 
+2019-02-14 16:42:16.899 logback [http-nio-8080-exec-2] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==> Parameters: 
+2019-02-14 16:42:16.969 logback [http-nio-8080-exec-2] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - <==      Total: 1
+2019-02-14 16:42:16.969 logback [http-nio-8080-exec-2] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==>  Preparing: select id, title, summary, cover_img, view_num, price, create_time, online, point FROM video LIMIT ? 
+2019-02-14 16:42:16.970 logback [http-nio-8080-exec-2] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==> Parameters: 30(Integer)
+2019-02-14 16:42:17.020 logback [http-nio-8080-exec-2] DEBUG c.u.c.mapper.VideoMapper.findVoides - <==      Total: 9
+2019-02-14 16:53:39.652 logback [http-nio-8080-exec-9] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==>  Preparing: SELECT count(0) FROM video 
+2019-02-14 16:53:39.652 logback [http-nio-8080-exec-9] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==> Parameters: 
+2019-02-14 16:53:39.746 logback [http-nio-8080-exec-9] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - <==      Total: 1
+2019-02-14 16:53:39.748 logback [http-nio-8080-exec-9] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==>  Preparing: select id, title, summary, cover_img, view_num, price, create_time, online, point FROM video LIMIT ? 
+2019-02-14 16:53:39.749 logback [http-nio-8080-exec-9] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==> Parameters: 30(Integer)
+2019-02-14 16:53:39.833 logback [http-nio-8080-exec-9] DEBUG c.u.c.mapper.VideoMapper.findVoides - <==      Total: 9
+2019-02-14 16:53:49.311 logback [http-nio-8080-exec-3] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==>  Preparing: SELECT count(0) FROM video 
+2019-02-14 16:53:49.311 logback [http-nio-8080-exec-3] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==> Parameters: 
+2019-02-14 16:53:49.346 logback [http-nio-8080-exec-3] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - <==      Total: 1
+2019-02-14 16:53:49.347 logback [http-nio-8080-exec-3] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==>  Preparing: select id, title, summary, cover_img, view_num, price, create_time, online, point FROM video LIMIT ? 
+2019-02-14 16:53:49.347 logback [http-nio-8080-exec-3] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==> Parameters: 30(Integer)
+2019-02-14 16:53:49.403 logback [http-nio-8080-exec-3] DEBUG c.u.c.mapper.VideoMapper.findVoides - <==      Total: 9
+2019-02-14 16:54:08.444 logback [http-nio-8080-exec-2] DEBUG c.u.c.m.U.findUserByOptionId - ==>  Preparing: SELECT * from user where openid=? 
+2019-02-14 16:54:08.445 logback [http-nio-8080-exec-2] DEBUG c.u.c.m.U.findUserByOptionId - ==> Parameters: oYW4K0zZ8u9ehQ4KUIAuKeekLb5g(String)
+2019-02-14 16:54:08.473 logback [http-nio-8080-exec-2] DEBUG c.u.c.m.U.findUserByOptionId - <==      Total: 1
+2019-02-14 16:54:09.004 logback [http-nio-8080-exec-4] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==>  Preparing: SELECT count(0) FROM video 
+2019-02-14 16:54:09.004 logback [http-nio-8080-exec-4] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==> Parameters: 
+2019-02-14 16:54:09.043 logback [http-nio-8080-exec-4] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - <==      Total: 1
+2019-02-14 16:54:09.044 logback [http-nio-8080-exec-4] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==>  Preparing: select id, title, summary, cover_img, view_num, price, create_time, online, point FROM video LIMIT ? 
+2019-02-14 16:54:09.044 logback [http-nio-8080-exec-4] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==> Parameters: 30(Integer)
+2019-02-14 16:54:09.079 logback [http-nio-8080-exec-4] DEBUG c.u.c.mapper.VideoMapper.findVoides - <==      Total: 9
+2019-02-14 16:56:13.077 logback [http-nio-8080-exec-7] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==>  Preparing: SELECT count(0) FROM video 
+2019-02-14 16:56:13.077 logback [http-nio-8080-exec-7] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==> Parameters: 
+2019-02-14 16:56:13.107 logback [http-nio-8080-exec-7] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - <==      Total: 1
+2019-02-14 16:56:13.108 logback [http-nio-8080-exec-7] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==>  Preparing: select id, title, summary, cover_img, view_num, price, create_time, online, point FROM video LIMIT ? 
+2019-02-14 16:56:13.108 logback [http-nio-8080-exec-7] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==> Parameters: 30(Integer)
+2019-02-14 16:56:13.150 logback [http-nio-8080-exec-7] DEBUG c.u.c.mapper.VideoMapper.findVoides - <==      Total: 9
+2019-02-14 16:56:40.344 logback [http-nio-8080-exec-2] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==>  Preparing: SELECT count(0) FROM video 
+2019-02-14 16:56:40.344 logback [http-nio-8080-exec-2] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==> Parameters: 
+2019-02-14 16:56:40.386 logback [http-nio-8080-exec-2] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - <==      Total: 1
+2019-02-14 16:56:40.387 logback [http-nio-8080-exec-2] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==>  Preparing: select id, title, summary, cover_img, view_num, price, create_time, online, point FROM video LIMIT ? 
+2019-02-14 16:56:40.387 logback [http-nio-8080-exec-2] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==> Parameters: 30(Integer)
+2019-02-14 16:56:40.429 logback [http-nio-8080-exec-2] DEBUG c.u.c.mapper.VideoMapper.findVoides - <==      Total: 9
+2019-02-14 16:56:53.585 logback [http-nio-8080-exec-4] DEBUG c.u.c.m.U.findUserByOptionId - ==>  Preparing: SELECT * from user where openid=? 
+2019-02-14 16:56:53.585 logback [http-nio-8080-exec-4] DEBUG c.u.c.m.U.findUserByOptionId - ==> Parameters: oYW4K0zZ8u9ehQ4KUIAuKeekLb5g(String)
+2019-02-14 16:56:53.635 logback [http-nio-8080-exec-4] DEBUG c.u.c.m.U.findUserByOptionId - <==      Total: 1
+2019-02-14 16:56:54.344 logback [http-nio-8080-exec-6] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==>  Preparing: SELECT count(0) FROM video 
+2019-02-14 16:56:54.344 logback [http-nio-8080-exec-6] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==> Parameters: 
+2019-02-14 16:56:54.389 logback [http-nio-8080-exec-6] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - <==      Total: 1
+2019-02-14 16:56:54.394 logback [http-nio-8080-exec-6] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==>  Preparing: select id, title, summary, cover_img, view_num, price, create_time, online, point FROM video LIMIT ? 
+2019-02-14 16:56:54.396 logback [http-nio-8080-exec-6] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==> Parameters: 30(Integer)
+2019-02-14 16:56:54.436 logback [http-nio-8080-exec-6] DEBUG c.u.c.mapper.VideoMapper.findVoides - <==      Total: 9
+2019-02-14 16:59:26.027 logback [http-nio-8080-exec-10] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==>  Preparing: SELECT count(0) FROM video 
+2019-02-14 16:59:26.027 logback [http-nio-8080-exec-10] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==> Parameters: 
+2019-02-14 16:59:26.082 logback [http-nio-8080-exec-10] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - <==      Total: 1
+2019-02-14 16:59:26.083 logback [http-nio-8080-exec-10] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==>  Preparing: select id, title, summary, cover_img, view_num, price, create_time, online, point FROM video LIMIT ? 
+2019-02-14 16:59:26.083 logback [http-nio-8080-exec-10] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==> Parameters: 30(Integer)
+2019-02-14 16:59:26.107 logback [http-nio-8080-exec-10] DEBUG c.u.c.mapper.VideoMapper.findVoides - <==      Total: 9
+2019-02-14 16:59:39.963 logback [http-nio-8080-exec-8] DEBUG c.u.c.m.U.findUserByOptionId - ==>  Preparing: SELECT * from user where openid=? 
+2019-02-14 16:59:39.964 logback [http-nio-8080-exec-8] DEBUG c.u.c.m.U.findUserByOptionId - ==> Parameters: oYW4K0zZ8u9ehQ4KUIAuKeekLb5g(String)
+2019-02-14 16:59:40.033 logback [http-nio-8080-exec-8] DEBUG c.u.c.m.U.findUserByOptionId - <==      Total: 1
+2019-02-14 16:59:40.540 logback [http-nio-8080-exec-2] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==>  Preparing: SELECT count(0) FROM video 
+2019-02-14 16:59:40.540 logback [http-nio-8080-exec-2] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==> Parameters: 
+2019-02-14 16:59:40.628 logback [http-nio-8080-exec-2] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - <==      Total: 1
+2019-02-14 16:59:40.633 logback [http-nio-8080-exec-2] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==>  Preparing: select id, title, summary, cover_img, view_num, price, create_time, online, point FROM video LIMIT ? 
+2019-02-14 16:59:40.633 logback [http-nio-8080-exec-2] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==> Parameters: 30(Integer)
+2019-02-14 16:59:40.668 logback [http-nio-8080-exec-2] DEBUG c.u.c.mapper.VideoMapper.findVoides - <==      Total: 9
+2019-02-14 17:06:02.392 logback [http-nio-8080-exec-1] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==>  Preparing: SELECT count(0) FROM video 
+2019-02-14 17:06:02.393 logback [http-nio-8080-exec-1] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==> Parameters: 
+2019-02-14 17:06:02.422 logback [http-nio-8080-exec-1] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - <==      Total: 1
+2019-02-14 17:06:02.423 logback [http-nio-8080-exec-1] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==>  Preparing: select id, title, summary, cover_img, view_num, price, create_time, online, point FROM video LIMIT ? 
+2019-02-14 17:06:02.423 logback [http-nio-8080-exec-1] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==> Parameters: 30(Integer)
+2019-02-14 17:06:02.474 logback [http-nio-8080-exec-1] DEBUG c.u.c.mapper.VideoMapper.findVoides - <==      Total: 9
+2019-02-14 17:06:20.202 logback [http-nio-8080-exec-3] DEBUG c.u.c.m.U.findUserByOptionId - ==>  Preparing: SELECT * from user where openid=? 
+2019-02-14 17:06:20.202 logback [http-nio-8080-exec-3] DEBUG c.u.c.m.U.findUserByOptionId - ==> Parameters: oYW4K0zZ8u9ehQ4KUIAuKeekLb5g(String)
+2019-02-14 17:06:20.227 logback [http-nio-8080-exec-3] DEBUG c.u.c.m.U.findUserByOptionId - <==      Total: 1
+2019-02-14 17:06:20.827 logback [http-nio-8080-exec-10] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==>  Preparing: SELECT count(0) FROM video 
+2019-02-14 17:06:20.828 logback [http-nio-8080-exec-10] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==> Parameters: 
+2019-02-14 17:06:20.864 logback [http-nio-8080-exec-10] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - <==      Total: 1
+2019-02-14 17:06:20.865 logback [http-nio-8080-exec-10] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==>  Preparing: select id, title, summary, cover_img, view_num, price, create_time, online, point FROM video LIMIT ? 
+2019-02-14 17:06:20.865 logback [http-nio-8080-exec-10] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==> Parameters: 30(Integer)
+2019-02-14 17:06:20.966 logback [http-nio-8080-exec-10] DEBUG c.u.c.mapper.VideoMapper.findVoides - <==      Total: 9
+2019-02-14 17:12:02.307 logback [http-nio-8080-exec-6] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==>  Preparing: SELECT count(0) FROM video 
+2019-02-14 17:12:02.307 logback [http-nio-8080-exec-6] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==> Parameters: 
+2019-02-14 17:12:02.338 logback [http-nio-8080-exec-6] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - <==      Total: 1
+2019-02-14 17:12:02.339 logback [http-nio-8080-exec-6] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==>  Preparing: select id, title, summary, cover_img, view_num, price, create_time, online, point FROM video LIMIT ? 
+2019-02-14 17:12:02.339 logback [http-nio-8080-exec-6] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==> Parameters: 30(Integer)
+2019-02-14 17:12:02.399 logback [http-nio-8080-exec-6] DEBUG c.u.c.mapper.VideoMapper.findVoides - <==      Total: 9
+2019-02-14 17:12:42.137 logback [http-nio-8080-exec-7] DEBUG c.u.c.m.U.findUserByOptionId - ==>  Preparing: SELECT * from user where openid=? 
+2019-02-14 17:12:42.137 logback [http-nio-8080-exec-7] DEBUG c.u.c.m.U.findUserByOptionId - ==> Parameters: oYW4K0zZ8u9ehQ4KUIAuKeekLb5g(String)
+2019-02-14 17:12:42.182 logback [http-nio-8080-exec-7] DEBUG c.u.c.m.U.findUserByOptionId - <==      Total: 1
+2019-02-14 17:12:42.845 logback [http-nio-8080-exec-1] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==>  Preparing: SELECT count(0) FROM video 
+2019-02-14 17:12:42.846 logback [http-nio-8080-exec-1] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==> Parameters: 
+2019-02-14 17:12:42.901 logback [http-nio-8080-exec-1] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - <==      Total: 1
+2019-02-14 17:12:42.901 logback [http-nio-8080-exec-1] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==>  Preparing: select id, title, summary, cover_img, view_num, price, create_time, online, point FROM video LIMIT ? 
+2019-02-14 17:12:42.901 logback [http-nio-8080-exec-1] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==> Parameters: 30(Integer)
+2019-02-14 17:12:42.948 logback [http-nio-8080-exec-1] DEBUG c.u.c.mapper.VideoMapper.findVoides - <==      Total: 9
+2019-02-14 17:12:49.158 logback [http-nio-8080-exec-8] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==>  Preparing: SELECT count(0) FROM video 
+2019-02-14 17:12:49.158 logback [http-nio-8080-exec-8] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==> Parameters: 
+2019-02-14 17:12:49.185 logback [http-nio-8080-exec-8] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - <==      Total: 1
+2019-02-14 17:12:49.185 logback [http-nio-8080-exec-8] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==>  Preparing: select id, title, summary, cover_img, view_num, price, create_time, online, point FROM video LIMIT ? 
+2019-02-14 17:12:49.185 logback [http-nio-8080-exec-8] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==> Parameters: 30(Integer)
+2019-02-14 17:12:49.232 logback [http-nio-8080-exec-8] DEBUG c.u.c.mapper.VideoMapper.findVoides - <==      Total: 9
+2019-02-14 17:13:37.541 logback [http-nio-8080-exec-3] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==>  Preparing: SELECT count(0) FROM video 
+2019-02-14 17:13:37.566 logback [http-nio-8080-exec-3] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==> Parameters: 
+2019-02-14 17:13:37.650 logback [http-nio-8080-exec-3] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - <==      Total: 1
+2019-02-14 17:13:37.652 logback [http-nio-8080-exec-3] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==>  Preparing: select id, title, summary, cover_img, view_num, price, create_time, online, point FROM video LIMIT ? 
+2019-02-14 17:13:37.653 logback [http-nio-8080-exec-3] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==> Parameters: 30(Integer)
+2019-02-14 17:13:37.709 logback [http-nio-8080-exec-3] DEBUG c.u.c.mapper.VideoMapper.findVoides - <==      Total: 9
+2019-02-14 17:13:42.069 logback [http-nio-8080-exec-4] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==>  Preparing: SELECT count(0) FROM video 
+2019-02-14 17:13:42.070 logback [http-nio-8080-exec-4] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==> Parameters: 
+2019-02-14 17:13:42.099 logback [http-nio-8080-exec-4] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - <==      Total: 1
+2019-02-14 17:13:42.100 logback [http-nio-8080-exec-4] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==>  Preparing: select id, title, summary, cover_img, view_num, price, create_time, online, point FROM video LIMIT ? 
+2019-02-14 17:13:42.100 logback [http-nio-8080-exec-4] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==> Parameters: 30(Integer)
+2019-02-14 17:13:42.153 logback [http-nio-8080-exec-4] DEBUG c.u.c.mapper.VideoMapper.findVoides - <==      Total: 9
+2019-02-14 17:14:00.107 logback [http-nio-8080-exec-8] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==>  Preparing: SELECT count(0) FROM video 
+2019-02-14 17:14:00.115 logback [http-nio-8080-exec-8] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==> Parameters: 
+2019-02-14 17:14:00.138 logback [http-nio-8080-exec-8] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - <==      Total: 1
+2019-02-14 17:14:00.139 logback [http-nio-8080-exec-8] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==>  Preparing: select id, title, summary, cover_img, view_num, price, create_time, online, point FROM video LIMIT ? 
+2019-02-14 17:14:00.139 logback [http-nio-8080-exec-8] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==> Parameters: 30(Integer)
+2019-02-14 17:14:00.187 logback [http-nio-8080-exec-8] DEBUG c.u.c.mapper.VideoMapper.findVoides - <==      Total: 9
+2019-02-14 17:14:11.036 logback [http-nio-8080-exec-5] DEBUG c.u.c.m.U.findUserByOptionId - ==>  Preparing: SELECT * from user where openid=? 
+2019-02-14 17:14:11.037 logback [http-nio-8080-exec-5] DEBUG c.u.c.m.U.findUserByOptionId - ==> Parameters: oYW4K0zZ8u9ehQ4KUIAuKeekLb5g(String)
+2019-02-14 17:14:11.066 logback [http-nio-8080-exec-5] DEBUG c.u.c.m.U.findUserByOptionId - <==      Total: 1
+2019-02-14 17:14:11.732 logback [http-nio-8080-exec-9] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==>  Preparing: SELECT count(0) FROM video 
+2019-02-14 17:14:11.733 logback [http-nio-8080-exec-9] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==> Parameters: 
+2019-02-14 17:14:11.782 logback [http-nio-8080-exec-9] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - <==      Total: 1
+2019-02-14 17:14:11.784 logback [http-nio-8080-exec-9] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==>  Preparing: select id, title, summary, cover_img, view_num, price, create_time, online, point FROM video LIMIT ? 
+2019-02-14 17:14:11.786 logback [http-nio-8080-exec-9] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==> Parameters: 30(Integer)
+2019-02-14 17:14:11.830 logback [http-nio-8080-exec-9] DEBUG c.u.c.mapper.VideoMapper.findVoides - <==      Total: 9
+2019-02-14 17:15:40.823 logback [http-nio-8080-exec-4] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==>  Preparing: SELECT count(0) FROM video 
+2019-02-14 17:15:40.824 logback [http-nio-8080-exec-4] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==> Parameters: 
+2019-02-14 17:15:40.872 logback [http-nio-8080-exec-4] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - <==      Total: 1
+2019-02-14 17:15:40.876 logback [http-nio-8080-exec-4] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==>  Preparing: select id, title, summary, cover_img, view_num, price, create_time, online, point FROM video LIMIT ? 
+2019-02-14 17:15:40.877 logback [http-nio-8080-exec-4] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==> Parameters: 30(Integer)
+2019-02-14 17:15:40.907 logback [http-nio-8080-exec-4] DEBUG c.u.c.mapper.VideoMapper.findVoides - <==      Total: 9
+2019-02-14 17:15:57.247 logback [http-nio-8080-exec-1] DEBUG c.u.c.m.U.findUserByOptionId - ==>  Preparing: SELECT * from user where openid=? 
+2019-02-14 17:15:57.247 logback [http-nio-8080-exec-1] DEBUG c.u.c.m.U.findUserByOptionId - ==> Parameters: oYW4K0zZ8u9ehQ4KUIAuKeekLb5g(String)
+2019-02-14 17:15:57.306 logback [http-nio-8080-exec-1] DEBUG c.u.c.m.U.findUserByOptionId - <==      Total: 1
+2019-02-14 17:15:58.008 logback [http-nio-8080-exec-8] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==>  Preparing: SELECT count(0) FROM video 
+2019-02-14 17:15:58.008 logback [http-nio-8080-exec-8] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==> Parameters: 
+2019-02-14 17:15:58.073 logback [http-nio-8080-exec-8] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - <==      Total: 1
+2019-02-14 17:15:58.074 logback [http-nio-8080-exec-8] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==>  Preparing: select id, title, summary, cover_img, view_num, price, create_time, online, point FROM video LIMIT ? 
+2019-02-14 17:15:58.074 logback [http-nio-8080-exec-8] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==> Parameters: 30(Integer)
+2019-02-14 17:15:58.151 logback [http-nio-8080-exec-8] DEBUG c.u.c.mapper.VideoMapper.findVoides - <==      Total: 9
+2019-02-14 17:19:31.783 logback [http-nio-8080-exec-2] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==>  Preparing: SELECT count(0) FROM video 
+2019-02-14 17:19:31.783 logback [http-nio-8080-exec-2] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==> Parameters: 
+2019-02-14 17:19:31.817 logback [http-nio-8080-exec-2] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - <==      Total: 1
+2019-02-14 17:19:31.819 logback [http-nio-8080-exec-2] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==>  Preparing: select id, title, summary, cover_img, view_num, price, create_time, online, point FROM video LIMIT ? 
+2019-02-14 17:19:31.819 logback [http-nio-8080-exec-2] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==> Parameters: 30(Integer)
+2019-02-14 17:19:31.908 logback [http-nio-8080-exec-2] DEBUG c.u.c.mapper.VideoMapper.findVoides - <==      Total: 9
+2019-02-14 17:25:37.216 logback [http-nio-8080-exec-1] DEBUG c.u.c.m.U.findUserByOptionId - ==>  Preparing: SELECT * from user where openid=? 
+2019-02-14 17:25:37.216 logback [http-nio-8080-exec-1] DEBUG c.u.c.m.U.findUserByOptionId - ==> Parameters: oYW4K0zZ8u9ehQ4KUIAuKeekLb5g(String)
+2019-02-14 17:25:37.227 logback [http-nio-8080-exec-1] DEBUG c.u.c.m.U.findUserByOptionId - <==      Total: 1
+2019-02-14 17:25:37.670 logback [http-nio-8080-exec-5] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==>  Preparing: SELECT count(0) FROM video 
+2019-02-14 17:25:37.671 logback [http-nio-8080-exec-5] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==> Parameters: 
+2019-02-14 17:25:37.682 logback [http-nio-8080-exec-5] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - <==      Total: 1
+2019-02-14 17:25:37.683 logback [http-nio-8080-exec-5] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==>  Preparing: select id, title, summary, cover_img, view_num, price, create_time, online, point FROM video LIMIT ? 
+2019-02-14 17:25:37.684 logback [http-nio-8080-exec-5] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==> Parameters: 30(Integer)
+2019-02-14 17:25:37.700 logback [http-nio-8080-exec-5] DEBUG c.u.c.mapper.VideoMapper.findVoides - <==      Total: 9
+2019-02-14 17:26:15.004 logback [http-nio-8080-exec-10] DEBUG c.u.com.mapper.VideoMapper.fingById - ==>  Preparing: SELECT * from video where id=? 
+2019-02-14 17:26:15.007 logback [http-nio-8080-exec-10] DEBUG c.u.com.mapper.VideoMapper.fingById - ==> Parameters: 1(Integer)
+2019-02-14 17:26:15.017 logback [http-nio-8080-exec-10] DEBUG c.u.com.mapper.VideoMapper.fingById - <==      Total: 1
+2019-02-14 17:26:15.019 logback [http-nio-8080-exec-10] DEBUG c.u.com.mapper.UserMapper.fingById - ==>  Preparing: SELECT * from user where id=? 
+2019-02-14 17:26:15.020 logback [http-nio-8080-exec-10] DEBUG c.u.com.mapper.UserMapper.fingById - ==> Parameters: 1(Integer)
+2019-02-14 17:26:15.031 logback [http-nio-8080-exec-10] DEBUG c.u.com.mapper.UserMapper.fingById - <==      Total: 1
+2019-02-14 17:26:15.033 logback [http-nio-8080-exec-10] DEBUG c.u.c.mapper.VideoOrderMapper.insert - ==>  Preparing: INSERT INTO `video_order` ( `openid`, `out_trade_no`, `state`, `create_time`, `total_fee`, `nickname`, `head_img`, `video_id`, `video_title`, `video_img`, `user_id`, `ip`, `del` ) VALUES ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? ) 
+2019-02-14 17:26:15.035 logback [http-nio-8080-exec-10] DEBUG c.u.c.mapper.VideoOrderMapper.insert - ==> Parameters: oYW4K0zZ8u9ehQ4KUIAuKeekLb5g(String), c72c32b054634cf4a77a1ef86ce30a11(String), 0(Integer), 2019-02-14 17:26:15.032(Timestamp), 10(Integer), 默ゎ(String), http://thirdwx.qlogo.cn/mmopen/vi_32/pxHbtpj05DZqbIkic8TmKAH437LfnnQqaaI4GKNVicsqBGvZ6pmpOChyahRVKiaIweriaj9fooWZnNLjohQ8iavDib1Q/132(String), 1(Integer), SpringBoot+Maven整合Websocket课程(String), https://xd-video-pc-img.oss-cn-beijing.aliyuncs.com/upload/video/video_cover.png(String), 1(Integer), 10.6.45.30(String), 0(Integer)
+2019-02-14 17:26:15.064 logback [http-nio-8080-exec-10] DEBUG c.u.c.mapper.VideoOrderMapper.insert - <==    Updates: 1
+2019-02-14 17:27:44.499 logback [http-nio-8080-exec-2] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==>  Preparing: SELECT count(0) FROM video 
+2019-02-14 17:27:44.519 logback [http-nio-8080-exec-2] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==> Parameters: 
+2019-02-14 17:27:44.546 logback [http-nio-8080-exec-2] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - <==      Total: 1
+2019-02-14 17:27:44.548 logback [http-nio-8080-exec-2] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==>  Preparing: select id, title, summary, cover_img, view_num, price, create_time, online, point FROM video LIMIT ? 
+2019-02-14 17:27:44.549 logback [http-nio-8080-exec-2] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==> Parameters: 30(Integer)
+2019-02-14 17:27:44.562 logback [http-nio-8080-exec-2] DEBUG c.u.c.mapper.VideoMapper.findVoides - <==      Total: 9
+2019-02-14 17:28:00.278 logback [http-nio-8080-exec-6] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==>  Preparing: SELECT count(0) FROM video 
+2019-02-14 17:28:00.278 logback [http-nio-8080-exec-6] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==> Parameters: 
+2019-02-14 17:28:00.286 logback [http-nio-8080-exec-6] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - <==      Total: 1
+2019-02-14 17:28:00.287 logback [http-nio-8080-exec-6] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==>  Preparing: select id, title, summary, cover_img, view_num, price, create_time, online, point FROM video LIMIT ? 
+2019-02-14 17:28:00.287 logback [http-nio-8080-exec-6] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==> Parameters: 30(Integer)
+2019-02-14 17:28:00.302 logback [http-nio-8080-exec-6] DEBUG c.u.c.mapper.VideoMapper.findVoides - <==      Total: 9
+2019-02-14 17:28:10.911 logback [http-nio-8080-exec-7] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==>  Preparing: SELECT count(0) FROM video 
+2019-02-14 17:28:10.911 logback [http-nio-8080-exec-7] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==> Parameters: 
+2019-02-14 17:28:11.009 logback [http-nio-8080-exec-7] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - <==      Total: 1
+2019-02-14 17:28:11.010 logback [http-nio-8080-exec-7] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==>  Preparing: select id, title, summary, cover_img, view_num, price, create_time, online, point FROM video LIMIT ? 
+2019-02-14 17:28:11.011 logback [http-nio-8080-exec-7] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==> Parameters: 30(Integer)
+2019-02-14 17:28:11.026 logback [http-nio-8080-exec-7] DEBUG c.u.c.mapper.VideoMapper.findVoides - <==      Total: 9
+2019-02-14 17:28:23.081 logback [http-nio-8080-exec-4] DEBUG c.u.c.m.U.findUserByOptionId - ==>  Preparing: SELECT * from user where openid=? 
+2019-02-14 17:28:23.082 logback [http-nio-8080-exec-4] DEBUG c.u.c.m.U.findUserByOptionId - ==> Parameters: oYW4K0zZ8u9ehQ4KUIAuKeekLb5g(String)
+2019-02-14 17:28:23.094 logback [http-nio-8080-exec-4] DEBUG c.u.c.m.U.findUserByOptionId - <==      Total: 1
+2019-02-14 17:31:11.122 logback [http-nio-8080-exec-2] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==>  Preparing: SELECT count(0) FROM video 
+2019-02-14 17:31:11.144 logback [http-nio-8080-exec-2] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==> Parameters: 
+2019-02-14 17:31:11.170 logback [http-nio-8080-exec-2] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - <==      Total: 1
+2019-02-14 17:31:11.172 logback [http-nio-8080-exec-2] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==>  Preparing: select id, title, summary, cover_img, view_num, price, create_time, online, point FROM video LIMIT ? 
+2019-02-14 17:31:11.172 logback [http-nio-8080-exec-2] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==> Parameters: 30(Integer)
+2019-02-14 17:31:11.184 logback [http-nio-8080-exec-2] DEBUG c.u.c.mapper.VideoMapper.findVoides - <==      Total: 9
+2019-02-14 17:31:23.327 logback [http-nio-8080-exec-4] DEBUG c.u.c.m.U.findUserByOptionId - ==>  Preparing: SELECT * from user where openid=? 
+2019-02-14 17:31:23.327 logback [http-nio-8080-exec-4] DEBUG c.u.c.m.U.findUserByOptionId - ==> Parameters: oYW4K0zZ8u9ehQ4KUIAuKeekLb5g(String)
+2019-02-14 17:31:23.335 logback [http-nio-8080-exec-4] DEBUG c.u.c.m.U.findUserByOptionId - <==      Total: 1
+2019-02-14 17:31:23.853 logback [http-nio-8080-exec-5] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==>  Preparing: SELECT count(0) FROM video 
+2019-02-14 17:31:23.853 logback [http-nio-8080-exec-5] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==> Parameters: 
+2019-02-14 17:31:23.861 logback [http-nio-8080-exec-5] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - <==      Total: 1
+2019-02-14 17:31:23.863 logback [http-nio-8080-exec-5] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==>  Preparing: select id, title, summary, cover_img, view_num, price, create_time, online, point FROM video LIMIT ? 
+2019-02-14 17:31:23.863 logback [http-nio-8080-exec-5] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==> Parameters: 30(Integer)
+2019-02-14 17:31:23.884 logback [http-nio-8080-exec-5] DEBUG c.u.c.mapper.VideoMapper.findVoides - <==      Total: 9
+2019-02-14 17:32:43.702 logback [http-nio-8080-exec-1] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==>  Preparing: SELECT count(0) FROM video 
+2019-02-14 17:32:43.723 logback [http-nio-8080-exec-1] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==> Parameters: 
+2019-02-14 17:32:43.752 logback [http-nio-8080-exec-1] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - <==      Total: 1
+2019-02-14 17:32:43.755 logback [http-nio-8080-exec-1] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==>  Preparing: select id, title, summary, cover_img, view_num, price, create_time, online, point FROM video LIMIT ? 
+2019-02-14 17:32:43.755 logback [http-nio-8080-exec-1] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==> Parameters: 30(Integer)
+2019-02-14 17:32:43.768 logback [http-nio-8080-exec-1] DEBUG c.u.c.mapper.VideoMapper.findVoides - <==      Total: 9
+2019-02-14 17:32:56.790 logback [http-nio-8080-exec-3] DEBUG c.u.c.m.U.findUserByOptionId - ==>  Preparing: SELECT * from user where openid=? 
+2019-02-14 17:32:56.790 logback [http-nio-8080-exec-3] DEBUG c.u.c.m.U.findUserByOptionId - ==> Parameters: oYW4K0zZ8u9ehQ4KUIAuKeekLb5g(String)
+2019-02-14 17:32:56.800 logback [http-nio-8080-exec-3] DEBUG c.u.c.m.U.findUserByOptionId - <==      Total: 1
+2019-02-14 17:32:57.282 logback [http-nio-8080-exec-4] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==>  Preparing: SELECT count(0) FROM video 
+2019-02-14 17:32:57.283 logback [http-nio-8080-exec-4] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==> Parameters: 
+2019-02-14 17:32:57.292 logback [http-nio-8080-exec-4] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - <==      Total: 1
+2019-02-14 17:32:57.293 logback [http-nio-8080-exec-4] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==>  Preparing: select id, title, summary, cover_img, view_num, price, create_time, online, point FROM video LIMIT ? 
+2019-02-14 17:32:57.293 logback [http-nio-8080-exec-4] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==> Parameters: 30(Integer)
+2019-02-14 17:32:57.309 logback [http-nio-8080-exec-4] DEBUG c.u.c.mapper.VideoMapper.findVoides - <==      Total: 9
+2019-02-14 17:33:03.800 logback [http-nio-8080-exec-7] DEBUG c.u.com.mapper.VideoMapper.fingById - ==>  Preparing: SELECT * from video where id=? 
+2019-02-14 17:33:03.801 logback [http-nio-8080-exec-7] DEBUG c.u.com.mapper.VideoMapper.fingById - ==> Parameters: 1(Integer)
+2019-02-14 17:33:03.811 logback [http-nio-8080-exec-7] DEBUG c.u.com.mapper.VideoMapper.fingById - <==      Total: 1
+2019-02-14 17:33:03.811 logback [http-nio-8080-exec-7] DEBUG c.u.com.mapper.UserMapper.fingById - ==>  Preparing: SELECT * from user where id=? 
+2019-02-14 17:33:03.811 logback [http-nio-8080-exec-7] DEBUG c.u.com.mapper.UserMapper.fingById - ==> Parameters: 1(Integer)
+2019-02-14 17:33:03.821 logback [http-nio-8080-exec-7] DEBUG c.u.com.mapper.UserMapper.fingById - <==      Total: 1
+2019-02-14 17:33:03.822 logback [http-nio-8080-exec-7] DEBUG c.u.c.mapper.VideoOrderMapper.insert - ==>  Preparing: INSERT INTO `video_order` ( `openid`, `out_trade_no`, `state`, `create_time`, `total_fee`, `nickname`, `head_img`, `video_id`, `video_title`, `video_img`, `user_id`, `ip`, `del` ) VALUES ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? ) 
+2019-02-14 17:33:03.823 logback [http-nio-8080-exec-7] DEBUG c.u.c.mapper.VideoOrderMapper.insert - ==> Parameters: oYW4K0zZ8u9ehQ4KUIAuKeekLb5g(String), 1fea8d36dfa44afb99e4d6e63933ee04(String), 0(Integer), 2019-02-14 17:33:03.822(Timestamp), 10(Integer), 默ゎ(String), http://thirdwx.qlogo.cn/mmopen/vi_32/pxHbtpj05DZqbIkic8TmKAH437LfnnQqaaI4GKNVicsqBGvZ6pmpOChyahRVKiaIweriaj9fooWZnNLjohQ8iavDib1Q/132(String), 1(Integer), SpringBoot+Maven整合Websocket课程(String), https://xd-video-pc-img.oss-cn-beijing.aliyuncs.com/upload/video/video_cover.png(String), 1(Integer), 10.6.45.30(String), 0(Integer)
+2019-02-14 17:33:03.840 logback [http-nio-8080-exec-7] DEBUG c.u.c.mapper.VideoOrderMapper.insert - <==    Updates: 1
+2019-02-14 17:35:54.170 logback [http-nio-8080-exec-1] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==>  Preparing: SELECT count(0) FROM video 
+2019-02-14 17:35:54.198 logback [http-nio-8080-exec-1] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==> Parameters: 
+2019-02-14 17:35:54.252 logback [http-nio-8080-exec-1] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - <==      Total: 1
+2019-02-14 17:35:54.254 logback [http-nio-8080-exec-1] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==>  Preparing: select id, title, summary, cover_img, view_num, price, create_time, online, point FROM video LIMIT ? 
+2019-02-14 17:35:54.255 logback [http-nio-8080-exec-1] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==> Parameters: 30(Integer)
+2019-02-14 17:35:54.268 logback [http-nio-8080-exec-1] DEBUG c.u.c.mapper.VideoMapper.findVoides - <==      Total: 9
+2019-02-14 17:36:08.071 logback [http-nio-8080-exec-3] DEBUG c.u.c.m.U.findUserByOptionId - ==>  Preparing: SELECT * from user where openid=? 
+2019-02-14 17:36:08.072 logback [http-nio-8080-exec-3] DEBUG c.u.c.m.U.findUserByOptionId - ==> Parameters: oYW4K0zZ8u9ehQ4KUIAuKeekLb5g(String)
+2019-02-14 17:36:08.081 logback [http-nio-8080-exec-3] DEBUG c.u.c.m.U.findUserByOptionId - <==      Total: 1
+2019-02-14 17:36:08.595 logback [http-nio-8080-exec-4] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==>  Preparing: SELECT count(0) FROM video 
+2019-02-14 17:36:08.595 logback [http-nio-8080-exec-4] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==> Parameters: 
+2019-02-14 17:36:08.605 logback [http-nio-8080-exec-4] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - <==      Total: 1
+2019-02-14 17:36:08.606 logback [http-nio-8080-exec-4] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==>  Preparing: select id, title, summary, cover_img, view_num, price, create_time, online, point FROM video LIMIT ? 
+2019-02-14 17:36:08.606 logback [http-nio-8080-exec-4] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==> Parameters: 30(Integer)
+2019-02-14 17:36:08.621 logback [http-nio-8080-exec-4] DEBUG c.u.c.mapper.VideoMapper.findVoides - <==      Total: 9
+2019-02-14 17:37:16.776 logback [http-nio-8080-exec-2] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==>  Preparing: SELECT count(0) FROM video 
+2019-02-14 17:37:16.800 logback [http-nio-8080-exec-2] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==> Parameters: 
+2019-02-14 17:37:16.824 logback [http-nio-8080-exec-2] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - <==      Total: 1
+2019-02-14 17:37:16.827 logback [http-nio-8080-exec-2] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==>  Preparing: select id, title, summary, cover_img, view_num, price, create_time, online, point FROM video LIMIT ? 
+2019-02-14 17:37:16.827 logback [http-nio-8080-exec-2] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==> Parameters: 30(Integer)
+2019-02-14 17:37:16.839 logback [http-nio-8080-exec-2] DEBUG c.u.c.mapper.VideoMapper.findVoides - <==      Total: 9
+2019-02-14 17:37:46.400 logback [http-nio-8080-exec-3] DEBUG c.u.c.m.U.findUserByOptionId - ==>  Preparing: SELECT * from user where openid=? 
+2019-02-14 17:37:46.401 logback [http-nio-8080-exec-3] DEBUG c.u.c.m.U.findUserByOptionId - ==> Parameters: oYW4K0xwr36_wYmgSgrfP1fQI6_4(String)
+2019-02-14 17:37:46.409 logback [http-nio-8080-exec-3] DEBUG c.u.c.m.U.findUserByOptionId - <==      Total: 1
+2019-02-14 17:37:46.726 logback [http-nio-8080-exec-5] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==>  Preparing: SELECT count(0) FROM video 
+2019-02-14 17:37:46.726 logback [http-nio-8080-exec-5] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==> Parameters: 
+2019-02-14 17:37:46.735 logback [http-nio-8080-exec-5] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - <==      Total: 1
+2019-02-14 17:37:46.736 logback [http-nio-8080-exec-5] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==>  Preparing: select id, title, summary, cover_img, view_num, price, create_time, online, point FROM video LIMIT ? 
+2019-02-14 17:37:46.737 logback [http-nio-8080-exec-5] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==> Parameters: 30(Integer)
+2019-02-14 17:37:46.754 logback [http-nio-8080-exec-5] DEBUG c.u.c.mapper.VideoMapper.findVoides - <==      Total: 9
+2019-02-14 17:37:49.318 logback [http-nio-8080-exec-6] DEBUG c.u.com.mapper.VideoMapper.fingById - ==>  Preparing: SELECT * from video where id=? 
+2019-02-14 17:37:49.318 logback [http-nio-8080-exec-6] DEBUG c.u.com.mapper.VideoMapper.fingById - ==> Parameters: 1(Integer)
+2019-02-14 17:37:49.326 logback [http-nio-8080-exec-6] DEBUG c.u.com.mapper.VideoMapper.fingById - <==      Total: 1
+2019-02-14 17:37:49.330 logback [http-nio-8080-exec-6] DEBUG c.u.com.mapper.UserMapper.fingById - ==>  Preparing: SELECT * from user where id=? 
+2019-02-14 17:37:49.331 logback [http-nio-8080-exec-6] DEBUG c.u.com.mapper.UserMapper.fingById - ==> Parameters: 3(Integer)
+2019-02-14 17:37:49.340 logback [http-nio-8080-exec-6] DEBUG c.u.com.mapper.UserMapper.fingById - <==      Total: 1
+2019-02-14 17:37:49.342 logback [http-nio-8080-exec-6] DEBUG c.u.c.mapper.VideoOrderMapper.insert - ==>  Preparing: INSERT INTO `video_order` ( `openid`, `out_trade_no`, `state`, `create_time`, `total_fee`, `nickname`, `head_img`, `video_id`, `video_title`, `video_img`, `user_id`, `ip`, `del` ) VALUES ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? ) 
+2019-02-14 17:37:49.346 logback [http-nio-8080-exec-6] DEBUG c.u.c.mapper.VideoOrderMapper.insert - ==> Parameters: oYW4K0xwr36_wYmgSgrfP1fQI6_4(String), 261af73dc2f44b25b0499ae3e65609fe(String), 0(Integer), 2019-02-14 17:37:49.342(Timestamp), 10(Integer), 叫叔叔(String), http://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKerOHGs8VAMTErznrIezIWHvk9Zibs2EyPicRYtMmfBmyFI2u5nujKAIPwC8CJ4okPiaGPPx2qbvI3A/132(String), 1(Integer), SpringBoot+Maven整合Websocket课程(String), https://xd-video-pc-img.oss-cn-beijing.aliyuncs.com/upload/video/video_cover.png(String), 3(Integer), 10.6.45.30(String), 0(Integer)
+2019-02-14 17:37:49.361 logback [http-nio-8080-exec-6] DEBUG c.u.c.mapper.VideoOrderMapper.insert - <==    Updates: 1
+2019-02-14 17:39:31.446 logback [http-nio-8080-exec-7] DEBUG c.u.c.m.V.findOrderByOutTradeNo - ==>  Preparing: SELECT * from video_order where out_trade_no=? and del=0 
+2019-02-14 17:39:31.447 logback [http-nio-8080-exec-7] DEBUG c.u.c.m.V.findOrderByOutTradeNo - ==> Parameters: 261af73dc2f44b25b0499ae3e65609fe(String)
+2019-02-14 17:39:31.502 logback [http-nio-8080-exec-7] DEBUG c.u.c.m.V.findOrderByOutTradeNo - <==      Total: 1
+2019-02-14 17:39:31.503 logback [http-nio-8080-exec-7] DEBUG c.u.c.m.V.updateOrderState - ==>  Preparing: UPDATE video_order SET state = ?, notify_time=?, openid=? where out_trade_no=? and state=0 and del=0 
+2019-02-14 17:39:31.504 logback [http-nio-8080-exec-7] DEBUG c.u.c.m.V.updateOrderState - ==> Parameters: 1(Integer), 2019-02-14 17:39:31.503(Timestamp), oYW4K0xwr36_wYmgSgrfP1fQI6_4(String), 261af73dc2f44b25b0499ae3e65609fe(String)
+2019-02-14 17:39:31.527 logback [http-nio-8080-exec-7] DEBUG c.u.c.m.V.updateOrderState - <==    Updates: 1
+2019-02-14 17:39:31.531 logback [http-nio-8080-exec-2] DEBUG c.u.c.m.V.findOrderByOutTradeNo - ==>  Preparing: SELECT * from video_order where out_trade_no=? and del=0 
+2019-02-14 17:39:31.545 logback [http-nio-8080-exec-2] DEBUG c.u.c.m.V.findOrderByOutTradeNo - ==> Parameters: 261af73dc2f44b25b0499ae3e65609fe(String)
+2019-02-14 17:39:31.607 logback [http-nio-8080-exec-2] DEBUG c.u.c.m.V.findOrderByOutTradeNo - <==      Total: 1
+2019-02-14 17:39:31.609 logback [http-nio-8080-exec-4] DEBUG c.u.c.m.V.findOrderByOutTradeNo - ==>  Preparing: SELECT * from video_order where out_trade_no=? and del=0 
+2019-02-14 17:39:31.610 logback [http-nio-8080-exec-4] DEBUG c.u.c.m.V.findOrderByOutTradeNo - ==> Parameters: 261af73dc2f44b25b0499ae3e65609fe(String)
+2019-02-14 17:39:31.619 logback [http-nio-8080-exec-4] DEBUG c.u.c.m.V.findOrderByOutTradeNo - <==      Total: 1
+2019-02-14 17:39:31.619 logback [http-nio-8080-exec-3] DEBUG c.u.c.m.V.findOrderByOutTradeNo - ==>  Preparing: SELECT * from video_order where out_trade_no=? and del=0 
+2019-02-14 17:39:31.619 logback [http-nio-8080-exec-3] DEBUG c.u.c.m.V.findOrderByOutTradeNo - ==> Parameters: 261af73dc2f44b25b0499ae3e65609fe(String)
+2019-02-14 17:39:31.627 logback [http-nio-8080-exec-3] DEBUG c.u.c.m.V.findOrderByOutTradeNo - <==      Total: 1
+2019-02-14 17:40:30.222 logback [http-nio-8080-exec-9] DEBUG c.u.c.m.U.findUserByOptionId - ==>  Preparing: SELECT * from user where openid=? 
+2019-02-14 17:40:30.223 logback [http-nio-8080-exec-9] DEBUG c.u.c.m.U.findUserByOptionId - ==> Parameters: oYW4K0zZ8u9ehQ4KUIAuKeekLb5g(String)
+2019-02-14 17:40:30.239 logback [http-nio-8080-exec-9] DEBUG c.u.c.m.U.findUserByOptionId - <==      Total: 1
+2019-02-14 17:40:30.648 logback [http-nio-8080-exec-8] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==>  Preparing: SELECT count(0) FROM video 
+2019-02-14 17:40:30.654 logback [http-nio-8080-exec-8] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==> Parameters: 
+2019-02-14 17:40:30.671 logback [http-nio-8080-exec-8] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - <==      Total: 1
+2019-02-14 17:40:30.673 logback [http-nio-8080-exec-8] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==>  Preparing: select id, title, summary, cover_img, view_num, price, create_time, online, point FROM video LIMIT ? 
+2019-02-14 17:40:30.675 logback [http-nio-8080-exec-8] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==> Parameters: 30(Integer)
+2019-02-14 17:40:30.695 logback [http-nio-8080-exec-8] DEBUG c.u.c.mapper.VideoMapper.findVoides - <==      Total: 9
+2019-02-14 17:40:32.128 logback [http-nio-8080-exec-5] DEBUG c.u.com.mapper.VideoMapper.fingById - ==>  Preparing: SELECT * from video where id=? 
+2019-02-14 17:40:32.129 logback [http-nio-8080-exec-5] DEBUG c.u.com.mapper.VideoMapper.fingById - ==> Parameters: 1(Integer)
+2019-02-14 17:40:32.141 logback [http-nio-8080-exec-5] DEBUG c.u.com.mapper.VideoMapper.fingById - <==      Total: 1
+2019-02-14 17:40:32.142 logback [http-nio-8080-exec-5] DEBUG c.u.com.mapper.UserMapper.fingById - ==>  Preparing: SELECT * from user where id=? 
+2019-02-14 17:40:32.144 logback [http-nio-8080-exec-5] DEBUG c.u.com.mapper.UserMapper.fingById - ==> Parameters: 1(Integer)
+2019-02-14 17:40:32.155 logback [http-nio-8080-exec-5] DEBUG c.u.com.mapper.UserMapper.fingById - <==      Total: 1
+2019-02-14 17:40:32.156 logback [http-nio-8080-exec-5] DEBUG c.u.c.mapper.VideoOrderMapper.insert - ==>  Preparing: INSERT INTO `video_order` ( `openid`, `out_trade_no`, `state`, `create_time`, `total_fee`, `nickname`, `head_img`, `video_id`, `video_title`, `video_img`, `user_id`, `ip`, `del` ) VALUES ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? ) 
+2019-02-14 17:40:32.158 logback [http-nio-8080-exec-5] DEBUG c.u.c.mapper.VideoOrderMapper.insert - ==> Parameters: oYW4K0zZ8u9ehQ4KUIAuKeekLb5g(String), 0663d2b357404502b15df17d5c7c4c06(String), 0(Integer), 2019-02-14 17:40:32.156(Timestamp), 10(Integer), 默ゎ(String), http://thirdwx.qlogo.cn/mmopen/vi_32/pxHbtpj05DZqbIkic8TmKAH437LfnnQqaaI4GKNVicsqBGvZ6pmpOChyahRVKiaIweriaj9fooWZnNLjohQ8iavDib1Q/132(String), 1(Integer), SpringBoot+Maven整合Websocket课程(String), https://xd-video-pc-img.oss-cn-beijing.aliyuncs.com/upload/video/video_cover.png(String), 1(Integer), 10.6.45.30(String), 0(Integer)
+2019-02-14 17:40:32.176 logback [http-nio-8080-exec-5] DEBUG c.u.c.mapper.VideoOrderMapper.insert - <==    Updates: 1
+2019-02-14 17:41:55.475 logback [http-nio-8080-exec-1] DEBUG c.u.c.m.U.findUserByOptionId - ==>  Preparing: SELECT * from user where openid=? 
+2019-02-14 17:41:55.476 logback [http-nio-8080-exec-1] DEBUG c.u.c.m.U.findUserByOptionId - ==> Parameters: oYW4K0zZ8u9ehQ4KUIAuKeekLb5g(String)
+2019-02-14 17:41:55.487 logback [http-nio-8080-exec-1] DEBUG c.u.c.m.U.findUserByOptionId - <==      Total: 1
+2019-02-14 17:41:56.301 logback [http-nio-8080-exec-10] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==>  Preparing: SELECT count(0) FROM video 
+2019-02-14 17:41:56.302 logback [http-nio-8080-exec-10] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==> Parameters: 
+2019-02-14 17:41:56.312 logback [http-nio-8080-exec-10] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - <==      Total: 1
+2019-02-14 17:41:56.313 logback [http-nio-8080-exec-10] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==>  Preparing: select id, title, summary, cover_img, view_num, price, create_time, online, point FROM video LIMIT ? 
+2019-02-14 17:41:56.313 logback [http-nio-8080-exec-10] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==> Parameters: 30(Integer)
+2019-02-14 17:41:56.324 logback [http-nio-8080-exec-10] DEBUG c.u.c.mapper.VideoMapper.findVoides - <==      Total: 9
+2019-02-14 17:42:05.528 logback [http-nio-8080-exec-7] DEBUG c.u.c.m.V.findOrderByOutTradeNo - ==>  Preparing: SELECT * from video_order where out_trade_no=? and del=0 
+2019-02-14 17:42:05.529 logback [http-nio-8080-exec-7] DEBUG c.u.c.m.V.findOrderByOutTradeNo - ==> Parameters: 261af73dc2f44b25b0499ae3e65609fe(String)
+2019-02-14 17:42:05.540 logback [http-nio-8080-exec-7] DEBUG c.u.c.m.V.findOrderByOutTradeNo - <==      Total: 1
+2019-02-14 17:42:53.108 logback [http-nio-8080-exec-5] DEBUG c.u.c.m.U.findUserByOptionId - ==>  Preparing: SELECT * from user where openid=? 
+2019-02-14 17:42:53.108 logback [http-nio-8080-exec-5] DEBUG c.u.c.m.U.findUserByOptionId - ==> Parameters: oYW4K0zZ8u9ehQ4KUIAuKeekLb5g(String)
+2019-02-14 17:42:53.118 logback [http-nio-8080-exec-5] DEBUG c.u.c.m.U.findUserByOptionId - <==      Total: 1
+2019-02-14 17:42:53.404 logback [http-nio-8080-exec-2] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==>  Preparing: SELECT count(0) FROM video 
+2019-02-14 17:42:53.404 logback [http-nio-8080-exec-2] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==> Parameters: 
+2019-02-14 17:42:53.415 logback [http-nio-8080-exec-2] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - <==      Total: 1
+2019-02-14 17:42:53.417 logback [http-nio-8080-exec-2] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==>  Preparing: select id, title, summary, cover_img, view_num, price, create_time, online, point FROM video LIMIT ? 
+2019-02-14 17:42:53.418 logback [http-nio-8080-exec-2] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==> Parameters: 30(Integer)
+2019-02-14 17:42:53.432 logback [http-nio-8080-exec-2] DEBUG c.u.c.mapper.VideoMapper.findVoides - <==      Total: 9
+2019-02-14 17:43:34.609 logback [http-nio-8080-exec-1] DEBUG c.u.c.m.U.findUserByOptionId - ==>  Preparing: SELECT * from user where openid=? 
+2019-02-14 17:43:34.632 logback [http-nio-8080-exec-1] DEBUG c.u.c.m.U.findUserByOptionId - ==> Parameters: oYW4K0zZ8u9ehQ4KUIAuKeekLb5g(String)
+2019-02-14 17:43:34.662 logback [http-nio-8080-exec-1] DEBUG c.u.c.m.U.findUserByOptionId - <==      Total: 1
+2019-02-14 17:43:35.102 logback [http-nio-8080-exec-2] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==>  Preparing: SELECT count(0) FROM video 
+2019-02-14 17:43:35.103 logback [http-nio-8080-exec-2] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==> Parameters: 
+2019-02-14 17:43:35.113 logback [http-nio-8080-exec-2] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - <==      Total: 1
+2019-02-14 17:43:35.117 logback [http-nio-8080-exec-2] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==>  Preparing: select id, title, summary, cover_img, view_num, price, create_time, online, point FROM video LIMIT ? 
+2019-02-14 17:43:35.118 logback [http-nio-8080-exec-2] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==> Parameters: 30(Integer)
+2019-02-14 17:43:35.132 logback [http-nio-8080-exec-2] DEBUG c.u.c.mapper.VideoMapper.findVoides - <==      Total: 9
+2019-02-14 17:44:16.518 logback [http-nio-8080-exec-4] DEBUG c.u.com.mapper.VideoMapper.fingById - ==>  Preparing: SELECT * from video where id=? 
+2019-02-14 17:44:16.519 logback [http-nio-8080-exec-4] DEBUG c.u.com.mapper.VideoMapper.fingById - ==> Parameters: 1(Integer)
+2019-02-14 17:44:16.528 logback [http-nio-8080-exec-4] DEBUG c.u.com.mapper.VideoMapper.fingById - <==      Total: 1
+2019-02-14 17:44:16.529 logback [http-nio-8080-exec-4] DEBUG c.u.com.mapper.UserMapper.fingById - ==>  Preparing: SELECT * from user where id=? 
+2019-02-14 17:44:16.529 logback [http-nio-8080-exec-4] DEBUG c.u.com.mapper.UserMapper.fingById - ==> Parameters: 1(Integer)
+2019-02-14 17:44:16.538 logback [http-nio-8080-exec-4] DEBUG c.u.com.mapper.UserMapper.fingById - <==      Total: 1
+2019-02-14 17:45:44.813 logback [http-nio-8080-exec-4] DEBUG c.u.c.mapper.VideoOrderMapper.insert - ==>  Preparing: INSERT INTO `video_order` ( `openid`, `out_trade_no`, `state`, `create_time`, `total_fee`, `nickname`, `head_img`, `video_id`, `video_title`, `video_img`, `user_id`, `ip`, `del` ) VALUES ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? ) 
+2019-02-14 17:45:44.816 logback [http-nio-8080-exec-4] DEBUG c.u.c.mapper.VideoOrderMapper.insert - ==> Parameters: oYW4K0zZ8u9ehQ4KUIAuKeekLb5g(String), 667ac132f70548309cf37c1832d98cf6(String), 0(Integer), 2019-02-14 17:44:25.941(Timestamp), 10(Integer), 默ゎ(String), http://thirdwx.qlogo.cn/mmopen/vi_32/pxHbtpj05DZqbIkic8TmKAH437LfnnQqaaI4GKNVicsqBGvZ6pmpOChyahRVKiaIweriaj9fooWZnNLjohQ8iavDib1Q/132(String), 1(Integer), SpringBoot+Maven整合Websocket课程(String), https://xd-video-pc-img.oss-cn-beijing.aliyuncs.com/upload/video/video_cover.png(String), 1(Integer), 10.6.45.30(String), 0(Integer)
+2019-02-14 17:45:44.834 logback [http-nio-8080-exec-4] DEBUG c.u.c.mapper.VideoOrderMapper.insert - <==    Updates: 1
+2019-02-14 17:46:40.478 logback [http-nio-8080-exec-8] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==>  Preparing: SELECT count(0) FROM video 
+2019-02-14 17:46:40.479 logback [http-nio-8080-exec-8] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==> Parameters: 
+2019-02-14 17:46:40.487 logback [http-nio-8080-exec-8] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - <==      Total: 1
+2019-02-14 17:46:40.488 logback [http-nio-8080-exec-8] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==>  Preparing: select id, title, summary, cover_img, view_num, price, create_time, online, point FROM video LIMIT ? 
+2019-02-14 17:46:40.488 logback [http-nio-8080-exec-8] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==> Parameters: 30(Integer)
+2019-02-14 17:46:40.502 logback [http-nio-8080-exec-8] DEBUG c.u.c.mapper.VideoMapper.findVoides - <==      Total: 9
+2019-02-14 17:46:42.045 logback [http-nio-8080-exec-10] DEBUG c.u.com.mapper.VideoMapper.fingById - ==>  Preparing: SELECT * from video where id=? 
+2019-02-14 17:46:42.046 logback [http-nio-8080-exec-10] DEBUG c.u.com.mapper.VideoMapper.fingById - ==> Parameters: 1(Integer)
+2019-02-14 17:46:42.060 logback [http-nio-8080-exec-10] DEBUG c.u.com.mapper.VideoMapper.fingById - <==      Total: 1
+2019-02-14 17:46:42.062 logback [http-nio-8080-exec-10] DEBUG c.u.com.mapper.UserMapper.fingById - ==>  Preparing: SELECT * from user where id=? 
+2019-02-14 17:46:42.062 logback [http-nio-8080-exec-10] DEBUG c.u.com.mapper.UserMapper.fingById - ==> Parameters: 1(Integer)
+2019-02-14 17:46:42.073 logback [http-nio-8080-exec-10] DEBUG c.u.com.mapper.UserMapper.fingById - <==      Total: 1
+2019-02-14 17:48:03.614 logback [http-nio-8080-exec-10] DEBUG c.u.c.mapper.VideoOrderMapper.insert - ==>  Preparing: INSERT INTO `video_order` ( `openid`, `out_trade_no`, `state`, `create_time`, `total_fee`, `nickname`, `head_img`, `video_id`, `video_title`, `video_img`, `user_id`, `ip`, `del` ) VALUES ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? ) 
+2019-02-14 17:48:03.618 logback [http-nio-8080-exec-10] DEBUG c.u.c.mapper.VideoOrderMapper.insert - ==> Parameters: oYW4K0zZ8u9ehQ4KUIAuKeekLb5g(String), 1ec935dfb85742ad9bf59c7bd04b2149(String), 0(Integer), 2019-02-14 17:46:50.392(Timestamp), 10(Integer), 默ゎ(String), http://thirdwx.qlogo.cn/mmopen/vi_32/pxHbtpj05DZqbIkic8TmKAH437LfnnQqaaI4GKNVicsqBGvZ6pmpOChyahRVKiaIweriaj9fooWZnNLjohQ8iavDib1Q/132(String), 1(Integer), SpringBoot+Maven整合Websocket课程(String), https://xd-video-pc-img.oss-cn-beijing.aliyuncs.com/upload/video/video_cover.png(String), 1(Integer), 10.6.45.30(String), 0(Integer)
+2019-02-14 17:48:03.636 logback [http-nio-8080-exec-10] DEBUG c.u.c.mapper.VideoOrderMapper.insert - <==    Updates: 1
+2019-02-14 17:50:39.639 logback [http-nio-8080-exec-7] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==>  Preparing: SELECT count(0) FROM video 
+2019-02-14 17:50:39.640 logback [http-nio-8080-exec-7] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==> Parameters: 
+2019-02-14 17:50:39.648 logback [http-nio-8080-exec-7] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - <==      Total: 1
+2019-02-14 17:50:39.649 logback [http-nio-8080-exec-7] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==>  Preparing: select id, title, summary, cover_img, view_num, price, create_time, online, point FROM video LIMIT ? 
+2019-02-14 17:50:39.650 logback [http-nio-8080-exec-7] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==> Parameters: 30(Integer)
+2019-02-14 17:50:39.663 logback [http-nio-8080-exec-7] DEBUG c.u.c.mapper.VideoMapper.findVoides - <==      Total: 9
+2019-02-14 17:53:13.902 logback [http-nio-8080-exec-1] DEBUG c.u.c.m.U.findUserByOptionId - ==>  Preparing: SELECT * from user where openid=? 
+2019-02-14 17:53:13.923 logback [http-nio-8080-exec-1] DEBUG c.u.c.m.U.findUserByOptionId - ==> Parameters: oYW4K0zZ8u9ehQ4KUIAuKeekLb5g(String)
+2019-02-14 17:53:13.950 logback [http-nio-8080-exec-1] DEBUG c.u.c.m.U.findUserByOptionId - <==      Total: 1
+2019-02-14 17:53:14.454 logback [http-nio-8080-exec-2] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==>  Preparing: SELECT count(0) FROM video 
+2019-02-14 17:53:14.454 logback [http-nio-8080-exec-2] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - ==> Parameters: 
+2019-02-14 17:53:14.463 logback [http-nio-8080-exec-2] DEBUG c.u.c.m.VideoMapper.findVoides_COUNT - <==      Total: 1
+2019-02-14 17:53:14.469 logback [http-nio-8080-exec-2] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==>  Preparing: select id, title, summary, cover_img, view_num, price, create_time, online, point FROM video LIMIT ? 
+2019-02-14 17:53:14.471 logback [http-nio-8080-exec-2] DEBUG c.u.c.mapper.VideoMapper.findVoides - ==> Parameters: 30(Integer)
+2019-02-14 17:53:14.484 logback [http-nio-8080-exec-2] DEBUG c.u.c.mapper.VideoMapper.findVoides - <==      Total: 9
+2019-02-14 17:53:17.309 logback [http-nio-8080-exec-4] DEBUG c.u.com.mapper.VideoMapper.fingById - ==>  Preparing: SELECT * from video where id=? 
+2019-02-14 17:53:17.309 logback [http-nio-8080-exec-4] DEBUG c.u.com.mapper.VideoMapper.fingById - ==> Parameters: 1(Integer)
+2019-02-14 17:53:17.321 logback [http-nio-8080-exec-4] DEBUG c.u.com.mapper.VideoMapper.fingById - <==      Total: 1
+2019-02-14 17:53:17.323 logback [http-nio-8080-exec-4] DEBUG c.u.com.mapper.UserMapper.fingById - ==>  Preparing: SELECT * from user where id=? 
+2019-02-14 17:53:17.323 logback [http-nio-8080-exec-4] DEBUG c.u.com.mapper.UserMapper.fingById - ==> Parameters: 1(Integer)
+2019-02-14 17:53:17.333 logback [http-nio-8080-exec-4] DEBUG c.u.com.mapper.UserMapper.fingById - <==      Total: 1
+2019-02-14 17:53:20.729 logback [http-nio-8080-exec-4] DEBUG c.u.c.mapper.VideoOrderMapper.insert - ==>  Preparing: INSERT INTO `video_order` ( `openid`, `out_trade_no`, `state`, `create_time`, `total_fee`, `nickname`, `head_img`, `video_id`, `video_title`, `video_img`, `user_id`, `ip`, `del` ) VALUES ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? ) 
+2019-02-14 17:53:20.739 logback [http-nio-8080-exec-4] DEBUG c.u.c.mapper.VideoOrderMapper.insert - ==> Parameters: oYW4K0zZ8u9ehQ4KUIAuKeekLb5g(String), eab78ec678164e09856cb379a182be77(String), 0(Integer), 2019-02-14 17:53:20.728(Timestamp), 10(Integer), 默ゎ(String), http://thirdwx.qlogo.cn/mmopen/vi_32/pxHbtpj05DZqbIkic8TmKAH437LfnnQqaaI4GKNVicsqBGvZ6pmpOChyahRVKiaIweriaj9fooWZnNLjohQ8iavDib1Q/132(String), 1(Integer), SpringBoot+Maven整合Websocket课程(String), https://xd-video-pc-img.oss-cn-beijing.aliyuncs.com/upload/video/video_cover.png(String), 1(Integer), 10.6.45.30(String), 0(Integer)
+2019-02-14 17:53:20.759 logback [http-nio-8080-exec-4] DEBUG c.u.c.mapper.VideoOrderMapper.insert - <==    Updates: 1

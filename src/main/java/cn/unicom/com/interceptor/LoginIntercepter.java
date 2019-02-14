@@ -43,14 +43,18 @@ public class LoginIntercepter implements HandlerInterceptor {
     
     @Override
     public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) throws Exception {
-        String token = request.getParameter("token");
+        String token = request.getHeader("token");
+        if(token == null ){
+            token = request.getParameter("token");
+        }
+
         if (token !=null){
             //解析token
             Claims claims = JwtUtils.checkJWT(token, audience.getBase64Secret());
             if (claims!=null){
                 Integer id = (Integer) claims.get("id");
                 String name = (String) claims.get("name");
-                request.setAttribute("id",id);
+                request.setAttribute("user_id",id);
                 request.setAttribute("name",name);
                 return  true;
             }

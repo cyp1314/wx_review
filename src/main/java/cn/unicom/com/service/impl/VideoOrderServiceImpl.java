@@ -17,8 +17,13 @@ import cn.unicom.com.service.VideoOrderService;
 import cn.unicom.com.utils.CommonUtils;
 import cn.unicom.com.utils.HttpClientUtils;
 import cn.unicom.com.utils.WXPayUtil;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Isolation;
+import org.springframework.transaction.annotation.Propagation;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.Date;
 import java.util.Map;
@@ -34,6 +39,10 @@ import java.util.TreeMap;
  **/
 @Service
 public class VideoOrderServiceImpl implements VideoOrderService {
+    private Logger logger = LoggerFactory.getLogger(this.getClass());
+    //用于统计使用，一般项目小项目不用可忽略
+    private Logger dataLogger = LoggerFactory.getLogger("dataLogger");
+
     @Autowired
     VideoMapper videoMapper;
     @Autowired
@@ -42,10 +51,14 @@ public class VideoOrderServiceImpl implements VideoOrderService {
     VideoOrderMapper videoOrderMapper;
     @Autowired
     WeChatConfig weChatConfig;
+    @Transactional()
     @Override
     public String save(VideoOrderDto videoOrderDto) throws Exception {
-
-       Video video= videoMapper.fingById(videoOrderDto.getVideoId());
+        //这个数据会保存到统计信息的日志文件中去。
+        dataLogger.info("module=video_order`api=save`user_id={}`video_id={}",videoOrderDto.getUserId(),videoOrderDto.getVideoId());
+        //正常的日志记录
+        logger.info("module=video_order`api=save`user_id={}`video_id={}",videoOrderDto.getUserId(),videoOrderDto.getVideoId());
+        Video video= videoMapper.fingById(videoOrderDto.getVideoId());
        User user=userMapper.fingById(videoOrderDto.getUserId());
         //生成dd
         VideoOrder videoOrder =new VideoOrder();
@@ -66,6 +79,7 @@ public class VideoOrderServiceImpl implements VideoOrderService {
         //统一下单
         //获取codeurl
         String codeUrl = unifiedOrder(videoOrder);
+//       int i= 1/0;
 
         return codeUrl;
     }
@@ -110,18 +124,13 @@ public class VideoOrderServiceImpl implements VideoOrderService {
         //获取sign
         String sign = WXPayUtil.createSign(params, weChatConfig.getKey());
         params.put("sign",sign);
-        System.out.println("----------------------------");
-        System.out.println(params);
         //map转xml
         String payXml = WXPayUtil.mapToXml(params);
-
-        System.out.println(payXml);
         //统一下单
         String orderStr = HttpClientUtils.doPost(WeChatConfig.getUnifiedOrderUrl(),payXml,4000);
         if(null == orderStr) {
             return null;
         }
-        System.out.println(orderStr);
         Map<String, String> stringStringMap = WXPayUtil.xmlToMap(orderStr);
         if (stringStringMap!=null){
             return  stringStringMap.get("code_url");

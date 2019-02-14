@@ -88,7 +88,7 @@ public class WechatController {
      if(user!=null){
          //通过jwt生成token给前端
          String token=JwtUtils.geneJsonWebToken(user,audience.getName(),audience.getExpiresSecond(),audience.getBase64Secret());
-         response.sendRedirect(state+"?token="+token+"&head_img="+user.getHeadImg()+"&name="+URLEncoder.encode(user.getName(),"UTF-8"));
+         response.sendRedirect(state+"&token="+token+"&head_img="+user.getHeadImg()+"&name="+URLEncoder.encode(user.getName(),"UTF-8"));
      }
 
         return null ;
@@ -118,8 +118,7 @@ public class WechatController {
         Map<String, String> xmlToMap = WXPayUtil.xmlToMap(sb.toString());
         //把map 变成sortmap   进行签名验证
         SortedMap<String, String> sortedMap = WXPayUtil.SortedMap(xmlToMap);
-        System.out.println("--------------------");
-        System.out.println(sortedMap);
+        //校验幂等性
         boolean correctSign = WXPayUtil.isCorrectSign(sortedMap, weChatConfig.getKey());
         if (correctSign){
             if("SUCCESS".equals(sortedMap.get("return_code"))){

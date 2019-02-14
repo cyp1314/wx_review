@@ -1,9 +1,4 @@
-package cn.unicom.com.controller;/**
- * Created by sh-wangbs on 2019/2/2.
- *
- * @Author sh-wangbs
- * @date 2019/2/2
- */
+package cn.unicom.com.controller;
 
 import cn.unicom.com.domain.VideoOrder;
 import cn.unicom.com.dto.VideoOrderDto;
@@ -48,8 +43,7 @@ public class OrderController {
                          HttpServletRequest request,
                          HttpServletResponse response) throws Exception {
         String ip = IpUtils.getIpAddr(request);
-        //int userId = request.getAttribute("user_id");
-        int userId = 1;    //临时写死的配置
+       int userId = (Integer) request.getAttribute("user_id");
         VideoOrderDto videoOrderDto = new VideoOrderDto();
         videoOrderDto.setUserId(userId);
         videoOrderDto.setVideoId(videoId);
