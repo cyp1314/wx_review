@@ -1,0 +1,23 @@
+2019-02-15 08:49:23.708 logback [main] INFO  c.u.com.WxReviewApplicationTests - Starting WxReviewApplicationTests on SHN-WANGBS with PID 6372 (started by sh-wangbs in E:\gitprojectidea\wx_review)
+2019-02-15 08:49:23.708 logback [main] INFO  c.u.com.WxReviewApplicationTests - No active profile set, falling back to default profiles: default
+2019-02-15 08:49:27.486 logback [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-02-15 08:49:28.204 logback [main] INFO  c.u.com.WxReviewApplicationTests - Started WxReviewApplicationTests in 5.495 seconds (JVM running for 9.3)
+2019-02-15 08:49:28.985 logback [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-02-15 08:49:29.656 logback [Thread-3] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-02-15 08:49:29.672 logback [Thread-3] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2019-02-15 12:32:25.328 logback [restartedMain] INFO  cn.unicom.com.WxReviewApplication - Starting WxReviewApplication on SHN-WANGBS with PID 10840 (E:\gitprojectidea\wx_review\target\classes started by sh-wangbs in E:\gitprojectidea\wx_review)
+2019-02-15 12:32:25.331 logback [restartedMain] INFO  cn.unicom.com.WxReviewApplication - No active profile set, falling back to default profiles: default
+2019-02-15 12:32:25.633 logback [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-02-15 12:32:25.634 logback [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-02-15 12:32:29.314 logback [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-02-15 12:32:29.340 logback [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-02-15 12:32:29.350 logback [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-02-15 12:32:29.351 logback [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-02-15 12:32:29.360 logback [restartedMain] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\javasoft\jdk1.8.0_171\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\javasoft\jdk1.8.0_171\bin;D:\othersoft\apache-maven-3.5.4\bin;D:\othersoft\git\anzhuang\cmd;C:\Program Files\TortoiseGit\bin;D:\othersoft\gradle-3.1-bin\anzhuang\gradle-3.1\bin;D:\othersoft\SecureCRT\anzhuang2\;C:\Program Files\MySQL\MySQL Server 8.0\bin;.]
+2019-02-15 12:32:29.487 logback [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-02-15 12:32:29.487 logback [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3853 ms
+2019-02-15 12:32:30.535 logback [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-02-15 12:32:30.995 logback [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-02-15 12:32:31.027 logback [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-02-15 12:32:31.049 logback [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-02-15 12:32:31.052 logback [restartedMain] INFO  cn.unicom.com.WxReviewApplication - Started WxReviewApplication in 7.348 seconds (JVM running for 8.595)

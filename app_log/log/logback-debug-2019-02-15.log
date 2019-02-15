@@ -1,0 +1,6 @@
+2019-02-15 08:49:29.547 logback [main] DEBUG c.u.com.mapper.VideoMapper.fingById - ==>  Preparing: SELECT * from video where id=? 
+2019-02-15 08:49:29.563 logback [main] DEBUG c.u.com.mapper.VideoMapper.fingById - ==> Parameters: 1(Integer)
+2019-02-15 08:49:29.594 logback [main] DEBUG c.u.com.mapper.VideoMapper.fingById - <==      Total: 1
+2019-02-15 08:49:29.609 logback [main] DEBUG c.u.com.mapper.UserMapper.fingById - ==>  Preparing: SELECT * from user where id=? 
+2019-02-15 08:49:29.609 logback [main] DEBUG c.u.com.mapper.UserMapper.fingById - ==> Parameters: 1(Integer)
+2019-02-15 08:49:29.609 logback [main] DEBUG c.u.com.mapper.UserMapper.fingById - <==      Total: 1
